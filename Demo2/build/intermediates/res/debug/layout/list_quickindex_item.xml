@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simple_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/quick_index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#22000000"
+        android:paddingLeft="10dp"
+        android:text="A"
+        android:textColor="#777777"
+        android:textSize="18sp" />
+
+    
+    <com.qnmlgb.view.SwipeView
+        android:id="@+id/simple_swipeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <include layout="@layout/list_swipe_simpletext_item" />
+        <include layout="@layout/ns_array_anchor_delete" />
+    </com.qnmlgb.view.SwipeView>
+    
+
+</LinearLayout><!-- From: file:/E:/MARS/Demo2/res/layout/list_quickindex_item.xml -->

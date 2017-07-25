@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\MARS\Demo2\assets"><file name="ljz.mp3" path="E:\MARS\Demo2\assets\ljz.mp3"/></source></dataSet><dataSet config="debug"><source path="E:\MARS\Demo2\build-types\debug\assets"/></dataSet></merger>

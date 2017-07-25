@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="rectangle">
+    <corners android:radius="1dip"/>
+    <stroke
+            android:width="1dip"
+            android:color="@color/hong"/>
+    <solid android:color="@color/hong"/>
+</shape>
+<!-- From: file:/E:/MARS/Demo2/res/drawable/shop_car_buy_btn_shape.xml -->

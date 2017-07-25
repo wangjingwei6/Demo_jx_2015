@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#66000000" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#e3e2e1"
+        android:orientation="vertical"
+        >
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="#D6D7D8"
+            android:orientation="vertical">
+            
+            <com.qnmlgb.view.CircularImageView 
+                android:id="@+id/save_photo"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/savephoto"
+                />
+            
+	        <TextView 
+	            android:layout_width="fill_parent"
+	            android:layout_height="32dp"
+	            android:gravity="center"
+	            android:textSize="13sp"
+	            android:text="保存图片"
+	            />
+	        <View
+	            android:layout_width="fill_parent"
+	            android:layout_height="0.5dp"
+	            android:background="#dcdcdc"
+	            />
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="#cfcfd1"
+            >
+            <TextView 
+	            android:id="@+id/tv_cancel"
+	            android:layout_width="fill_parent"
+	            android:layout_height="38dp"
+	            android:gravity="center"
+	            android:textSize="16sp"
+	            android:textColor="#3367c0"
+	            android:text="取消"
+	            />
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+    
+
+</LinearLayout>
+<!-- From: file:/E:/MARS/Demo2/res/layout/popupwindow_albumbrower.xml -->

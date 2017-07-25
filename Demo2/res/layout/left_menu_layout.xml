@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:background="@drawable/left_listbacktop" >
+
+        <com.qnmlgb.view.CircularImageView
+            android:id="@+id/left_usericon"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/default_404" />
+
+        <com.custom.textview.titanictextview.TitanicTextView
+            android:id="@+id/left_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/left_usericon"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/left_usericon"
+             android:textColor="#212121"
+            android:text="未填写"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/left_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/left_nickname"
+            android:layout_below="@+id/left_nickname"
+            android:layout_marginTop="8dp"
+            android:text="男"
+            android:textColor="@color/hong_super"
+            android:textSize="14sp" />
+
+        <com.custom.textview.shimmertextview.ShimmerTextView
+            android:id="@+id/left_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/left_usericon"
+            android:layout_below="@+id/left_usericon"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="10dp"
+            android:text="祈求天父放过一对恋人，怕发生的永远别发生"
+            android:textColor="@color/hong_girl"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/left_person"
+            android:layout_width="50dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/edit_information_bt"
+            android:text="个人中心"
+            android:textColor="@color/hong"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/left_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/left_listback"
+        android:listSelector="@color/transparent" >
+    </ListView>
+
+</LinearLayout>

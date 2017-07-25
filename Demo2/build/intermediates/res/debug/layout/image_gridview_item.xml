@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="104dp"
+    android:layout_height="128dp"
+    android:orientation="vertical"
+    android:background="@color/blue"
+     >
+     <!--"#3300B2FD"  -->
+    <com.qnmlgb.view.SquareImageView
+        android:id="@+id/img_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/dog1"
+        android:layout_margin="1dip"
+        android:scaleType="fitXY"
+        />
+</LinearLayout>
+<!-- From: file:/E:/MARS/Demo2/res/layout/image_gridview_item.xml -->

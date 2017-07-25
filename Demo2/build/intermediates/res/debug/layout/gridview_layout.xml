@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#1ebad1"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/btn_month_last_focused" />
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="指定专家"
+            android:textColor="#ffffffff"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/ic_vip_search" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="#DAE4E1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="12dp"
+            android:text="综合"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="24dp"
+            android:paddingLeft="12dp"
+            android:text="好评"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:paddingLeft="12dp"
+                android:text="收费"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/btn_vip_sorting_default" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_toLeftOf="@+id/filter_img"
+                android:paddingLeft="12dp"
+                android:text="筛选"
+                android:textColor="#E8582B"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/filter_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/filter_selector" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!--
+         <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffffffff" >
+
+            <TextView
+                android:id="@+id/province"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="省份"
+                android:textColor="#333333"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/province_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/province"
+                android:text="未选择"
+                android:textColor="#E8582B"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/province_but"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="14dp"
+                android:background="@drawable/btn_vip_selector" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.0px"
+            android:layout_marginLeft="10dp"
+            android:background="#c7c7c7" />
+
+        <GridView
+            android:id="@+id/live_more_grid"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffffff"
+            android:gravity="center_horizontal"
+            android:horizontalSpacing="12dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="8dp"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="8dp"
+            android:visibility="gone" >
+        </GridView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.0px"
+            android:layout_marginLeft="10dp"
+            android:background="#c7c7c7" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffffffff" >
+
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="城市"
+                android:textColor="#333333"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/city_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/city"
+                android:text="济南"
+                android:textColor="#E8582B"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/city_but"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="14dp"
+                android:background="@drawable/btn_vip_selector" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.0px"
+            android:layout_marginLeft="10dp"
+            android:background="#c7c7c7" />
+
+        <GridView
+            android:id="@+id/live_more_grid_two"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:background="#ffffffff"
+            android:gravity="center_horizontal"
+            android:horizontalSpacing="12dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="8dp"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="8dp"
+            android:visibility="gone" >
+        </GridView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffffffff" >
+
+            <TextView
+                android:id="@+id/hospital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="医院"
+                android:textColor="#333333"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/hospital_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/hospital"
+                android:text="协和医院"
+                android:textColor="#E8582B"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/hospital_but"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="14dp"
+                android:background="@drawable/btn_vip_selector" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.0px"
+            android:layout_marginLeft="10dp"
+            android:background="#c7c7c7" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="32dp"
+            android:background="#00000000"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/confirm"
+                android:background="#EDEFF1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="12dp"
+                    android:text="有28 位专家"
+                    android:textColor="#333333"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/restore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="24dp"
+                    android:text="重置"
+                    android:textColor="#EC4909"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="108dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="#EC4909"
+                android:gravity="center"
+                android:text="确定"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- </ScrollView> -->
+
+</LinearLayout><!-- From: file:/E:/MARS/Demo2/res/layout/gridview_layout.xml -->

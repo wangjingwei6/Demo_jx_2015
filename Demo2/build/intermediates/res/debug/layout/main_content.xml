@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00B5FF"
+    android:orientation="vertical"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00B5FF"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#007ADD"
+            android:gravity="center_vertical"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/actionbar_img"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/icon_default_avatar" />
+
+            <TextView
+                android:id="@+id/actionbar_titie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@id/actionbar_img"
+                android:text="一个Demo"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/weixin"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/icon_login_wx" />
+        </RelativeLayout>
+
+        <WebView
+            android:id="@+id/mwebview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:visibility="gone" />
+
+        <!--
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/download_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/default_404"
+                android:scaleType="fitXY" />
+
+            <include
+                android:id="@+id/custom_progress_main"
+                layout="@layout/ns_loading_two" 
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+        -->
+
+        <com.ninexiu.sixninexiu.lib.jazzypager.JazzyViewPager
+            android:id="@+id/loop_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="180dp" >
+        </com.ninexiu.sixninexiu.lib.jazzypager.JazzyViewPager>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/left_but"
+                android:layout_width="56dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="20dip"
+                android:layout_marginLeft="32dip"
+                android:background="@drawable/edit_information_bt"
+                android:text="侧滑菜单"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <com.qnmlgb.view.CircularImageView
+                android:id="@+id/hostimage"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_404"
+                app:border="true"
+                app:border_color="@color/white"
+                app:border_width="1dp" />
+
+            <Button
+                android:id="@+id/hostimage_edit"
+                android:layout_width="56dp"
+                android:layout_height="28dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="20dip"
+                android:layout_marginRight="32dip"
+                android:background="@drawable/edit_information_bt"
+                android:text="编辑头像"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#75FEFF"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5px"
+                    android:background="#FDE700" />
+
+                <com.qnmlgb.view.MarqueeText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="1dp"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:paddingBottom="1dp"
+                    android:singleLine="true"
+                    android:text="    如果兄妹相称太多    醒不起喜欢我    快研究和我这异性拍拖    讹称知己的真太多    当女共男未变爱侣    不吻过自然没结果
+    没有好感怎会相亲相爱      大哥只是掩饰       能做对爱侣       堕落成朋友谁心息     我要爱情不需要登对     不需得你允许     兄妹真有趣    不需要分居     忘记辈份再追    我要爱情摧毁世交    也不失一个壮举    相恋的证据    假使要争取     唯有约定和大哥喝醉 
+        			"
+                    android:textColor="#f202f4"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5px"
+                    android:background="#FDE700" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rela_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/gray" >
+
+                <com.custom.textview.shimmertextview.ShimmerTextView
+                    android:id="@+id/edit_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="88dp"
+                    android:text="编"
+                    android:textColor="#444"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageview_setting"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/ns_my_settings" />
+
+                <com.custom.textview.shimmertextview.ShimmerTextView
+                    android:id="@+id/edit_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="88dp"
+                    android:text="辑"
+                    android:textColor="#444"
+                    android:textSize="24sp" />
+
+                <FrameLayout
+                    android:id="@+id/fl_tool_bottom"
+                    android:layout_width="72dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="8dp" >
+
+                    <TextView
+                        android:id="@+id/tv_hear_cum"
+                        android:layout_width="40dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="right|center_vertical"
+                        android:background="@drawable/live_hear_number"
+                        android:gravity="center"
+                        android:paddingLeft="12dp"
+                        android:text="0"
+                        android:textColor="#ffffff"
+                         />
+
+                    <FrameLayout
+                        android:id="@+id/fl_hear"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        >
+
+                        <com.qnmlgb.view.waveview.WaveView
+                            xmlns:wave="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/wave_view"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center"
+                            android:background="#ffffffff"
+                            wave:above_wave_color="@color/hong"
+                            wave:blow_wave_color="@color/hong"
+                            wave:progress="0"
+                            wave:wave_height="little"
+                            wave:wave_hz="slow"
+                            wave:wave_length="large" />
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/live_hear_bg"
+                            android:scaleType="centerCrop" />
+
+                    </FrameLayout>
+                </FrameLayout>
+            </RelativeLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontal_scrollview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/gallery_back"
+                android:scrollbars="none" >
+
+                <com.qnmlgb.view.HSVLayout
+                    android:id="@+id/hs_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal" >
+                </com.qnmlgb.view.HSVLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/progress"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="24dp"
+                    android:background="@drawable/cicle_shape"
+                    android:gravity="center"
+                    android:text="自定义\n进度条"
+                    android:textColor="#ffffffff"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/togglebutton"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/cicle_shape"
+                    android:gravity="center"
+                    android:text="滑动\n开关"
+                    android:textColor="#ffffffff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/setting"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="24dp"
+                    android:background="@drawable/cicle_shape"
+                    android:gravity="center"
+                    android:text="设置"
+                    android:textColor="#ffffffff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/fenxiang"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="24dp"
+                    android:background="@drawable/cicle_shape"
+                    android:gravity="center"
+                    android:text="分享"
+                    android:textColor="#ffffffff"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/arraylistView_but"
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_shape"
+                    android:gravity="center"
+                    android:text="Array\nlistView"
+                    android:textColor="#ff2F58"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/pulltorefreshlistview"
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_shape"
+                    android:gravity="center"
+                    android:text="Pulltorefresh\nlistview"
+                    android:textColor="#ff2F58"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/simplelistview_but"
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_shape"
+                    android:gravity="center"
+                    android:text="Simple\nlistview"
+                    android:textColor="#ff2F58"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/sticklistview_but"
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_shape"
+                    android:gravity="center"
+                    android:text="Sticky\nListview"
+                    android:textColor="#ff2F58"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:weightSum="4" >
+
+                <Button
+                    android:id="@+id/quick_index_but"
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_shape"
+                    android:gravity="center"
+                    android:text="QuickIndex\nlistview"
+                    android:textColor="#ff2F58"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/refresh_load_but"
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_shape"
+                    android:gravity="center"
+                    android:text="RrfreshLoad\nlistView"
+                    android:textColor="#ff2F58"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/pullswiperefresh_but"
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_shape"
+                    android:gravity="center"
+                    android:text="Swiperefresh\nlistview "
+                    android:textColor="#ff2F58"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/recycleview_but"
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_shape"
+                    android:gravity="center"
+                    android:text="RecycleView\nGridpull"
+                    android:textColor="#ff2F58"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Three_quickIndex_swip_pullImg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_shape"
+                android:gravity="center"
+                android:text="QuickIndex_Swipe_HeadImg"
+                android:textColor="#ff2F58" />
+
+            <Button
+                android:id="@+id/AutoTranslateAnamation_but"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_shape"
+                android:gravity="center"
+                android:text="AutoTranslateAnamation"
+                android:textColor="#ff2F58" />
+
+            <Button
+                android:id="@+id/GridView_but"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_shape"
+                android:gravity="center"
+                android:text="GridView"
+                android:textColor="#ff2F58" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/E:/MARS/Demo2/res/layout/main_content.xml -->

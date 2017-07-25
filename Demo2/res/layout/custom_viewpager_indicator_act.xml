@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wjw ="http://schemas.android.com/apk/res/com.ninexiu.wjw"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFFFFFFF"
+    >
+
+    <com.qnmlgb.view.CustomViewpagerIndicator
+        android:id="@+id/id_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#2c2e36" 
+        android:orientation="horizontal"
+        wjw:visible_tab_count= "4"
+        >
+        
+    </com.qnmlgb.view.CustomViewpagerIndicator>
+    
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        >
+        
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

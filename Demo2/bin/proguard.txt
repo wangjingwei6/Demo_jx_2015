@@ -1,0 +1,281 @@
+# view res/layout/custom_viewpager_indicator_act.xml #generated:22
+# view res/layout/personal_center.xml #generated:106
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/recycle_item.xml #generated:2
+-keep class android.support.v7.widget.CardView { <init>(...); }
+
+# view res/layout/recycle.xml #generated:8
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# view res/layout/left_menu_layout.xml #generated:44
+# view res/layout/main_content.xml #generated:181
+# view res/layout/main_content.xml #generated:201
+-keep class com.custom.textview.shimmertextview.ShimmerTextView { <init>(...); }
+
+# view res/layout/left_menu_layout.xml #generated:22
+# view res/layout/personal_center.xml #generated:36
+-keep class com.custom.textview.titanictextview.TitanicTextView { <init>(...); }
+
+# view res/layout/pulltorefresh.xml #generated:10
+-keep class com.handmark.pulltorefresh.library.PullToRefreshListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:254
+-keep class com.igexin.download.DownloadProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:248
+-keep class com.igexin.download.DownloadReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:244
+-keep class com.igexin.download.DownloadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:260
+-keep class com.igexin.getuiext.activity.GetuiExtActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:281
+-keep class com.igexin.getuiext.service.GetuiExtService { <init>(...); }
+
+# view AndroidManifest.xml #generated:269
+-keep class com.igexin.getuiext.service.PayloadReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:235
+-keep class com.igexin.sdk.PushActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:227
+-keep class com.igexin.sdk.PushManagerReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:205
+-keep class com.igexin.sdk.PushReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:198
+-keep class com.igexin.sdk.PushService { <init>(...); }
+
+# view res/layout/slidingmenumain.xml #generated:2
+-keep class com.jeremyfeinstein.slidingmenu.lib.SlidingMenu { <init>(...); }
+
+# view res/layout/guide_content.xml #generated:7
+# view res/layout/main_content.xml #generated:83
+-keep class com.ninexiu.sixninexiu.lib.jazzypager.JazzyViewPager { <init>(...); }
+
+# view res/layout/mutiltouch_person_photo_layout.xml #generated:9
+-keep class com.ninexiu.sixninexiu.view.photoview.HackyViewPager { <init>(...); }
+
+# view res/layout/viewpageritem_image_layout.xml #generated:6
+-keep class com.ninexiu.sixninexiu.view.photoview.PhotoView { <init>(...); }
+
+# view AndroidManifest.xml #generated:163
+-keep class com.ninexiu.wjw.wxapi.WXEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.qnmlgb.activity.ArrayListViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.qnmlgb.activity.AutoTranslateAnamationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.qnmlgb.activity.CustomProgressActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class com.qnmlgb.activity.CustomViewpagerIndicatorActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.qnmlgb.activity.EditMainUserIconActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.qnmlgb.activity.GridViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.qnmlgb.activity.GuideActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.qnmlgb.activity.MainUIActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.qnmlgb.activity.MoNiActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.qnmlgb.activity.PersonCentersActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class com.qnmlgb.activity.PersonInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class com.qnmlgb.activity.PersonPhotoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.qnmlgb.activity.PersonSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.qnmlgb.activity.PersonalCenterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class com.qnmlgb.activity.PullSwipeRefreshLayoutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class com.qnmlgb.activity.PullToRefreshListViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class com.qnmlgb.activity.QuickIndexbarActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class com.qnmlgb.activity.QuickofThreeasOneActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class com.qnmlgb.activity.RecycleViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class com.qnmlgb.activity.RefreshAndLoadListViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class com.qnmlgb.activity.SignActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.qnmlgb.activity.SimpleCustomListViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.qnmlgb.activity.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.qnmlgb.activity.StickListViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.qnmlgb.activity.SubPageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.qnmlgb.activity.TestMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.qnmlgb.activity.ToggleButtonActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class com.qnmlgb.activity.ZhifuActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.qnmlgb.application.SysApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.qnmlgb.login.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:189
+-keep class com.qnmlgb.receiver.PushDemoReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.qnmlgb.service.MediaPlayerService { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.qnmlgb.service.MusicService { <init>(...); }
+
+# view res/layout/sign_calendar.xml #generated:85
+-keep class com.qnmlgb.view.CalendarView { <init>(...); }
+
+# view res/layout/edit_user_info_main.xml #generated:39
+# view res/layout/left_menu_layout.xml #generated:13
+# view res/layout/list_simple_item.xml #generated:7
+# view res/layout/list_swipe_person_item.xml #generated:9
+# view res/layout/login_main.xml #generated:47
+# view res/layout/main_content.xml #generated:106
+# view res/layout/person_info.xml #generated:87
+# view res/layout/personal_center.xml #generated:26
+# view res/layout/popupwindow_albumbrower.xml #generated:23
+-keep class com.qnmlgb.view.CircularImageView { <init>(...); }
+
+# view res/layout/custom_viewpager_indicator_act.xml #generated:10
+-keep class com.qnmlgb.view.CustomViewpagerIndicator { <init>(...); }
+
+# view res/layout/main_content.xml #generated:269
+-keep class com.qnmlgb.view.HSVLayout { <init>(...); }
+
+# view res/layout/custom_progress.xml #generated:19
+# view res/layout/custom_progress.xml #generated:26
+-keep class com.qnmlgb.view.HorizontalProgressBarWithNumber { <init>(...); }
+
+# view res/layout/love_background_layout.xml #generated:107
+# view res/layout/love_background_layout.xml #generated:123
+# view res/layout/love_background_layout.xml #generated:87
+# view res/layout/main_content.xml #generated:151
+-keep class com.qnmlgb.view.MarqueeText { <init>(...); }
+
+# view res/layout/pull_to_refresh_swiperefreshlayout.xml #generated:7
+-keep class com.qnmlgb.view.MyCustomSwipeRefreshLayout { <init>(...); }
+
+# view res/layout/ns_my_image_layout.xml #generated:7
+-keep class com.qnmlgb.view.MyGridView { <init>(...); }
+
+# view res/layout/toggle.xml #generated:134
+# view res/layout/toggle.xml #generated:180
+# view res/layout/toggle.xml #generated:43
+# view res/layout/toggle.xml #generated:89
+-keep class com.qnmlgb.view.MyToggleButton { <init>(...); }
+
+# view res/layout/personal_center.xml #generated:95
+-keep class com.qnmlgb.view.PagerSlidingTabStrip { <init>(...); }
+
+# view res/layout/login_main.xml #generated:10
+# view res/layout/setting_layout.xml #generated:12
+-keep class com.qnmlgb.view.PanningView { <init>(...); }
+
+# view res/layout/arraylist.xml #generated:7
+# view res/layout/quick_indexbar_contentview.xml #generated:13
+-keep class com.qnmlgb.view.ParallaxListView { <init>(...); }
+
+# view res/layout/quick_indexbar_contentview.xml #generated:31
+-keep class com.qnmlgb.view.QuickIndexbarView { <init>(...); }
+
+# view res/layout/list_simple.xml #generated:7
+-keep class com.qnmlgb.view.RefreshAndLoadListView { <init>(...); }
+
+# view res/layout/charge_layout_money.xml #generated:13
+-keep class com.qnmlgb.view.ResizeLayout { <init>(...); }
+
+# view res/layout/title_tab_bar.xml #generated:25
+# view res/layout/title_tab_bar.xml #generated:7
+-keep class com.qnmlgb.view.RippleImageButton { <init>(...); }
+
+# view res/layout/custom_progress.xml #generated:36
+# view res/layout/custom_progress.xml #generated:44
+# view res/layout/sign_calendar.xml #generated:90
+-keep class com.qnmlgb.view.RoundProgressBarWidthNumber { <init>(...); }
+
+# view res/layout/live_room_more_griditem.xml #generated:2
+-keep class com.qnmlgb.view.ScaleLinearLayout { <init>(...); }
+
+# view res/layout/image_gridview_item.xml #generated:9
+# view res/layout/person_info.xml #generated:29
+# view res/layout/person_info.xml #generated:36
+# view res/layout/person_info.xml #generated:43
+# view res/layout/person_info.xml #generated:50
+-keep class com.qnmlgb.view.SquareImageView { <init>(...); }
+
+# view res/layout/list_quickindex_item.xml #generated:20
+# view res/layout/ns_person_swipe_message_item.xml #generated:8
+# view res/layout/ns_simple_text_swipe_message_item.xml #generated:8
+-keep class com.qnmlgb.view.SwipeView { <init>(...); }
+
+# view res/layout/sticklistview_content.xml #generated:27
+-keep class com.qnmlgb.view.stickylistviewheader.StickyListHeadersListView { <init>(...); }
+
+# view res/layout/main_content.xml #generated:237
+-keep class com.qnmlgb.view.waveview.WaveView { <init>(...); }
+
+# view AndroidManifest.xml #generated:157
+-keep class com.tencent.connect.common.AssistActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:144
+-keep class com.tencent.tauth.AuthActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class com.umeng.socialize.view.ShareActivity { <init>(...); }
+
+# view res/layout/umeng_socialize_post_share.xml #generated:2
+# view sw550dp-large-v13\res/layout-sw550dp-large-v13/umeng_socialize_post_share.xml #generated:2
+-keep class com.umeng.socialize.view.wigets.KeyboardListenRelativeLayout { <init>(...); }
+
+# view res/layout/umeng_socialize_at_view.xml #generated:23
+-keep class com.umeng.socialize.view.wigets.SearchBox { <init>(...); }
+
+# view res/layout/umeng_socialize_at_view.xml #generated:41
+-keep class com.umeng.socialize.view.wigets.SectionListView { <init>(...); }
+
+# view res/layout/umeng_socialize_at_view.xml #generated:50
+-keep class com.umeng.socialize.view.wigets.SlideBar { <init>(...); }
+

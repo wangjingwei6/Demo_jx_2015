@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="104dp"
+    android:layout_height="111dp"
+      >
+<RelativeLayout
+    android:id="@+id/left_ll"
+    android:layout_width="28dp"
+    android:layout_height="111dp" 
+    >
+    <LinearLayout 
+        android:id="@+id/car_mark_ll"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:background="@drawable/shop_car_circle_shape"
+        android:gravity="center"
+        >
+    <ImageView
+        android:id="@+id/car_smallicon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+         />
+    </LinearLayout>
+    <ImageView 
+        android:layout_below="@+id/car_mark_ll"
+        android:layout_width="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="72dp"
+        android:background="@color/line"
+        />
+</RelativeLayout>
+
+<LinearLayout
+    android:layout_width="76dp"
+    android:layout_height="111dp" 
+    android:layout_toRightOf="@+id/left_ll"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/car_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="16dp"
+        android:text="宝马"
+        android:textSize="12sp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:gravity="center" />
+    <ImageView
+        android:id="@+id/car_img"
+        android:layout_width="72dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+                                           />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_gravity="right"
+                    >
+        <TextView
+            android:id="@+id/car_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text=""
+            android:textColor="@color/hong" />
+    </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

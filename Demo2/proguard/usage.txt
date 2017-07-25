@@ -1,0 +1,2854 @@
+com.baidu.location.BDErrorReport:
+    private java.lang.String a
+    public BDErrorReport()
+    public BDErrorReport(com.baidu.location.BDErrorReport)
+    public int setErrorInfo(boolean,double,double,boolean,java.lang.String,double,double,java.lang.String,java.lang.String)
+    public android.os.Bundle getErrorInfo()
+com.baidu.location.BDGeofence
+com.baidu.location.BDGeofence$Builder
+com.baidu.location.BDLocation:
+    protected java.lang.String bm()
+    public boolean isCellChangeFlag()
+    public double getAltitude()
+    public void setAltitude(double)
+    public float getSpeed()
+    public java.lang.String getCoorType()
+    public void setCoorType(java.lang.String)
+    public boolean hasAltitude()
+    public boolean hasSpeed()
+    public boolean hasRadius()
+    protected com.baidu.location.BDLocation p(java.lang.String)
+    public int getSatelliteNumber()
+    public float getDirection()
+    public boolean hasSateNumber()
+    public boolean hasAddr()
+    public java.lang.String getAddrStr()
+    public java.lang.String getProvince()
+    public java.lang.String getCity()
+    public java.lang.String getCityCode()
+    public java.lang.String getDistrict()
+    public java.lang.String getStreet()
+    public java.lang.String getStreetNumber()
+    public java.lang.String getFloor()
+    public int getOperators()
+    private java.lang.String bn()
+    public java.lang.String getAdUrl(java.lang.String)
+    private static java.lang.String bo()
+com.baidu.location.BDLocationStatusCodes
+com.baidu.location.BDNotifyListener:
+    public void SetNotifyLocation(double,double,float,java.lang.String)
+com.baidu.location.CommonEncrypt
+com.baidu.location.GeofenceClient:
+    private android.content.Context bf
+    private boolean bl
+    private android.os.Messenger bk
+    private com.baidu.location.GeofenceClient$a bm
+    private android.os.Messenger bi
+    private com.baidu.location.GeofenceClient$OnGeofenceTriggerListener bg
+    private android.content.ServiceConnection bh
+    public GeofenceClient(android.content.Context)
+    public void start()
+    private void void()
+    public void setInterval(long)
+    public boolean isStarted()
+    public void registerGeofenceTriggerListener(com.baidu.location.GeofenceClient$OnGeofenceTriggerListener)
+    public void addBDGeofence(com.baidu.location.BDGeofence,com.baidu.location.GeofenceClient$OnAddBDGeofencesResultListener)
+    public void removeBDGeofences(java.util.List,com.baidu.location.GeofenceClient$OnRemoveBDGeofencesResultListener)
+    private void for(java.lang.String)
+    private void int(java.lang.String)
+    public void startGeofenceScann()
+    public void stop()
+    private void long()
+    static synthetic android.os.Messenger if(com.baidu.location.GeofenceClient,android.os.Messenger)
+    static synthetic android.os.Messenger if(com.baidu.location.GeofenceClient)
+    static synthetic boolean if(com.baidu.location.GeofenceClient,boolean)
+    static synthetic void do(com.baidu.location.GeofenceClient,java.lang.String)
+    static synthetic void do(com.baidu.location.GeofenceClient)
+    static synthetic void if(com.baidu.location.GeofenceClient,java.lang.String)
+com.baidu.location.GeofenceClient$1
+com.baidu.location.GeofenceClient$OnGeofenceTriggerListener
+com.baidu.location.GeofenceClient$a
+com.baidu.location.Jni:
+    Jni()
+    private static native java.lang.String g(byte[])
+    private static native void f(byte[],byte[])
+    public static void int(java.lang.String,java.lang.String)
+    public static java.lang.String k(java.lang.String)
+com.baidu.location.LocationClient:
+    private boolean jY
+    private boolean jZ
+    public LocationClient(android.content.Context)
+    public LocationClient(android.content.Context,com.baidu.location.LocationClientOption)
+    public com.baidu.location.LocationClientOption getLocOption()
+    public void setLocOption(com.baidu.location.LocationClientOption)
+    public boolean updateLocation(android.location.Location)
+    public int requestOfflineLocation()
+    public int requestLocation()
+    public boolean isStarted()
+    public com.baidu.location.BDLocation getLastKnownLocation()
+    public java.lang.String getVersion()
+    public void start()
+    public void stop()
+    public void registerNotify(com.baidu.location.BDNotifyListener)
+    public void removeNotifyEvent(com.baidu.location.BDNotifyListener)
+    private android.os.Bundle cw()
+    public void registerNotifyLocationListener(com.baidu.location.BDLocationListener)
+    public void registerLocationListener(com.baidu.location.BDLocationListener)
+    public void unRegisterLocationListener(com.baidu.location.BDLocationListener)
+    public void setForBaiduMap(boolean)
+    public void setDebug(boolean)
+    public boolean notifyError()
+    public int reportErrorWithInfo(com.baidu.location.BDErrorReport)
+    public void cancleError()
+    private boolean else(int)
+    static synthetic java.lang.Boolean if(com.baidu.location.LocationClient,java.lang.Boolean)
+com.baidu.location.LocationClient$1:
+    LocationClient$1(com.baidu.location.LocationClient)
+com.baidu.location.LocationClient$a:
+    private LocationClient$a(com.baidu.location.LocationClient)
+    synthetic LocationClient$a(com.baidu.location.LocationClient,com.baidu.location.LocationClient$1)
+com.baidu.location.LocationClientOption:
+    public java.lang.String getCoorType()
+    public void setCoorType(java.lang.String)
+    public java.lang.String getAddrType()
+    public boolean isOpenGps()
+    public void setOpenGps(boolean)
+    public boolean isLocationNotify()
+    public void setLocationNotify(boolean)
+    public int getScanSpan()
+    public void setScanSpan(int)
+    public int getTimeOut()
+    public void setTimeOut(int)
+    public java.lang.String getProdName()
+    public void setProdName(java.lang.String)
+    public void setLocationMode(com.baidu.location.LocationClientOption$LocationMode)
+    public void setNeedDeviceDirect(boolean)
+    public void SetIgnoreCacheException(boolean)
+    public void setIgnoreKillProcess(boolean)
+com.baidu.location.LocationClientOption$1
+com.baidu.location.a
+com.baidu.location.a.a
+com.baidu.location.a.b
+com.baidu.location.a0:
+    public void new(android.content.Context)
+com.baidu.location.ac
+com.baidu.location.ad
+com.baidu.location.ad$1
+com.baidu.location.ad$2
+com.baidu.location.ad$3
+com.baidu.location.ad$a
+com.baidu.location.ad$b
+com.baidu.location.ah:
+    private boolean au()
+    public void for(com.baidu.location.BDLocation)
+com.baidu.location.ai:
+    static synthetic boolean if(com.baidu.location.ai,boolean)
+    static synthetic boolean do(com.baidu.location.ai)
+    static synthetic android.os.Handler if(com.baidu.location.ai)
+com.baidu.location.ai$2
+com.baidu.location.aj
+com.baidu.location.aj$1
+com.baidu.location.aj$2
+com.baidu.location.al
+com.baidu.location.am
+com.baidu.location.am$a
+com.baidu.location.an
+com.baidu.location.ao:
+    ao()
+com.baidu.location.ap
+com.baidu.location.aq:
+    private long h
+    public long goto()
+    public boolean byte()
+    public long else()
+    public void a(long)
+    public int new()
+com.baidu.location.ar:
+    public static double if(com.baidu.location.ar$b,com.baidu.location.ar$b)
+com.baidu.location.ar$b:
+    public ar$b(com.baidu.location.ar,com.baidu.location.ar$b)
+com.baidu.location.as:
+    public boolean do(com.baidu.location.ar$b)
+    public int try(com.baidu.location.BDLocation)
+com.baidu.location.at:
+    public int cX()
+    public java.lang.String cU()
+com.baidu.location.au:
+    public void if(com.baidu.location.aq,com.baidu.location.GeofenceClient$OnAddBDGeofencesResultListener)
+    public void if(java.util.List,com.baidu.location.GeofenceClient$OnRemoveBDGeofencesResultListener)
+    private synchronized long cc()
+    private void ca()
+    private final void cb()
+    private synchronized int if(com.baidu.location.aq,java.lang.String)
+    private synchronized int do(java.util.List)
+    private void if(com.baidu.location.GeofenceClient$OnAddBDGeofencesResultListener,int,java.lang.String)
+    static synthetic android.content.Context if(com.baidu.location.au)
+    static synthetic void if(com.baidu.location.au,com.baidu.location.GeofenceClient$OnAddBDGeofencesResultListener,int,java.lang.String)
+    static synthetic com.baidu.location.au$a do(com.baidu.location.au)
+    static synthetic int if(com.baidu.location.au,com.baidu.location.aq,java.lang.String)
+    static synthetic int if(com.baidu.location.au,java.util.List)
+com.baidu.location.au$b
+com.baidu.location.au$c
+com.baidu.location.au$d
+com.baidu.location.av
+com.baidu.location.aw:
+    public boolean int()
+com.baidu.location.ay:
+    public void ch()
+com.baidu.location.az:
+    private android.hardware.Sensor iO
+    public java.lang.String co()
+    public java.lang.String cl()
+    public java.lang.String s(java.lang.String)
+com.baidu.location.b
+com.baidu.location.b.a.b:
+    private b()
+com.baidu.location.b.a.c:
+    private c()
+com.baidu.location.b.b.a:
+    private a()
+com.baidu.location.b.b.b:
+    private b()
+com.baidu.location.c:
+    c()
+    static float if(java.lang.String,java.lang.String,java.lang.String)
+    static double for(java.lang.String,java.lang.String,java.lang.String)
+    static java.lang.String if(java.lang.String,java.lang.String,java.lang.String,double)
+    static java.lang.String if()
+    public static void if(java.lang.String)
+    public static void do(java.lang.String)
+    public static java.lang.String do()
+    public static java.lang.String byte()
+    public static java.lang.String else()
+com.baidu.location.i:
+    i()
+com.baidu.location.k:
+    public boolean k()
+    public void i()
+com.baidu.location.k$a:
+    public void a()
+com.baidu.location.l:
+    private java.lang.String bG
+    private final long by
+    private final int b1
+    private long bX
+    private long[] bC
+    private int bH
+    private com.baidu.location.t$a bR
+    private java.lang.String bN
+    private int b3
+    private boolean bF
+    private boolean bP
+    private boolean b4
+    private final int bT
+    private long bS
+    private int b2
+    private long bQ
+    private long bO
+    com.baidu.location.l$c bx
+    java.lang.String bU
+    public l(android.content.Context)
+    void v()
+    private void if(boolean)
+    private void t()
+    public static void q()
+    public boolean r()
+    boolean if(double,double)
+com.baidu.location.l$1
+com.baidu.location.l$a:
+    public l$a(com.baidu.location.l)
+com.baidu.location.l$b
+com.baidu.location.l$c
+com.baidu.location.n
+com.baidu.location.o
+com.baidu.location.o$1
+com.baidu.location.o$a
+com.baidu.location.p
+com.baidu.location.q:
+    public static void if(double,double,double,double)
+    public void z()
+    public void A()
+    public static void if(java.lang.String,int)
+    public static void if(java.lang.String,int,boolean)
+    public static void if(int,int)
+    public static void if(int,int,boolean)
+    public static void C()
+    public static void F()
+com.baidu.location.s:
+    public void R()
+    public static boolean if(android.content.Context)
+com.baidu.location.s$3
+com.baidu.location.t:
+    public java.lang.String ao()
+com.baidu.location.t$a:
+    public t$a(com.baidu.location.t,int,int,int,int,char)
+com.baidu.location.u:
+    static final int eE
+com.baidu.location.v:
+    v()
+com.baidu.location.v$a:
+    v$a()
+com.baidu.location.w:
+    private void aL()
+    public void aO()
+    private boolean aN()
+    private void aI()
+com.baidu.location.x:
+    private android.location.Location fm
+    private android.location.Location fy
+    private long fK
+    private long fx
+    public java.lang.String aV()
+    private boolean aQ()
+    private void try(android.location.Location)
+com.baidu.location.z:
+    private com.baidu.location.z$a gh
+    public z(android.content.Context,com.baidu.location.LocationClient)
+    public void if(com.baidu.location.BDNotifyListener)
+    private void int(com.baidu.location.BDLocation)
+    static synthetic void if(com.baidu.location.z,com.baidu.location.BDLocation)
+com.baidu.location.z$a
+com.baidu.location.z$b:
+    public z$b(com.baidu.location.z)
+com.custom.textview.shimmertextview.Shimmer:
+    41:41:public int getRepeatCount()
+    45:46:public com.custom.textview.shimmertextview.Shimmer setRepeatCount(int)
+    50:50:public long getDuration()
+    54:55:public com.custom.textview.shimmertextview.Shimmer setDuration(long)
+    59:59:public long getStartDelay()
+    63:64:public com.custom.textview.shimmertextview.Shimmer setStartDelay(long)
+    68:68:public int getDirection()
+    73:78:public com.custom.textview.shimmertextview.Shimmer setDirection(int)
+    82:82:public android.animation.Animator$AnimatorListener getAnimatorListener()
+    86:87:public com.custom.textview.shimmertextview.Shimmer setAnimatorListener(android.animation.Animator$AnimatorListener)
+com.custom.textview.shimmertextview.ShimmerTextView:
+    53:53:public boolean isShimmering()
+com.custom.textview.shimmertextview.ShimmerViewBase:
+    public abstract float getGradientX()
+    public abstract void setGradientX(float)
+    public abstract boolean isShimmering()
+    public abstract int getPrimaryColor()
+    public abstract void setPrimaryColor(int)
+    public abstract int getReflectionColor()
+    public abstract void setReflectionColor(int)
+com.custom.textview.shimmertextview.ShimmerViewHelper:
+    71:71:public boolean isShimmering()
+com.custom.textview.titanictextview.Titanic:
+    24:24:public android.animation.Animator$AnimatorListener getAnimatorListener()
+    28:29:public void setAnimatorListener(android.animation.Animator$AnimatorListener)
+    122:122:public boolean isAnimating()
+com.custom.textview.titanictextview.TitanicTextView:
+    91:91:public boolean isSinking()
+com.flyco.animation.Attention.Flash
+com.flyco.animation.Attention.RubberBand
+com.flyco.animation.Attention.ShakeHorizontal
+com.flyco.animation.Attention.Tada
+com.flyco.animation.BaseAnimatorSet:
+    82:83:public com.flyco.animation.BaseAnimatorSet delay(long)
+    88:89:public com.flyco.animation.BaseAnimatorSet interpolator(android.view.animation.Interpolator)
+com.flyco.animation.BounceEnter.BounceBottomEnter
+com.flyco.animation.BounceEnter.BounceEnter
+com.flyco.animation.BounceEnter.BounceLeftEnter
+com.flyco.animation.BounceEnter.BounceRightEnter
+com.flyco.animation.BounceEnter.BounceTopEnter
+com.flyco.animation.BuildConfig
+com.flyco.animation.FadeEnter.FadeEnter
+com.flyco.animation.FadeExit.FadeExit
+com.flyco.animation.FallEnter.FallEnter
+com.flyco.animation.FallEnter.FallRotateEnter
+com.flyco.animation.FlipEnter.FlipBottomEnter
+com.flyco.animation.FlipEnter.FlipHorizontalEnter
+com.flyco.animation.FlipEnter.FlipLeftEnter
+com.flyco.animation.FlipEnter.FlipRightEnter
+com.flyco.animation.FlipEnter.FlipVerticalEnter
+com.flyco.animation.Jelly
+com.flyco.animation.NewsPaperEnter
+com.flyco.animation.SlideEnter.SlideBottomEnter
+com.flyco.animation.SlideEnter.SlideLeftEnter
+com.flyco.animation.SlideEnter.SlideRightEnter
+com.flyco.animation.SlideExit.SlideRightExit
+com.flyco.animation.SlideExit.SlideTopExit
+com.flyco.animation.ZoomEnter.ZoomInBottomEnter
+com.flyco.animation.ZoomEnter.ZoomInLeftEnter
+com.flyco.animation.ZoomEnter.ZoomInRightEnter
+com.flyco.animation.ZoomEnter.ZoomInTopEnter
+com.flyco.animation.ZoomExit.ZoomInExit
+com.flyco.animation.ZoomExit.ZoomOutExit
+com.flyco.animation.ZoomExit.ZoomOutLeftExit
+com.flyco.animation.ZoomExit.ZoomOutRightExit
+com.flyco.animation.ZoomExit.ZoomOutTopExit
+com.flyco.dialog.BuildConfig
+com.flyco.dialog.utils.CornerUtils:
+    11:11:public CornerUtils()
+    29:34:public static android.graphics.drawable.Drawable cornerDrawable(int,float[],int,int)
+com.flyco.dialog.widget.ActionSheetDialog:
+    122:124:public ActionSheetDialog(android.content.Context,java.util.ArrayList,android.view.View)
+    136:138:public ActionSheetDialog(android.content.Context,android.widget.BaseAdapter,android.view.View)
+    263:264:public com.flyco.dialog.widget.ActionSheetDialog titleBgColor(int)
+    274:275:public com.flyco.dialog.widget.ActionSheetDialog title(java.lang.String)
+    285:286:public com.flyco.dialog.widget.ActionSheetDialog titleHeight(float)
+    296:297:public com.flyco.dialog.widget.ActionSheetDialog titleTextSize_SP(float)
+    307:308:public com.flyco.dialog.widget.ActionSheetDialog titleTextColor(int)
+    329:330:public com.flyco.dialog.widget.ActionSheetDialog lvBgColor(int)
+    340:341:public com.flyco.dialog.widget.ActionSheetDialog cornerRadius(float)
+    351:352:public com.flyco.dialog.widget.ActionSheetDialog dividerColor(int)
+    361:362:public com.flyco.dialog.widget.ActionSheetDialog dividerHeight(float)
+    372:373:public com.flyco.dialog.widget.ActionSheetDialog itemPressColor(int)
+    383:384:public com.flyco.dialog.widget.ActionSheetDialog itemTextColor(int)
+    394:395:public com.flyco.dialog.widget.ActionSheetDialog itemTextSize(float)
+    405:406:public com.flyco.dialog.widget.ActionSheetDialog itemHeight(float)
+    415:416:public com.flyco.dialog.widget.ActionSheetDialog layoutAnimation(android.view.animation.LayoutAnimationController)
+com.flyco.dialog.widget.MaterialDialog
+com.flyco.dialog.widget.MaterialDialog$1
+com.flyco.dialog.widget.MaterialDialog$2
+com.flyco.dialog.widget.MaterialTipDialog
+com.flyco.dialog.widget.MaterialTipDialog$1
+com.flyco.dialog.widget.NormalDialog:
+    288:289:public com.flyco.dialog.widget.NormalDialog title(java.lang.String)
+    332:333:public com.flyco.dialog.widget.NormalDialog titleLineHeight(float)
+com.flyco.dialog.widget.NormalListDialog:
+    123:125:public NormalListDialog(android.content.Context,android.widget.BaseAdapter)
+    237:238:public com.flyco.dialog.widget.NormalListDialog titleTextSize_SP(float)
+    259:260:public com.flyco.dialog.widget.NormalListDialog isTitleShow(boolean)
+    270:271:public com.flyco.dialog.widget.NormalListDialog lvBgColor(int)
+    281:282:public com.flyco.dialog.widget.NormalListDialog cornerRadius(float)
+    292:293:public com.flyco.dialog.widget.NormalListDialog dividerColor(int)
+    303:304:public com.flyco.dialog.widget.NormalListDialog dividerHeight(float)
+    314:315:public com.flyco.dialog.widget.NormalListDialog itemPressColor(int)
+    325:326:public com.flyco.dialog.widget.NormalListDialog itemTextColor(int)
+    336:337:public com.flyco.dialog.widget.NormalListDialog itemTextSize(float)
+    350:355:public com.flyco.dialog.widget.NormalListDialog setItemExtraPadding(int,int,int,int)
+    365:366:public com.flyco.dialog.widget.NormalListDialog layoutAnimation(android.view.animation.LayoutAnimationController)
+com.flyco.dialog.widget.NormalTipDialog:
+    237:238:public com.flyco.dialog.widget.NormalTipDialog style(int)
+    248:249:public com.flyco.dialog.widget.NormalTipDialog title(java.lang.String)
+    259:260:public com.flyco.dialog.widget.NormalTipDialog titleTextColor(int)
+    270:271:public com.flyco.dialog.widget.NormalTipDialog titleTextSize(float)
+    281:282:public com.flyco.dialog.widget.NormalTipDialog titleLineColor(int)
+    292:293:public com.flyco.dialog.widget.NormalTipDialog titleLineHeight(float)
+    303:304:public com.flyco.dialog.widget.NormalTipDialog isTitleShow(boolean)
+    325:326:public com.flyco.dialog.widget.NormalTipDialog contentGravity(int)
+    336:337:public com.flyco.dialog.widget.NormalTipDialog contentTextColor(int)
+    347:348:public com.flyco.dialog.widget.NormalTipDialog contentTextSize(float)
+    369:370:public com.flyco.dialog.widget.NormalTipDialog btnTextColor(int)
+    380:381:public com.flyco.dialog.widget.NormalTipDialog btnTextSize(float)
+    391:392:public com.flyco.dialog.widget.NormalTipDialog btnColorPress(int)
+    422:423:public com.flyco.dialog.widget.NormalTipDialog cornerRadius(float)
+    433:434:public com.flyco.dialog.widget.NormalTipDialog bgColor(int)
+com.flyco.dialog.widget.base.BaseDialog:
+    278:281:public void show(int)
+    290:295:public com.flyco.dialog.widget.base.BaseDialog dimEnabled(boolean)
+    316:317:public com.flyco.dialog.widget.base.BaseDialog heightScale(float)
+com.flyco.dialog.widget.base.BottomBaseDialog:
+    26:27:public BottomBaseDialog(android.content.Context)
+com.flyco.dialog.widget.base.BottomTopBaseDialog:
+    31:32:public void innerAnimDuration(long)
+    35:39:public void padding(int,int,int,int)
+com.handmark.pulltorefresh.library.ILoadingLayout:
+    public abstract void setTextTypeface(android.graphics.Typeface)
+com.handmark.pulltorefresh.library.IPullToRefresh
+com.handmark.pulltorefresh.library.LoadingLayoutProxy:
+    69:72:public void setTextTypeface(android.graphics.Typeface)
+com.handmark.pulltorefresh.library.OverscrollHelper:
+    static final java.lang.String LOG_TAG
+    static final float DEFAULT_OVERSCROLL_SCALE
+    26:26:public OverscrollHelper()
+com.handmark.pulltorefresh.library.PullToRefreshBase:
+    static final boolean DEBUG
+    static final boolean USE_HW_LAYERS
+    static final java.lang.String LOG_TAG
+    static final float FRICTION
+    static final int DEMO_SCROLL_INTERVAL
+    static final java.lang.String STATE_STATE
+    static final java.lang.String STATE_MODE
+    static final java.lang.String STATE_CURRENT_MODE
+    static final java.lang.String STATE_SCROLLING_REFRESHING_ENABLED
+    static final java.lang.String STATE_SHOW_REFRESHING_VIEW
+    static final java.lang.String STATE_SUPER
+    150:158:public final boolean demo()
+    206:206:public final boolean isDisableScrollingWhileRefreshing()
+    229:229:public final boolean isScrollingWhileRefreshingEnabled()
+    427:429:public void setLoadingDrawable(android.graphics.drawable.Drawable,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode)
+    476:478:public void setPullLabel(java.lang.CharSequence,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode)
+    497:498:public final void setRefreshing()
+    520:523:public void setRefreshingLabel(java.lang.CharSequence,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode)
+    1063:1064:protected final void smoothScrollToLonger(int)
+    1348:1357:private final void smoothScrollToAndBack(int)
+    1314:1314:static synthetic void access$5(com.handmark.pulltorefresh.library.PullToRefreshBase,int,long,long,com.handmark.pulltorefresh.library.PullToRefreshBase$OnSmoothScrollFinishedListener)
+com.handmark.pulltorefresh.library.PullToRefreshBase$3
+com.handmark.pulltorefresh.library.PullToRefreshExpandableListView:
+    31:32:public PullToRefreshExpandableListView(android.content.Context)
+    39:40:public PullToRefreshExpandableListView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode)
+    43:44:public PullToRefreshExpandableListView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode,com.handmark.pulltorefresh.library.PullToRefreshBase$AnimationStyle)
+com.handmark.pulltorefresh.library.PullToRefreshGridView:
+    32:33:public PullToRefreshGridView(android.content.Context)
+    40:41:public PullToRefreshGridView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode)
+    44:45:public PullToRefreshGridView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode,com.handmark.pulltorefresh.library.PullToRefreshBase$AnimationStyle)
+com.handmark.pulltorefresh.library.PullToRefreshHorizontalScrollView:
+    31:32:public PullToRefreshHorizontalScrollView(android.content.Context)
+    39:40:public PullToRefreshHorizontalScrollView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode)
+    43:44:public PullToRefreshHorizontalScrollView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode,com.handmark.pulltorefresh.library.PullToRefreshBase$AnimationStyle)
+com.handmark.pulltorefresh.library.PullToRefreshScrollView:
+    31:32:public PullToRefreshScrollView(android.content.Context)
+    39:40:public PullToRefreshScrollView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode)
+    43:44:public PullToRefreshScrollView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode,com.handmark.pulltorefresh.library.PullToRefreshBase$AnimationStyle)
+com.handmark.pulltorefresh.library.PullToRefreshWebView:
+    53:60:public PullToRefreshWebView(android.content.Context)
+    73:80:public PullToRefreshWebView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode)
+    83:90:public PullToRefreshWebView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode,com.handmark.pulltorefresh.library.PullToRefreshBase$AnimationStyle)
+com.handmark.pulltorefresh.library.PullToRefreshWebView$InternalWebViewSDK9:
+    static final int OVERSCROLL_FUZZY_THRESHOLD
+    static final float OVERSCROLL_SCALE_FACTOR
+com.handmark.pulltorefresh.library.extras.PullToRefreshWebView2:
+    static final java.lang.String JS_INTERFACE_PKG
+    static final java.lang.String DEF_JS_READY_PULL_DOWN_CALL
+    static final java.lang.String DEF_JS_READY_PULL_UP_CALL
+    69:70:public PullToRefreshWebView2(android.content.Context)
+    77:78:public PullToRefreshWebView2(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode)
+    82:82:static synthetic java.util.concurrent.atomic.AtomicBoolean access$0(com.handmark.pulltorefresh.library.extras.PullToRefreshWebView2)
+    81:81:static synthetic java.util.concurrent.atomic.AtomicBoolean access$1(com.handmark.pulltorefresh.library.extras.PullToRefreshWebView2)
+com.handmark.pulltorefresh.library.extras.PullToRefreshWebView2$JsValueCallback:
+    125:126:public void isReadyForPullUpResponse(boolean)
+    129:130:public void isReadyForPullDownResponse(boolean)
+com.handmark.pulltorefresh.library.extras.SoundPullEventListener
+com.handmark.pulltorefresh.library.internal.EmptyViewMethodAccessor:
+    public abstract void setEmptyView(android.view.View)
+com.handmark.pulltorefresh.library.internal.FlipLoadingLayout:
+    static final int FLIP_ANIMATION_DURATION
+com.handmark.pulltorefresh.library.internal.IndicatorLayout:
+    static final int DEFAULT_ROTATION_ANIMATION_DURATION
+com.handmark.pulltorefresh.library.internal.LoadingLayout:
+    static final java.lang.String LOG_TAG
+com.handmark.pulltorefresh.library.internal.RotateLoadingLayout:
+    static final int ROTATION_ANIMATION_DURATION
+com.handmark.pulltorefresh.library.internal.Utils:
+    static final java.lang.String LOG_TAG
+    5:5:public Utils()
+com.handmark.pulltorefresh.library.internal.ViewCompat:
+    25:25:public ViewCompat()
+    44:47:public static void setLayerType(android.view.View,int)
+com.handmark.pulltorefresh.library.internal.ViewCompat$SDK11
+com.handmark.pulltorefresh.library.internal.ViewCompat$SDK16:
+    58:58:ViewCompat$SDK16()
+com.igexin.download.Downloads:
+    private Downloads()
+    public static boolean isStatusInformational(int)
+    public static boolean isStatusSuspended(int)
+    public static boolean isStatusClientError(int)
+    public static boolean isStatusServerError(int)
+com.igexin.download.SdkDownLoader:
+    public void unregisterDownloadCallback(com.igexin.download.IDownloadCallback)
+    public boolean isRegistered(java.lang.String)
+    public boolean startTask(int)
+    public boolean pauseAllTask()
+    public boolean queryTask(java.lang.String)
+    public boolean deleteTask(int[])
+    public void refreshList()
+com.igexin.getuiext.data.Consts:
+    public Consts()
+com.igexin.push.config.SDKUrlConfig:
+    public SDKUrlConfig()
+    public static java.lang.String getIncreaseServiceUrl()
+    public static java.lang.String getLbsServiceUrl()
+    public static java.lang.String getLogServiceUrl()
+com.igexin.push.core.a.e:
+    public boolean q()
+    public boolean g(java.lang.String)
+    public boolean h(java.lang.String)
+    public boolean C()
+    private boolean m(java.lang.String)
+    private boolean a(java.lang.Class,java.lang.reflect.Method,java.lang.String)
+    public void i(java.lang.String)
+com.igexin.push.core.bean.PushTaskBean:
+    private java.lang.String a
+    private java.lang.String h
+    private int k
+    public java.lang.String getAction()
+    public void setAction(java.lang.String)
+    public java.lang.String getId()
+    public int getCurrentActionid()
+    public java.lang.String getMsgAddress()
+    public void setMsgAddress(java.lang.String)
+    public int getPerActionid()
+    public void setPerActionid(int)
+    public void setHttpImg(boolean)
+    public boolean isHttpImg()
+    public void setStop(boolean)
+com.igexin.push.core.e.a:
+    protected java.lang.String c
+    public void a(java.lang.Long)
+    public java.lang.String b()
+    public void a(java.lang.String)
+    public abstract void i()
+com.igexin.push.core.e.b:
+    public void a(com.igexin.push.core.e.a)
+    public void b(com.igexin.push.core.e.a)
+    private void d(com.igexin.push.core.e.a)
+com.igexin.push.core.g:
+    public static java.lang.String a()
+    public static int a(java.lang.String,boolean)
+com.igexin.push.e.a.b:
+    public java.lang.String c()
+    public byte[] d()
+    public java.io.InputStream e()
+    public long f()
+com.igexin.sdk.PushBuildConfig
+com.igexin.sdk.PushConsts:
+    public PushConsts()
+com.igexin.sdk.PushManager:
+    public void turnOnPush(android.content.Context)
+    public void turnOffPush(android.content.Context)
+    public boolean isPushTurnedOn(android.content.Context)
+    public java.lang.String getVersion(android.content.Context)
+    public int setTag(android.content.Context,com.igexin.sdk.Tag[])
+    public boolean setSilentTime(android.content.Context,int,int)
+    public boolean setHeartbeatInterval(android.content.Context,int)
+    public boolean setSocketTimeout(android.content.Context,int)
+    public boolean sendMessage(android.content.Context,java.lang.String,byte[])
+    public void stopService(android.content.Context)
+    public java.lang.String getClientid(android.content.Context)
+    private byte[] a(android.content.Context)
+    public boolean bindAlias(android.content.Context,java.lang.String)
+    public boolean unBindAlias(android.content.Context,java.lang.String)
+com.igexin.sdk.Tag
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$1
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$2
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$3
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$4
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$5
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$6
+com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove:
+    283:286:public void addIgnoredView(android.view.View)
+    289:290:public void removeIgnoredView(android.view.View)
+    293:294:public void clearIgnoredViews()
+    352:358:public int getChildWidth(int)
+    363:363:public boolean isSlidingEnabled()
+    377:378:void smoothScrollTo(int,int)
+    898:915:protected boolean canScroll(android.view.View,boolean,int,int,int)
+com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$SimpleOnPageChangeListener:
+    147:147:public void onPageScrollStateChanged(int)
+com.jeremyfeinstein.slidingmenu.lib.MenuInterface
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu:
+    440:440:public boolean isSlidingEnabled()
+    485:486:public void showMenu()
+    502:503:public void showSecondaryMenu()
+    858:859:public void addIgnoredView(android.view.View)
+    867:868:public void removeIgnoredView(android.view.View)
+    874:875:public void clearIgnoredViews()
+com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivity:
+    83:84:public void setBehindContentView(int)
+    104:104:public com.jeremyfeinstein.slidingmenu.lib.SlidingMenu getSlidingMenu()
+    111:112:public void toggle()
+    118:119:public void showContent()
+    125:126:public void showMenu()
+    132:133:public void showSecondaryMenu()
+    139:140:public void setSlidingActionBarEnabled(boolean)
+com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivityBase
+com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivityHelper:
+    96:99:public void setSlidingActionBarEnabled(boolean)
+    150:152:public void setContentView(android.view.View)
+    179:180:public void toggle()
+    193:194:public void showMenu()
+    201:202:public void showSecondaryMenu()
+com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity:
+    111:112:public void toggle()
+    118:119:public void showContent()
+    125:126:public void showMenu()
+    132:133:public void showSecondaryMenu()
+    139:140:public void setSlidingActionBarEnabled(boolean)
+com.jeremyfeinstein.slidingmenu.lib.app.SlidingListActivity:
+    87:88:public void setBehindContentView(int)
+    108:108:public com.jeremyfeinstein.slidingmenu.lib.SlidingMenu getSlidingMenu()
+    115:116:public void toggle()
+    122:123:public void showContent()
+    129:130:public void showMenu()
+    137:138:public void showSecondaryMenu()
+    144:145:public void setSlidingActionBarEnabled(boolean)
+com.jeremyfeinstein.slidingmenu.lib.app.SlidingPreferenceActivity:
+    83:84:public void setBehindContentView(int)
+    104:104:public com.jeremyfeinstein.slidingmenu.lib.SlidingMenu getSlidingMenu()
+    111:112:public void toggle()
+    118:119:public void showContent()
+    125:126:public void showMenu()
+    132:133:public void showSecondaryMenu()
+    139:140:public void setSlidingActionBarEnabled(boolean)
+com.lidroid.xutils.BitmapUtils
+com.lidroid.xutils.BitmapUtils$BitmapLoadTask
+com.lidroid.xutils.DbUtils
+com.lidroid.xutils.DbUtils$DaoConfig
+com.lidroid.xutils.DbUtils$DbUpgradeListener
+com.lidroid.xutils.DbUtils$FindTempCache
+com.lidroid.xutils.HttpUtils:
+    66:67:public HttpUtils(int)
+    70:71:public HttpUtils(java.lang.String)
+    146:146:public org.apache.http.client.HttpClient getHttpClient()
+    152:155:public com.lidroid.xutils.HttpUtils configResponseTextCharset(java.lang.String)
+    159:160:public com.lidroid.xutils.HttpUtils configHttpRedirectHandler(com.lidroid.xutils.http.callback.HttpRedirectHandler)
+    164:165:public com.lidroid.xutils.HttpUtils configHttpCacheSize(int)
+    169:171:public com.lidroid.xutils.HttpUtils configDefaultHttpCacheExpiry(long)
+    175:176:public com.lidroid.xutils.HttpUtils configCurrentHttpCacheExpiry(long)
+    180:181:public com.lidroid.xutils.HttpUtils configCookieStore(org.apache.http.client.CookieStore)
+    185:186:public com.lidroid.xutils.HttpUtils configUserAgent(java.lang.String)
+    190:193:public com.lidroid.xutils.HttpUtils configTimeout(int)
+    197:199:public com.lidroid.xutils.HttpUtils configSoTimeout(int)
+    203:204:public com.lidroid.xutils.HttpUtils configRegisterScheme(org.apache.http.conn.scheme.Scheme)
+    208:210:public com.lidroid.xutils.HttpUtils configSSLSocketFactory(org.apache.http.conn.ssl.SSLSocketFactory)
+    214:215:public com.lidroid.xutils.HttpUtils configRequestRetryCount(int)
+    219:220:public com.lidroid.xutils.HttpUtils configRequestThreadPoolSize(int)
+    227:227:public com.lidroid.xutils.http.HttpHandler send(com.lidroid.xutils.http.client.HttpRequest$HttpMethod,java.lang.String,com.lidroid.xutils.http.callback.RequestCallBack)
+    232:235:public com.lidroid.xutils.http.HttpHandler send(com.lidroid.xutils.http.client.HttpRequest$HttpMethod,java.lang.String,com.lidroid.xutils.http.RequestParams,com.lidroid.xutils.http.callback.RequestCallBack)
+    239:239:public com.lidroid.xutils.http.ResponseStream sendSync(com.lidroid.xutils.http.client.HttpRequest$HttpMethod,java.lang.String)
+    243:246:public com.lidroid.xutils.http.ResponseStream sendSync(com.lidroid.xutils.http.client.HttpRequest$HttpMethod,java.lang.String,com.lidroid.xutils.http.RequestParams)
+    258:258:public com.lidroid.xutils.http.HttpHandler download(java.lang.String,java.lang.String,boolean,com.lidroid.xutils.http.callback.RequestCallBack)
+    263:263:public com.lidroid.xutils.http.HttpHandler download(java.lang.String,java.lang.String,boolean,boolean,com.lidroid.xutils.http.callback.RequestCallBack)
+    268:268:public com.lidroid.xutils.http.HttpHandler download(java.lang.String,java.lang.String,com.lidroid.xutils.http.RequestParams,com.lidroid.xutils.http.callback.RequestCallBack)
+    273:273:public com.lidroid.xutils.http.HttpHandler download(java.lang.String,java.lang.String,com.lidroid.xutils.http.RequestParams,boolean,com.lidroid.xutils.http.callback.RequestCallBack)
+    278:278:public com.lidroid.xutils.http.HttpHandler download(java.lang.String,java.lang.String,com.lidroid.xutils.http.RequestParams,boolean,boolean,com.lidroid.xutils.http.callback.RequestCallBack)
+    283:283:public com.lidroid.xutils.http.HttpHandler download(com.lidroid.xutils.http.client.HttpRequest$HttpMethod,java.lang.String,java.lang.String,com.lidroid.xutils.http.RequestParams,com.lidroid.xutils.http.callback.RequestCallBack)
+    288:288:public com.lidroid.xutils.http.HttpHandler download(com.lidroid.xutils.http.client.HttpRequest$HttpMethod,java.lang.String,java.lang.String,com.lidroid.xutils.http.RequestParams,boolean,com.lidroid.xutils.http.callback.RequestCallBack)
+    315:325:private com.lidroid.xutils.http.HttpHandler sendRequest(com.lidroid.xutils.http.client.HttpRequest,com.lidroid.xutils.http.RequestParams,com.lidroid.xutils.http.callback.RequestCallBack)
+    330:336:private com.lidroid.xutils.http.ResponseStream sendSyncRequest(com.lidroid.xutils.http.client.HttpRequest,com.lidroid.xutils.http.RequestParams)
+com.lidroid.xutils.HttpUtils$1:
+    103:106:public void process(org.apache.http.HttpRequest,org.apache.http.protocol.HttpContext)
+com.lidroid.xutils.HttpUtils$2:
+    112:125:public void process(org.apache.http.HttpResponse,org.apache.http.protocol.HttpContext)
+com.lidroid.xutils.ViewUtils
+com.lidroid.xutils.bitmap.BitmapCacheListener
+com.lidroid.xutils.bitmap.BitmapCommonUtils
+com.lidroid.xutils.bitmap.BitmapDisplayConfig
+com.lidroid.xutils.bitmap.BitmapGlobalConfig
+com.lidroid.xutils.bitmap.BitmapGlobalConfig$BitmapCacheManagementTask
+com.lidroid.xutils.bitmap.PauseOnScrollListener
+com.lidroid.xutils.bitmap.callback.BitmapLoadCallBack
+com.lidroid.xutils.bitmap.callback.BitmapLoadFrom
+com.lidroid.xutils.bitmap.callback.BitmapSetter
+com.lidroid.xutils.bitmap.callback.DefaultBitmapLoadCallBack
+com.lidroid.xutils.bitmap.core.AsyncDrawable
+com.lidroid.xutils.bitmap.core.BitmapCache
+com.lidroid.xutils.bitmap.core.BitmapCache$1
+com.lidroid.xutils.bitmap.core.BitmapCache$BitmapMeta
+com.lidroid.xutils.bitmap.core.BitmapCache$MemoryCacheKey
+com.lidroid.xutils.bitmap.core.BitmapDecoder
+com.lidroid.xutils.bitmap.core.BitmapSize
+com.lidroid.xutils.bitmap.download.DefaultDownloader
+com.lidroid.xutils.bitmap.download.Downloader
+com.lidroid.xutils.bitmap.factory.BitmapFactory
+com.lidroid.xutils.cache.FileNameGenerator
+com.lidroid.xutils.cache.KeyExpiryMap:
+    35:36:public KeyExpiryMap(int,float,int)
+    43:44:public KeyExpiryMap(int)
+com.lidroid.xutils.cache.LruDiskCache
+com.lidroid.xutils.cache.LruDiskCache$1
+com.lidroid.xutils.cache.LruDiskCache$2
+com.lidroid.xutils.cache.LruDiskCache$Editor
+com.lidroid.xutils.cache.LruDiskCache$Editor$FaultHidingOutputStream
+com.lidroid.xutils.cache.LruDiskCache$Entry
+com.lidroid.xutils.cache.LruDiskCache$Snapshot
+com.lidroid.xutils.cache.LruDiskCache$StrictLineReader
+com.lidroid.xutils.cache.LruDiskCache$StrictLineReader$1
+com.lidroid.xutils.cache.LruMemoryCache:
+    57:59:public void setMaxSize(int)
+    128:128:public final java.lang.Object put(java.lang.Object,java.lang.Object)
+    214:214:public final boolean containsKey(java.lang.Object)
+    280:282:public final void evictAll()
+    290:290:public final synchronized int size()
+    299:299:public final synchronized int maxSize()
+    306:306:public final synchronized int hitCount()
+    314:314:public final synchronized int missCount()
+    321:321:public final synchronized int createCount()
+    328:328:public final synchronized int putCount()
+    335:335:public final synchronized int evictionCount()
+    343:343:public final synchronized java.util.Map snapshot()
+com.lidroid.xutils.cache.MD5FileNameGenerator
+com.lidroid.xutils.db.annotation.Check
+com.lidroid.xutils.db.annotation.Column
+com.lidroid.xutils.db.annotation.Finder
+com.lidroid.xutils.db.annotation.Foreign
+com.lidroid.xutils.db.annotation.Id
+com.lidroid.xutils.db.annotation.NoAutoIncrement
+com.lidroid.xutils.db.annotation.NotNull
+com.lidroid.xutils.db.annotation.Table
+com.lidroid.xutils.db.annotation.Transient
+com.lidroid.xutils.db.annotation.Unique
+com.lidroid.xutils.db.converter.BooleanColumnConverter
+com.lidroid.xutils.db.converter.ByteArrayColumnConverter
+com.lidroid.xutils.db.converter.ByteColumnConverter
+com.lidroid.xutils.db.converter.CharColumnConverter
+com.lidroid.xutils.db.converter.ColumnConverter
+com.lidroid.xutils.db.converter.ColumnConverterFactory
+com.lidroid.xutils.db.converter.DateColumnConverter
+com.lidroid.xutils.db.converter.DoubleColumnConverter
+com.lidroid.xutils.db.converter.FloatColumnConverter
+com.lidroid.xutils.db.converter.IntegerColumnConverter
+com.lidroid.xutils.db.converter.LongColumnConverter
+com.lidroid.xutils.db.converter.ShortColumnConverter
+com.lidroid.xutils.db.converter.SqlDateColumnConverter
+com.lidroid.xutils.db.converter.StringColumnConverter
+com.lidroid.xutils.db.sqlite.ColumnDbType
+com.lidroid.xutils.db.sqlite.CursorUtils
+com.lidroid.xutils.db.sqlite.CursorUtils$EntityTempCache
+com.lidroid.xutils.db.sqlite.CursorUtils$FindCacheSequence
+com.lidroid.xutils.db.sqlite.DbModelSelector
+com.lidroid.xutils.db.sqlite.FinderLazyLoader
+com.lidroid.xutils.db.sqlite.ForeignLazyLoader
+com.lidroid.xutils.db.sqlite.Selector
+com.lidroid.xutils.db.sqlite.Selector$OrderBy
+com.lidroid.xutils.db.sqlite.SqlInfo
+com.lidroid.xutils.db.sqlite.SqlInfoBuilder
+com.lidroid.xutils.db.sqlite.WhereBuilder
+com.lidroid.xutils.db.table.Column
+com.lidroid.xutils.db.table.ColumnUtils
+com.lidroid.xutils.db.table.DbModel
+com.lidroid.xutils.db.table.Finder
+com.lidroid.xutils.db.table.Foreign
+com.lidroid.xutils.db.table.Id
+com.lidroid.xutils.db.table.KeyValue
+com.lidroid.xutils.db.table.Table
+com.lidroid.xutils.db.table.TableUtils
+com.lidroid.xutils.exception.BaseException:
+    34:35:public BaseException(java.lang.String,java.lang.Throwable)
+com.lidroid.xutils.exception.DbException
+com.lidroid.xutils.exception.HttpException:
+    31:32:public HttpException(java.lang.String,java.lang.Throwable)
+    41:43:public HttpException(int)
+    60:62:public HttpException(int,java.lang.String,java.lang.Throwable)
+    69:71:public HttpException(int,java.lang.Throwable)
+    77:77:public int getExceptionCode()
+com.lidroid.xutils.http.HttpCache:
+    65:66:public void setCacheSize(int)
+    69:70:public static void setDefaultExpiryTime(long)
+    77:78:public void put(java.lang.String,java.lang.String)
+    91:92:public void clear()
+    95:98:public boolean isEnabled(com.lidroid.xutils.http.client.HttpRequest$HttpMethod)
+    109:110:public void setEnabled(com.lidroid.xutils.http.client.HttpRequest$HttpMethod,boolean)
+com.lidroid.xutils.http.HttpHandler:
+    77:77:public com.lidroid.xutils.http.HttpHandler$State getState()
+    87:88:public void setRequestCallBack(com.lidroid.xutils.http.callback.RequestCallBack)
+    91:91:public com.lidroid.xutils.http.callback.RequestCallBack getRequestCallBack()
+    274:292:public void cancel()
+com.lidroid.xutils.http.HttpHandler$NotUseApacheRedirectHandler:
+    349:349:public boolean isRedirectRequested(org.apache.http.HttpResponse,org.apache.http.protocol.HttpContext)
+    354:354:public java.net.URI getLocationURI(org.apache.http.HttpResponse,org.apache.http.protocol.HttpContext)
+com.lidroid.xutils.http.HttpHandler$State:
+    321:335:public static com.lidroid.xutils.http.HttpHandler$State valueOf(int)
+    340:340:public int value()
+com.lidroid.xutils.http.RequestParams:
+    57:58:public RequestParams()
+    60:64:public RequestParams(java.lang.String)
+    71:72:public void setPriority(com.lidroid.xutils.task.Priority)
+    79:80:public void setContentType(java.lang.String)
+    88:92:public void addHeader(org.apache.http.Header)
+    101:105:public void addHeader(java.lang.String,java.lang.String)
+    113:119:public void addHeaders(java.util.List)
+    128:132:public void setHeader(org.apache.http.Header)
+    142:146:public void setHeader(java.lang.String,java.lang.String)
+    154:160:public void setHeaders(java.util.List)
+    163:167:public void addQueryStringParameter(java.lang.String,java.lang.String)
+    170:174:public void addQueryStringParameter(org.apache.http.NameValuePair)
+    177:185:public void addQueryStringParameter(java.util.List)
+    188:192:public void addBodyParameter(java.lang.String,java.lang.String)
+    195:199:public void addBodyParameter(org.apache.http.NameValuePair)
+    202:210:public void addBodyParameter(java.util.List)
+    213:217:public void addBodyParameter(java.lang.String,java.io.File)
+    220:224:public void addBodyParameter(java.lang.String,java.io.File,java.lang.String)
+    227:231:public void addBodyParameter(java.lang.String,java.io.File,java.lang.String,java.lang.String)
+    234:238:public void addBodyParameter(java.lang.String,java.io.File,java.lang.String,java.lang.String,java.lang.String)
+    241:245:public void addBodyParameter(java.lang.String,java.io.InputStream,long)
+    248:252:public void addBodyParameter(java.lang.String,java.io.InputStream,long,java.lang.String)
+    255:259:public void addBodyParameter(java.lang.String,java.io.InputStream,long,java.lang.String,java.lang.String)
+    262:271:public void setBodyEntity(org.apache.http.HttpEntity)
+com.lidroid.xutils.http.RequestParams$HeaderItem:
+    final synthetic com.lidroid.xutils.http.RequestParams this$0
+    322:325:public RequestParams$HeaderItem(com.lidroid.xutils.http.RequestParams,org.apache.http.Header)
+    327:330:public RequestParams$HeaderItem(com.lidroid.xutils.http.RequestParams,org.apache.http.Header,boolean)
+    332:335:public RequestParams$HeaderItem(com.lidroid.xutils.http.RequestParams,java.lang.String,java.lang.String)
+    337:340:public RequestParams$HeaderItem(com.lidroid.xutils.http.RequestParams,java.lang.String,java.lang.String,boolean)
+com.lidroid.xutils.http.ResponseInfo:
+    31:32:public org.apache.http.Header[] getAllHeaders()
+    36:37:public org.apache.http.Header[] getHeaders(java.lang.String)
+    41:42:public org.apache.http.Header getFirstHeader(java.lang.String)
+    46:47:public org.apache.http.Header getLastHeader(java.lang.String)
+com.lidroid.xutils.http.ResponseStream
+com.lidroid.xutils.http.SyncHttpHandler
+com.lidroid.xutils.http.callback.RequestCallBack:
+    protected java.lang.Object userTag
+    36:38:public RequestCallBack(int)
+    40:43:public RequestCallBack(java.lang.Object)
+    45:48:public RequestCallBack(int,java.lang.Object)
+    60:61:public final void setRate(int)
+    64:64:public java.lang.Object getUserTag()
+    68:69:public void setUserTag(java.lang.Object)
+    72:72:public final java.lang.String getRequestUrl()
+    83:83:public void onCancelled()
+com.lidroid.xutils.http.client.DefaultSSLSocketFactory:
+    1:1:public static bridge synthetic org.apache.http.conn.ssl.SSLSocketFactory getSocketFactory()
+com.lidroid.xutils.http.client.HttpRequest:
+    53:55:public HttpRequest(com.lidroid.xutils.http.client.HttpRequest$HttpMethod)
+    64:67:public HttpRequest(com.lidroid.xutils.http.client.HttpRequest$HttpMethod,java.net.URI)
+    70:71:public com.lidroid.xutils.http.client.HttpRequest addQueryStringParameter(java.lang.String,java.lang.String)
+    75:76:public com.lidroid.xutils.http.client.HttpRequest addQueryStringParameter(org.apache.http.NameValuePair)
+    89:106:public void setRequestParams(com.lidroid.xutils.http.RequestParams)
+    137:146:public java.net.URI getURI()
+    152:153:public void setURI(java.net.URI)
+    161:161:public java.lang.String getMethod()
+    166:166:public org.apache.http.HttpEntity getEntity()
+    176:177:public boolean expectContinue()
+    182:186:public java.lang.Object clone()
+com.lidroid.xutils.http.client.RetryHandler:
+    59:103:public boolean retryRequest(java.io.IOException,int,org.apache.http.protocol.HttpContext)
+com.lidroid.xutils.http.client.entity.BodyParamsEntity:
+    58:59:public BodyParamsEntity(java.util.List)
+    72:74:public com.lidroid.xutils.http.client.entity.BodyParamsEntity addParameter(java.lang.String,java.lang.String)
+    78:80:public com.lidroid.xutils.http.client.entity.BodyParamsEntity addParams(java.util.List)
+    95:95:public boolean isRepeatable()
+    99:100:public long getContentLength()
+    104:105:public java.io.InputStream getContent()
+    109:115:public void writeTo(java.io.OutputStream)
+    123:123:public boolean isStreaming()
+com.lidroid.xutils.http.client.entity.DecompressingEntity
+com.lidroid.xutils.http.client.entity.FileUploadEntity
+com.lidroid.xutils.http.client.entity.GZipDecompressingEntity
+com.lidroid.xutils.http.client.entity.InputStreamUploadEntity
+com.lidroid.xutils.http.client.multipart.FormBodyPart:
+    52:70:public FormBodyPart(java.lang.String,com.lidroid.xutils.http.client.multipart.content.ContentBody,java.lang.String)
+    77:77:public com.lidroid.xutils.http.client.multipart.content.ContentBody getBody()
+    81:81:public com.lidroid.xutils.http.client.multipart.MinimalFieldHeader getHeader()
+com.lidroid.xutils.http.client.multipart.HttpMultipart:
+    50:52:private static void writeBytes(org.apache.http.util.ByteArrayBuffer,java.io.OutputStream)
+    56:58:private static void writeBytes(java.lang.String,java.nio.charset.Charset,java.io.OutputStream)
+    62:64:private static void writeBytes(java.lang.String,java.io.OutputStream)
+    68:72:private static void writeField(com.lidroid.xutils.http.client.multipart.MinimalField,java.io.OutputStream)
+    76:80:private static void writeField(com.lidroid.xutils.http.client.multipart.MinimalField,java.nio.charset.Charset,java.io.OutputStream)
+    128:129:public HttpMultipart(java.lang.String,java.nio.charset.Charset,java.lang.String)
+    132:133:public HttpMultipart(java.lang.String,java.lang.String)
+    136:137:public void setSubType(java.lang.String)
+    140:140:public java.lang.String getSubType()
+    144:144:public java.nio.charset.Charset getCharset()
+    148:148:public com.lidroid.xutils.http.client.multipart.HttpMultipartMode getMode()
+    152:152:public java.util.List getBodyParts()
+    163:163:public java.lang.String getBoundary()
+    170:171:private void doWriteTo(com.lidroid.xutils.http.client.multipart.HttpMultipartMode,java.io.OutputStream,boolean)
+    179:241:private void doWriteTo(com.lidroid.xutils.http.client.multipart.HttpMultipartMode,java.io.OutputStream,com.lidroid.xutils.http.client.multipart.MultipartEntity$CallBackInfo,boolean)
+    251:252:public void writeTo(java.io.OutputStream,com.lidroid.xutils.http.client.multipart.MultipartEntity$CallBackInfo)
+    268:285:public long getTotalLength()
+    38:38:static synthetic int[] $SWITCH_TABLE$com$lidroid$xutils$http$client$multipart$HttpMultipartMode()
+com.lidroid.xutils.http.client.multipart.MIME:
+    25:25:public MIME()
+com.lidroid.xutils.http.client.multipart.MinimalField:
+    39:39:public java.lang.String getBody()
+com.lidroid.xutils.http.client.multipart.MinimalFieldHeader:
+    49:49:public java.util.List getFields()
+    53:61:public com.lidroid.xutils.http.client.multipart.MinimalField getField(java.lang.String)
+    65:73:public java.util.List getFields(java.lang.String)
+    78:87:public int removeFields(java.lang.String)
+    91:114:public void setField(com.lidroid.xutils.http.client.multipart.MinimalField)
+com.lidroid.xutils.http.client.multipart.MultipartEntity:
+    private long length
+    117:118:public MultipartEntity(com.lidroid.xutils.http.client.multipart.HttpMultipartMode)
+    134:139:public void setMultipartSubtype(java.lang.String)
+    174:175:public void addPart(java.lang.String,com.lidroid.xutils.http.client.multipart.content.ContentBody,java.lang.String)
+    178:184:public boolean isRepeatable()
+    188:188:public boolean isChunked()
+    192:192:public boolean isStreaming()
+    196:200:public long getContentLength()
+    204:204:public org.apache.http.Header getContentType()
+    208:208:public org.apache.http.Header getContentEncoding()
+    213:217:public void consumeContent()
+    220:220:public java.io.InputStream getContent()
+    225:227:public void writeTo(java.io.OutputStream)
+com.lidroid.xutils.http.client.multipart.MultipartEntity$CallBackInfo:
+    58:61:public boolean doCallBack(boolean)
+com.lidroid.xutils.http.client.multipart.content.AbstractContentBody:
+    50:50:public java.lang.String getMediaType()
+    54:54:public java.lang.String getSubType()
+    61:62:public void setCallBackInfo(com.lidroid.xutils.http.client.multipart.MultipartEntity$CallBackInfo)
+com.lidroid.xutils.http.client.multipart.content.ByteArrayBody
+com.lidroid.xutils.http.client.multipart.content.ContentBody:
+    public abstract void writeTo(java.io.OutputStream)
+    public abstract void setCallBackInfo(com.lidroid.xutils.http.client.multipart.MultipartEntity$CallBackInfo)
+com.lidroid.xutils.http.client.multipart.content.ContentDescriptor:
+    public abstract java.lang.String getMediaType()
+    public abstract java.lang.String getSubType()
+    public abstract long getContentLength()
+com.lidroid.xutils.http.client.multipart.content.FileBody
+com.lidroid.xutils.http.client.multipart.content.InputStreamBody
+com.lidroid.xutils.http.client.multipart.content.StringBody:
+    40:42:public static com.lidroid.xutils.http.client.multipart.content.StringBody create(java.lang.String,java.lang.String,java.nio.charset.Charset)
+    51:51:public static com.lidroid.xutils.http.client.multipart.content.StringBody create(java.lang.String,java.nio.charset.Charset)
+    58:58:public static com.lidroid.xutils.http.client.multipart.content.StringBody create(java.lang.String)
+    97:98:public StringBody(java.lang.String,java.nio.charset.Charset)
+    115:115:public java.io.Reader getReader()
+    121:135:public void writeTo(java.io.OutputStream)
+    146:146:public long getContentLength()
+com.lidroid.xutils.http.client.util.URIBuilder:
+    59:61:public URIBuilder(java.net.URI)
+    92:92:public java.net.URI build(java.nio.charset.Charset)
+    96:137:private java.lang.String buildString(java.nio.charset.Charset)
+    141:141:private java.lang.String encodeUserInfo(java.lang.String,java.nio.charset.Charset)
+    145:145:private java.lang.String encodePath(java.lang.String,java.nio.charset.Charset)
+    149:149:private java.lang.String encodeQuery(java.util.List,java.nio.charset.Charset)
+    153:153:private java.lang.String encodeFragment(java.lang.String,java.nio.charset.Charset)
+    160:161:public com.lidroid.xutils.http.client.util.URIBuilder setScheme(java.lang.String)
+    169:173:public com.lidroid.xutils.http.client.util.URIBuilder setUserInfo(java.lang.String)
+    181:181:public com.lidroid.xutils.http.client.util.URIBuilder setUserInfo(java.lang.String,java.lang.String)
+    188:191:public com.lidroid.xutils.http.client.util.URIBuilder setHost(java.lang.String)
+    198:201:public com.lidroid.xutils.http.client.util.URIBuilder setPort(int)
+    208:211:public com.lidroid.xutils.http.client.util.URIBuilder setPath(java.lang.String)
+    220:223:public com.lidroid.xutils.http.client.util.URIBuilder setQuery(java.lang.String)
+    245:259:public com.lidroid.xutils.http.client.util.URIBuilder setParameter(java.lang.String,java.lang.String)
+    267:269:public com.lidroid.xutils.http.client.util.URIBuilder setFragment(java.lang.String)
+    273:273:public java.lang.String getScheme()
+    277:277:public java.lang.String getUserInfo()
+    281:281:public java.lang.String getHost()
+    285:285:public int getPort()
+    289:289:public java.lang.String getPath()
+    293:296:public java.util.List getQueryParams()
+    301:301:public java.lang.String getFragment()
+    305:317:private static java.lang.String normalizePath(java.lang.String)
+com.lidroid.xutils.http.client.util.URLEncodedUtils:
+    40:40:public URLEncodedUtils()
+    51:61:public static boolean isEncoded(org.apache.http.HttpEntity)
+    76:83:public static java.util.List parse(java.net.URI)
+    99:113:public static void parse(java.util.List,java.util.Scanner)
+    178:191:public static java.lang.String format(java.lang.Iterable,java.nio.charset.Charset)
+    342:368:private static java.lang.String urldecode(java.lang.String,java.nio.charset.Charset,boolean)
+    379:382:private static java.lang.String decodeFormFields(java.lang.String,java.lang.String)
+    393:396:private static java.lang.String decodeFormFields(java.lang.String,java.nio.charset.Charset)
+    430:433:private static java.lang.String encodeFormFields(java.lang.String,java.nio.charset.Charset)
+    446:446:static java.lang.String encUserInfo(java.lang.String,java.nio.charset.Charset)
+    459:459:static java.lang.String encFragment(java.lang.String,java.nio.charset.Charset)
+    472:472:static java.lang.String encPath(java.lang.String,java.nio.charset.Charset)
+com.lidroid.xutils.task.PriorityAsyncTask:
+    50:50:public com.lidroid.xutils.task.Priority getPriority()
+    213:214:public final boolean cancel(boolean)
+    219:219:public boolean supportPause()
+    224:224:public boolean supportResume()
+    229:229:public boolean supportCancel()
+    234:234:public void pause()
+    238:238:public void resume()
+    242:243:public void cancel()
+    247:247:public boolean isPaused()
+    261:261:public final java.lang.Object get()
+    279:279:public final java.lang.Object get(long,java.util.concurrent.TimeUnit)
+    290:290:public final varargs com.lidroid.xutils.task.PriorityAsyncTask execute(java.lang.Object[])
+    326:327:public static void execute(java.lang.Runnable)
+    338:339:public static void execute(java.lang.Runnable,com.lidroid.xutils.task.Priority)
+com.lidroid.xutils.task.PriorityExecutor:
+    44:44:public int getPoolSize()
+    48:51:public void setPoolSize(int)
+    54:54:public boolean isBusy()
+com.lidroid.xutils.task.PriorityObjectBlockingQueue:
+    164:181:public PriorityObjectBlockingQueue(java.util.Collection)
+com.lidroid.xutils.task.TaskHandler
+com.lidroid.xutils.util.CharsetUtils:
+    28:29:private CharsetUtils()
+com.lidroid.xutils.util.DoubleKeyValueMap
+com.lidroid.xutils.util.IOUtils:
+    29:30:private IOUtils()
+    42:48:public static void closeQuietly(android.database.Cursor)
+com.lidroid.xutils.util.LogUtils:
+    34:35:private LogUtils()
+    98:107:public static void d(java.lang.String,java.lang.Throwable)
+    110:119:public static void e(java.lang.String)
+    134:143:public static void i(java.lang.String)
+    146:155:public static void i(java.lang.String,java.lang.Throwable)
+    158:167:public static void v(java.lang.String)
+    170:179:public static void v(java.lang.String,java.lang.Throwable)
+    182:191:public static void w(java.lang.String)
+    194:203:public static void w(java.lang.String,java.lang.Throwable)
+    219:228:public static void wtf(java.lang.String)
+    231:240:public static void wtf(java.lang.String,java.lang.Throwable)
+    243:252:public static void wtf(java.lang.Throwable)
+com.lidroid.xutils.util.LogUtils$CustomLogger:
+    public abstract void d(java.lang.String,java.lang.String,java.lang.Throwable)
+    public abstract void e(java.lang.String,java.lang.String)
+    public abstract void i(java.lang.String,java.lang.String)
+    public abstract void i(java.lang.String,java.lang.String,java.lang.Throwable)
+    public abstract void v(java.lang.String,java.lang.String)
+    public abstract void v(java.lang.String,java.lang.String,java.lang.Throwable)
+    public abstract void w(java.lang.String,java.lang.String)
+    public abstract void w(java.lang.String,java.lang.String,java.lang.Throwable)
+    public abstract void wtf(java.lang.String,java.lang.String)
+    public abstract void wtf(java.lang.String,java.lang.String,java.lang.Throwable)
+    public abstract void wtf(java.lang.String,java.lang.Throwable)
+com.lidroid.xutils.util.MimeTypeUtils
+com.lidroid.xutils.util.OtherUtils:
+    42:43:private OtherUtils()
+    110:124:public static java.lang.String getDiskCacheDir(android.content.Context,java.lang.String)
+    129:133:public static long getAvailableSpace(java.io.File)
+    171:192:public static java.nio.charset.Charset getCharsetFromHttpRequest(org.apache.http.client.methods.HttpRequestBase)
+    221:221:public static java.lang.StackTraceElement getCurrentStackTraceElement()
+    232:262:public static void trustAllHttpsURLConnection()
+com.lidroid.xutils.util.OtherUtils$1
+com.lidroid.xutils.util.PreferencesCookieStore
+com.lidroid.xutils.util.PreferencesCookieStore$SerializableCookie
+com.lidroid.xutils.view.EventListenerManager
+com.lidroid.xutils.view.EventListenerManager$DynamicHandler
+com.lidroid.xutils.view.ResLoader
+com.lidroid.xutils.view.ResType
+com.lidroid.xutils.view.ViewFinder
+com.lidroid.xutils.view.ViewInjectInfo
+com.lidroid.xutils.view.annotation.ContentView
+com.lidroid.xutils.view.annotation.PreferenceInject
+com.lidroid.xutils.view.annotation.ResInject
+com.lidroid.xutils.view.annotation.ViewInject
+com.lidroid.xutils.view.annotation.event.EventBase
+com.lidroid.xutils.view.annotation.event.OnChildClick
+com.lidroid.xutils.view.annotation.event.OnClick
+com.lidroid.xutils.view.annotation.event.OnCompoundButtonCheckedChange
+com.lidroid.xutils.view.annotation.event.OnFocusChange
+com.lidroid.xutils.view.annotation.event.OnGroupClick
+com.lidroid.xutils.view.annotation.event.OnGroupCollapse
+com.lidroid.xutils.view.annotation.event.OnGroupExpand
+com.lidroid.xutils.view.annotation.event.OnItemClick
+com.lidroid.xutils.view.annotation.event.OnItemLongClick
+com.lidroid.xutils.view.annotation.event.OnItemSelected
+com.lidroid.xutils.view.annotation.event.OnKey
+com.lidroid.xutils.view.annotation.event.OnLongClick
+com.lidroid.xutils.view.annotation.event.OnNothingSelected
+com.lidroid.xutils.view.annotation.event.OnPreferenceChange
+com.lidroid.xutils.view.annotation.event.OnPreferenceClick
+com.lidroid.xutils.view.annotation.event.OnProgressChanged
+com.lidroid.xutils.view.annotation.event.OnRadioGroupCheckedChange
+com.lidroid.xutils.view.annotation.event.OnScroll
+com.lidroid.xutils.view.annotation.event.OnScrollStateChanged
+com.lidroid.xutils.view.annotation.event.OnStartTrackingTouch
+com.lidroid.xutils.view.annotation.event.OnStopTrackingTouch
+com.lidroid.xutils.view.annotation.event.OnTabChange
+com.lidroid.xutils.view.annotation.event.OnTouch
+com.nineoldandroids.animation.Animator:
+    72:72:public void end()
+    public abstract long getStartDelay()
+    public abstract void setStartDelay(long)
+    public abstract long getDuration()
+    217:217:public void setupStartValues()
+    229:229:public void setupEndValues()
+    240:240:public void setTarget(java.lang.Object)
+com.nineoldandroids.animation.AnimatorInflater
+com.nineoldandroids.animation.AnimatorSet:
+    140:151:public void playTogether(java.util.Collection)
+    160:170:public varargs void playSequentially(com.nineoldandroids.animation.Animator[])
+    179:189:public void playSequentially(java.util.List)
+    200:204:public java.util.ArrayList getChildAnimations()
+    216:224:public void setTarget(java.lang.Object)
+    319:348:public void end()
+    378:378:public long getStartDelay()
+    402:402:public long getDuration()
+    429:432:public void setupStartValues()
+    436:439:public void setupEndValues()
+com.nineoldandroids.animation.AnimatorSet$Builder:
+    1064:1072:public com.nineoldandroids.animation.AnimatorSet$Builder before(com.nineoldandroids.animation.Animator)
+    1084:1092:public com.nineoldandroids.animation.AnimatorSet$Builder after(com.nineoldandroids.animation.Animator)
+    1105:1108:public com.nineoldandroids.animation.AnimatorSet$Builder after(long)
+com.nineoldandroids.animation.AnimatorSet$Dependency:
+    static final int WITH
+    static final int AFTER
+com.nineoldandroids.animation.ArgbEvaluator
+com.nineoldandroids.animation.IntKeyframeSet
+com.nineoldandroids.animation.Keyframe:
+    76:76:public static com.nineoldandroids.animation.Keyframe ofInt(float,int)
+    92:92:public static com.nineoldandroids.animation.Keyframe ofInt(float)
+    140:140:public static com.nineoldandroids.animation.Keyframe ofObject(float,java.lang.Object)
+    156:156:public static com.nineoldandroids.animation.Keyframe ofObject(float)
+    201:202:public void setFraction(float)
+    232:232:public java.lang.Class getType()
+com.nineoldandroids.animation.Keyframe$IntKeyframe
+com.nineoldandroids.animation.Keyframe$ObjectKeyframe
+com.nineoldandroids.animation.KeyframeSet:
+    54:65:public static varargs com.nineoldandroids.animation.KeyframeSet ofInt(int[])
+    85:111:public static varargs com.nineoldandroids.animation.KeyframeSet ofKeyframe(com.nineoldandroids.animation.Keyframe[])
+    116:127:public static varargs com.nineoldandroids.animation.KeyframeSet ofObject(java.lang.Object[])
+com.nineoldandroids.animation.ObjectAnimator:
+    142:142:public java.lang.String getPropertyName()
+    173:176:private ObjectAnimator(java.lang.Object,com.nineoldandroids.util.Property)
+    193:195:public static varargs com.nineoldandroids.animation.ObjectAnimator ofInt(java.lang.Object,java.lang.String,int[])
+    211:213:public static varargs com.nineoldandroids.animation.ObjectAnimator ofInt(java.lang.Object,com.nineoldandroids.util.Property,int[])
+    250:252:public static varargs com.nineoldandroids.animation.ObjectAnimator ofFloat(java.lang.Object,com.nineoldandroids.util.Property,float[])
+    274:277:public static varargs com.nineoldandroids.animation.ObjectAnimator ofObject(java.lang.Object,java.lang.String,com.nineoldandroids.animation.TypeEvaluator,java.lang.Object[])
+    297:300:public static varargs com.nineoldandroids.animation.ObjectAnimator ofObject(java.lang.Object,com.nineoldandroids.util.Property,com.nineoldandroids.animation.TypeEvaluator,java.lang.Object[])
+    322:325:public static varargs com.nineoldandroids.animation.ObjectAnimator ofPropertyValuesHolder(java.lang.Object,com.nineoldandroids.animation.PropertyValuesHolder[])
+    330:341:public varargs void setIntValues(int[])
+    360:371:public varargs void setObjectValues(java.lang.Object[])
+    438:438:public java.lang.Object getTarget()
+    448:457:public void setTarget(java.lang.Object)
+    461:466:public void setupStartValues()
+    470:475:public void setupEndValues()
+com.nineoldandroids.animation.PreHoneycombCompat:
+    167:167:private PreHoneycombCompat()
+com.nineoldandroids.animation.PreHoneycombCompat$11:
+    123:124:public void setValue(android.view.View,int)
+    120:120:public bridge synthetic void setValue(java.lang.Object,int)
+com.nineoldandroids.animation.PreHoneycombCompat$12:
+    134:135:public void setValue(android.view.View,int)
+    131:131:public bridge synthetic void setValue(java.lang.Object,int)
+com.nineoldandroids.animation.PropertyValuesHolder:
+    154:154:public static varargs com.nineoldandroids.animation.PropertyValuesHolder ofInt(java.lang.String,int[])
+    165:165:public static varargs com.nineoldandroids.animation.PropertyValuesHolder ofInt(com.nineoldandroids.util.Property,int[])
+    204:207:public static varargs com.nineoldandroids.animation.PropertyValuesHolder ofObject(java.lang.String,com.nineoldandroids.animation.TypeEvaluator,java.lang.Object[])
+    224:227:public static varargs com.nineoldandroids.animation.PropertyValuesHolder ofObject(com.nineoldandroids.util.Property,com.nineoldandroids.animation.TypeEvaluator,java.lang.Object[])
+    250:260:public static varargs com.nineoldandroids.animation.PropertyValuesHolder ofKeyframe(java.lang.String,com.nineoldandroids.animation.Keyframe[])
+    281:291:public static varargs com.nineoldandroids.animation.PropertyValuesHolder ofKeyframe(com.nineoldandroids.util.Property,com.nineoldandroids.animation.Keyframe[])
+    309:311:public varargs void setIntValues(int[])
+    337:344:public varargs void setKeyframes(com.nineoldandroids.animation.Keyframe[])
+    360:362:public varargs void setObjectValues(java.lang.Object[])
+    551:565:private void setupValue(java.lang.Object,com.nineoldandroids.animation.Keyframe)
+    576:577:void setupStartValue(java.lang.Object)
+    588:589:void setupEndValue(java.lang.Object)
+    659:661:public void setEvaluator(com.nineoldandroids.animation.TypeEvaluator)
+com.nineoldandroids.animation.PropertyValuesHolder$FloatPropertyValuesHolder:
+    901:905:public PropertyValuesHolder$FloatPropertyValuesHolder(java.lang.String,com.nineoldandroids.animation.FloatKeyframeSet)
+    908:915:public PropertyValuesHolder$FloatPropertyValuesHolder(com.nineoldandroids.util.Property,com.nineoldandroids.animation.FloatKeyframeSet)
+com.nineoldandroids.animation.PropertyValuesHolder$IntPropertyValuesHolder
+com.nineoldandroids.animation.TimeAnimator
+com.nineoldandroids.animation.TimeAnimator$TimeListener
+com.nineoldandroids.animation.ValueAnimator:
+    static final int ANIMATION_START
+    static final int ANIMATION_FRAME
+    static final int STOPPED
+    static final int RUNNING
+    static final int SEEKED
+    298:300:public static varargs com.nineoldandroids.animation.ValueAnimator ofInt(int[])
+    329:331:public static varargs com.nineoldandroids.animation.ValueAnimator ofPropertyValuesHolder(com.nineoldandroids.animation.PropertyValuesHolder[])
+    352:355:public static varargs com.nineoldandroids.animation.ValueAnimator ofObject(com.nineoldandroids.animation.TypeEvaluator,java.lang.Object[])
+    373:384:public varargs void setIntValues(int[])
+    433:445:public varargs void setObjectValues(java.lang.Object[])
+    476:476:public com.nineoldandroids.animation.PropertyValuesHolder[] getValues()
+    524:524:public long getDuration()
+    692:692:public long getStartDelay()
+    715:715:public static long getFrameDelay()
+    728:729:public static void setFrameDelay(long)
+    762:767:public java.lang.Object getAnimatedValue(java.lang.String)
+    780:781:public void setRepeatCount(int)
+    789:789:public int getRepeatCount()
+    800:801:public void setRepeatMode(int)
+    809:809:public int getRepeatMode()
+    830:835:public void removeAllUpdateListeners()
+    844:851:public void removeUpdateListener(com.nineoldandroids.animation.ValueAnimator$AnimatorUpdateListener)
+    878:878:public android.view.animation.Interpolator getInterpolator()
+    898:901:public void setEvaluator(com.nineoldandroids.animation.TypeEvaluator)
+    974:989:public void end()
+    1009:1018:public void reverse()
+    1153:1153:public float getAnimatedFraction()
+    1239:1239:public static int getCurrentAnimationsCount()
+    1249:1252:public static void clearAllAnimations()
+com.nineoldandroids.util.IntProperty:
+    public abstract void setValue(java.lang.Object,int)
+com.nineoldandroids.util.NoSuchPropertyException
+com.nineoldandroids.util.Property:
+    55:55:public static com.nineoldandroids.util.Property of(java.lang.Class,java.lang.Class,java.lang.String)
+    76:76:public boolean isReadOnly()
+    104:104:public java.lang.Class getType()
+com.nineoldandroids.util.ReflectiveProperty
+com.nineoldandroids.view.ViewHelper:
+    9:9:private ViewHelper()
+    24:24:public static float getPivotX(android.view.View)
+    36:36:public static float getPivotY(android.view.View)
+    108:108:public static float getScrollX(android.view.View)
+    112:117:public static void setScrollX(android.view.View,int)
+    120:120:public static float getScrollY(android.view.View)
+    124:129:public static void setScrollY(android.view.View,int)
+    156:156:public static float getX(android.view.View)
+    160:165:public static void setX(android.view.View,float)
+    168:168:public static float getY(android.view.View)
+    172:177:public static void setY(android.view.View,float)
+com.nineoldandroids.view.ViewHelper$Honeycomb:
+    179:179:private ViewHelper$Honeycomb()
+    189:189:static float getPivotX(android.view.View)
+    197:197:static float getPivotY(android.view.View)
+    245:245:static float getScrollX(android.view.View)
+    249:250:static void setScrollX(android.view.View,int)
+    253:253:static float getScrollY(android.view.View)
+    257:258:static void setScrollY(android.view.View,int)
+    277:277:static float getX(android.view.View)
+    281:282:static void setX(android.view.View,float)
+    285:285:static float getY(android.view.View)
+    289:290:static void setY(android.view.View,float)
+com.nineoldandroids.view.ViewPropertyAnimator
+com.nineoldandroids.view.ViewPropertyAnimatorHC
+com.nineoldandroids.view.ViewPropertyAnimatorHC$1
+com.nineoldandroids.view.ViewPropertyAnimatorHC$AnimatorEventListener
+com.nineoldandroids.view.ViewPropertyAnimatorHC$NameValuesHolder
+com.nineoldandroids.view.ViewPropertyAnimatorHC$PropertyBundle
+com.nineoldandroids.view.ViewPropertyAnimatorICS
+com.nineoldandroids.view.ViewPropertyAnimatorICS$1
+com.nineoldandroids.view.ViewPropertyAnimatorPreHC
+com.nineoldandroids.view.ViewPropertyAnimatorPreHC$1
+com.nineoldandroids.view.ViewPropertyAnimatorPreHC$AnimatorEventListener
+com.nineoldandroids.view.ViewPropertyAnimatorPreHC$NameValuesHolder
+com.nineoldandroids.view.ViewPropertyAnimatorPreHC$PropertyBundle
+com.nineoldandroids.view.animation.AnimatorProxy:
+    163:167:public void setScrollX(int)
+    176:180:public void setScrollY(int)
+com.ninexiu.sixninexiu.lib.jazzypager.JazzyViewPager:
+    164:165:public void addView(android.view.View,android.support.v4.view.ViewPager$LayoutParams)
+    172:173:public void addView(android.view.View,int,android.support.v4.view.ViewPager$LayoutParams)
+    208:214:protected void animateScroll(int,float)
+com.ninexiu.sixninexiu.lib.jazzypager.Util:
+    6:6:public Util()
+com.ninexiu.sixninexiu.view.photoview.Compat:
+    25:25:public Compat()
+com.ninexiu.sixninexiu.view.photoview.HackyViewPager:
+    42:43:public void toggleLock()
+    50:50:public boolean isLocked()
+com.ninexiu.sixninexiu.view.photoview.IPhotoView:
+    public abstract boolean canZoom()
+    public abstract android.graphics.RectF getDisplayRect()
+    public abstract boolean setDisplayMatrix(android.graphics.Matrix)
+    public abstract android.graphics.Matrix getDisplayMatrix()
+    public abstract float getMinScale()
+    public abstract float getMinimumScale()
+    public abstract float getMidScale()
+    public abstract float getMediumScale()
+    public abstract float getMaxScale()
+    public abstract float getMaximumScale()
+    public abstract float getScale()
+    public abstract android.widget.ImageView$ScaleType getScaleType()
+    public abstract void setAllowParentInterceptOnEdge(boolean)
+    public abstract void setMinScale(float)
+    public abstract void setMinimumScale(float)
+    public abstract void setMidScale(float)
+    public abstract void setMediumScale(float)
+    public abstract void setMaxScale(float)
+    public abstract void setMaximumScale(float)
+    public abstract void setScaleLevels(float,float,float)
+    public abstract void setOnLongClickListener(android.view.View$OnLongClickListener)
+    public abstract void setOnMatrixChangeListener(com.ninexiu.sixninexiu.view.photoview.PhotoViewAttacher$OnMatrixChangedListener)
+    public abstract void setOnPhotoTapListener(com.ninexiu.sixninexiu.view.photoview.PhotoViewAttacher$OnPhotoTapListener)
+    public abstract com.ninexiu.sixninexiu.view.photoview.PhotoViewAttacher$OnPhotoTapListener getOnPhotoTapListener()
+    public abstract void setOnViewTapListener(com.ninexiu.sixninexiu.view.photoview.PhotoViewAttacher$OnViewTapListener)
+    public abstract void setRotationTo(float)
+    public abstract void setRotationBy(float)
+    public abstract com.ninexiu.sixninexiu.view.photoview.PhotoViewAttacher$OnViewTapListener getOnViewTapListener()
+    public abstract void setScale(float)
+    public abstract void setScale(float,boolean)
+    public abstract void setScale(float,float,float,boolean)
+    public abstract void setScaleType(android.widget.ImageView$ScaleType)
+    public abstract void setZoomable(boolean)
+    public abstract void setPhotoViewRotation(float)
+    public abstract android.graphics.Bitmap getVisibleRectangleBitmap()
+    public abstract void setZoomTransitionDuration(int)
+    public abstract com.ninexiu.sixninexiu.view.photoview.IPhotoView getIPhotoViewImplementation()
+    public abstract void setOnDoubleTapListener(android.view.GestureDetector$OnDoubleTapListener)
+    public abstract void setOnScaleChangeListener(com.ninexiu.sixninexiu.view.photoview.PhotoViewAttacher$OnScaleChangeListener)
+com.ninexiu.sixninexiu.view.photoview.PhotoView:
+    83:83:public boolean canZoom()
+    98:98:public boolean setDisplayMatrix(android.graphics.Matrix)
+    184:185:public void setScaleLevels(float,float,float)
+    249:250:public void setScale(float,boolean)
+    254:255:public void setScale(float,float,float,boolean)
+com.ninexiu.sixninexiu.view.photoview.PhotoViewAttacher:
+    static final int EDGE_NONE
+    static final int EDGE_LEFT
+    static final int EDGE_RIGHT
+    static final int EDGE_BOTH
+    private android.view.View$OnClickListener monClickListener
+    210:210:public boolean canZoom()
+    262:276:public boolean setDisplayMatrix(android.graphics.Matrix)
+    284:286:public void setPhotoViewRotation(float)
+    320:320:public float getMinScale()
+    331:331:public float getMidScale()
+    342:342:public float getMaxScale()
+    536:537:public void setMinScale(float)
+    548:549:public void setMidScale(float)
+    560:561:public void setMaxScale(float)
+    571:575:public void setScaleLevels(float,float,float)
+    821:821:public com.ninexiu.sixninexiu.view.photoview.IPhotoView getIPhotoViewImplementation()
+com.ninexiu.sixninexiu.view.photoview.gestures.VersionedGestureDetector:
+    22:22:public VersionedGestureDetector()
+com.ninexiu.sixninexiu.view.photoview.log.LogManager:
+    23:23:public LogManager()
+    28:29:public static void setLogger(com.ninexiu.sixninexiu.view.photoview.log.Logger)
+com.ninexiu.sixninexiu.view.photoview.log.Logger:
+    public abstract int v(java.lang.String,java.lang.String)
+    public abstract int v(java.lang.String,java.lang.String,java.lang.Throwable)
+    public abstract int d(java.lang.String,java.lang.String,java.lang.Throwable)
+    public abstract int i(java.lang.String,java.lang.String,java.lang.Throwable)
+    public abstract int w(java.lang.String,java.lang.String)
+    public abstract int w(java.lang.String,java.lang.String,java.lang.Throwable)
+    public abstract int e(java.lang.String,java.lang.String)
+    public abstract int e(java.lang.String,java.lang.String,java.lang.Throwable)
+com.ninexiu.sixninexiu.view.photoview.log.LoggerDefault:
+    27:27:public int v(java.lang.String,java.lang.String)
+    32:32:public int v(java.lang.String,java.lang.String,java.lang.Throwable)
+    42:42:public int d(java.lang.String,java.lang.String,java.lang.Throwable)
+    52:52:public int i(java.lang.String,java.lang.String,java.lang.Throwable)
+    57:57:public int w(java.lang.String,java.lang.String)
+    62:62:public int w(java.lang.String,java.lang.String,java.lang.Throwable)
+    67:67:public int e(java.lang.String,java.lang.String)
+    72:72:public int e(java.lang.String,java.lang.String,java.lang.Throwable)
+com.ninexiu.wjw.BuildConfig
+com.ninexiu.wjw.Manifest
+com.ninexiu.wjw.Manifest$permission
+com.ninexiu.wjw.R:
+    10:10:public R()
+com.nostra13.universalimageloader.cache.disc.DiskCache:
+    public abstract java.io.File getDirectory()
+    public abstract boolean remove(java.lang.String)
+    public abstract void close()
+    public abstract void clear()
+com.nostra13.universalimageloader.cache.disc.impl.BaseDiskCache:
+    61:62:public BaseDiskCache(java.io.File)
+    69:70:public BaseDiskCache(java.io.File,java.io.File)
+    93:93:public java.io.File getDirectory()
+    147:147:public boolean remove(java.lang.String)
+    153:153:public void close()
+    157:163:public void clear()
+    178:179:public void setBufferSize(int)
+    182:183:public void setCompressFormat(android.graphics.Bitmap$CompressFormat)
+    186:187:public void setCompressQuality(int)
+com.nostra13.universalimageloader.cache.disc.impl.LimitedAgeDiskCache
+com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiskCache:
+    32:33:public UnlimitedDiskCache(java.io.File)
+    40:41:public UnlimitedDiskCache(java.io.File,java.io.File)
+com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache:
+    static final java.lang.String JOURNAL_FILE
+    static final java.lang.String JOURNAL_FILE_TEMP
+    static final java.lang.String JOURNAL_FILE_BACKUP
+    static final java.lang.String MAGIC
+    static final java.lang.String VERSION_1
+    static final long ANY_SEQUENCE_NUMBER
+    491:491:public java.io.File getDirectory()
+    499:499:public synchronized long getMaxSize()
+    504:504:public synchronized int getMaxFileCount()
+    512:514:public synchronized void setMaxSize(long)
+    522:522:public synchronized long size()
+    531:531:public synchronized long fileCount()
+    637:637:public synchronized boolean isClosed()
+    648:652:public synchronized void flush()
+    702:702:private static java.lang.String inputStreamToString(java.io.InputStream)
+    465:465:static synthetic com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor access$6(com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache,java.lang.String,long)
+    701:701:static synthetic java.lang.String access$7(java.io.InputStream)
+com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor:
+    781:781:public java.io.InputStream newInputStream(int)
+    801:802:public java.lang.String getString(int)
+    840:847:public void set(int,java.lang.String)
+    872:878:public void abortUnlessCommitted()
+com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Snapshot:
+    727:727:public com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor edit()
+    737:737:public java.io.InputStream getInputStream(int)
+    742:742:public java.lang.String getString(int)
+    747:747:public long getLength(int)
+com.nostra13.universalimageloader.cache.disc.impl.ext.LruDiskCache:
+    69:70:public LruDiskCache(java.io.File,com.nostra13.universalimageloader.cache.disc.naming.FileNameGenerator,long)
+    126:126:public java.io.File getDirectory()
+    192:195:public boolean remove(java.lang.String)
+    202:207:public void close()
+    212:221:public void clear()
+    228:229:public void setBufferSize(int)
+    232:233:public void setCompressFormat(android.graphics.Bitmap$CompressFormat)
+    236:237:public void setCompressQuality(int)
+com.nostra13.universalimageloader.cache.disc.impl.ext.Util:
+    30:31:private Util()
+    35:44:static java.lang.String readFully(java.io.Reader)
+com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator
+com.nostra13.universalimageloader.cache.memory.BaseMemoryCache:
+    66:67:public void clear()
+com.nostra13.universalimageloader.cache.memory.LimitedMemoryCache
+com.nostra13.universalimageloader.cache.memory.MemoryCache:
+    public abstract void clear()
+com.nostra13.universalimageloader.cache.memory.impl.FIFOLimitedMemoryCache
+com.nostra13.universalimageloader.cache.memory.impl.FuzzyKeyMemoryCache:
+    74:75:public void clear()
+com.nostra13.universalimageloader.cache.memory.impl.LRULimitedMemoryCache
+com.nostra13.universalimageloader.cache.memory.impl.LargestLimitedMemoryCache
+com.nostra13.universalimageloader.cache.memory.impl.LimitedAgeMemoryCache
+com.nostra13.universalimageloader.cache.memory.impl.LruMemoryCache:
+    128:129:public void clear()
+com.nostra13.universalimageloader.cache.memory.impl.UsingFreqLimitedMemoryCache
+com.nostra13.universalimageloader.core.DefaultConfigurationFactory:
+    58:58:public DefaultConfigurationFactory()
+com.nostra13.universalimageloader.core.DisplayImageOptions$Builder:
+    258:259:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder showImageOnLoading(android.graphics.drawable.Drawable)
+    281:282:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder showImageForEmptyUri(android.graphics.drawable.Drawable)
+    304:305:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder showImageOnFail(android.graphics.drawable.Drawable)
+    315:316:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder resetViewBeforeLoading()
+    324:325:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder resetViewBeforeLoading(boolean)
+    335:336:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder cacheInMemory()
+    341:342:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder cacheInMemory(boolean)
+    362:362:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder cacheOnDisc(boolean)
+    396:398:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder decodingOptions(android.graphics.BitmapFactory$Options)
+    403:404:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder delayBeforeLoading(int)
+    409:410:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder extraForDownloader(java.lang.Object)
+    415:416:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder considerExifParams(boolean)
+    425:426:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder preProcessor(com.nostra13.universalimageloader.core.process.BitmapProcessor)
+    435:436:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder postProcessor(com.nostra13.universalimageloader.core.process.BitmapProcessor)
+    444:446:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder displayer(com.nostra13.universalimageloader.core.display.BitmapDisplayer)
+    450:451:com.nostra13.universalimageloader.core.DisplayImageOptions$Builder syncLoading(boolean)
+    459:460:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder handler(android.os.Handler)
+com.nostra13.universalimageloader.core.ImageLoader:
+    static final java.lang.String LOG_INIT_CONFIG
+    static final java.lang.String LOG_DESTROY
+    static final java.lang.String LOG_LOAD_IMAGE_FROM_MEMORY_CACHE
+    109:109:public boolean isInited()
+    125:126:public void displayImage(java.lang.String,com.nostra13.universalimageloader.core.imageaware.ImageAware)
+    143:144:public void displayImage(java.lang.String,com.nostra13.universalimageloader.core.imageaware.ImageAware,com.nostra13.universalimageloader.core.listener.ImageLoadingListener)
+    161:162:public void displayImage(java.lang.String,com.nostra13.universalimageloader.core.imageaware.ImageAware,com.nostra13.universalimageloader.core.DisplayImageOptions)
+    182:183:public void displayImage(java.lang.String,com.nostra13.universalimageloader.core.imageaware.ImageAware,com.nostra13.universalimageloader.core.DisplayImageOptions,com.nostra13.universalimageloader.core.listener.ImageLoadingListener)
+    286:287:public void displayImage(java.lang.String,android.widget.ImageView)
+    303:304:public void displayImage(java.lang.String,android.widget.ImageView,com.nostra13.universalimageloader.core.DisplayImageOptions)
+    320:321:public void displayImage(java.lang.String,android.widget.ImageView,com.nostra13.universalimageloader.core.listener.ImageLoadingListener)
+    380:381:public void loadImage(java.lang.String,com.nostra13.universalimageloader.core.listener.ImageLoadingListener)
+    400:401:public void loadImage(java.lang.String,com.nostra13.universalimageloader.core.assist.ImageSize,com.nostra13.universalimageloader.core.listener.ImageLoadingListener)
+    419:420:public void loadImage(java.lang.String,com.nostra13.universalimageloader.core.DisplayImageOptions,com.nostra13.universalimageloader.core.listener.ImageLoadingListener)
+    444:445:public void loadImage(java.lang.String,com.nostra13.universalimageloader.core.assist.ImageSize,com.nostra13.universalimageloader.core.DisplayImageOptions,com.nostra13.universalimageloader.core.listener.ImageLoadingListener)
+    474:484:public void loadImage(java.lang.String,com.nostra13.universalimageloader.core.assist.ImageSize,com.nostra13.universalimageloader.core.DisplayImageOptions,com.nostra13.universalimageloader.core.listener.ImageLoadingListener,com.nostra13.universalimageloader.core.listener.ImageLoadingProgressListener)
+    498:498:public android.graphics.Bitmap loadImageSync(java.lang.String)
+    514:514:public android.graphics.Bitmap loadImageSync(java.lang.String,com.nostra13.universalimageloader.core.DisplayImageOptions)
+    532:532:public android.graphics.Bitmap loadImageSync(java.lang.String,com.nostra13.universalimageloader.core.assist.ImageSize)
+    551:558:public android.graphics.Bitmap loadImageSync(java.lang.String,com.nostra13.universalimageloader.core.assist.ImageSize,com.nostra13.universalimageloader.core.DisplayImageOptions)
+    574:575:public void setDefaultLoadingListener(com.nostra13.universalimageloader.core.listener.ImageLoadingListener)
+    583:584:public com.nostra13.universalimageloader.cache.memory.MemoryCache getMemoryCache()
+    593:595:public void clearMemoryCache()
+    605:605:public com.nostra13.universalimageloader.cache.disc.DiskCache getDiscCache()
+    614:615:public com.nostra13.universalimageloader.cache.disc.DiskCache getDiskCache()
+    626:627:public void clearDiscCache()
+    635:637:public void clearDiskCache()
+    644:644:public java.lang.String getLoadingUriForView(com.nostra13.universalimageloader.core.imageaware.ImageAware)
+    652:652:public java.lang.String getLoadingUriForView(android.widget.ImageView)
+    663:664:public void cancelDisplayTask(com.nostra13.universalimageloader.core.imageaware.ImageAware)
+    673:674:public void cancelDisplayTask(android.widget.ImageView)
+    687:688:public void denyNetworkDownloads(boolean)
+    698:699:public void handleSlowNetwork(boolean)
+    707:708:public void pause()
+    712:713:public void resume()
+    723:724:public void stop()
+    732:737:public void destroy()
+com.nostra13.universalimageloader.core.ImageLoader$SyncImageLoadingListener
+com.nostra13.universalimageloader.core.ImageLoaderConfiguration:
+    127:127:public static com.nostra13.universalimageloader.core.ImageLoaderConfiguration createDefault(android.content.Context)
+com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder:
+    208:210:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder memoryCacheExtraOptions(int,int)
+    221:221:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder discCacheExtraOptions(int,int,com.nostra13.universalimageloader.core.process.BitmapProcessor)
+    234:237:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder diskCacheExtraOptions(int,int,com.nostra13.universalimageloader.core.process.BitmapProcessor)
+    254:259:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder taskExecutor(java.util.concurrent.Executor)
+    281:286:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder taskExecutorForCachedImages(java.util.concurrent.Executor)
+    308:321:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder threadPriority(int)
+    333:334:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder denyCacheImageMultipleSizesInMemory()
+    342:347:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder tasksProcessingOrder(com.nostra13.universalimageloader.core.assist.QueueProcessingType)
+    359:366:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder memoryCacheSize(int)
+    379:389:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder memoryCacheSizePercentage(int)
+    414:414:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder discCacheSize(int)
+    426:433:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder diskCacheSize(int)
+    439:439:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder discCacheFileCount(int)
+    451:458:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder diskCacheFileCount(int)
+    464:464:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder discCacheFileNameGenerator(com.nostra13.universalimageloader.cache.disc.naming.FileNameGenerator)
+    474:479:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder diskCacheFileNameGenerator(com.nostra13.universalimageloader.cache.disc.naming.FileNameGenerator)
+    485:485:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder discCache(com.nostra13.universalimageloader.cache.disc.DiskCache)
+    503:511:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder diskCache(com.nostra13.universalimageloader.cache.disc.DiskCache)
+    521:522:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder imageDownloader(com.nostra13.universalimageloader.core.download.ImageDownloader)
+    532:533:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder imageDecoder(com.nostra13.universalimageloader.core.decode.ImageDecoder)
+    543:544:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder defaultDisplayImageOptions(com.nostra13.universalimageloader.core.DisplayImageOptions)
+    553:554:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder writeDebugLogs()
+com.nostra13.universalimageloader.core.ImageLoaderEngine:
+    140:141:void denyNetworkDownloads(boolean)
+    151:152:void handleSlowNetwork(boolean)
+    159:160:void pause()
+    164:168:void resume()
+    178:187:void stop()
+com.nostra13.universalimageloader.core.assist.FailReason:
+    37:37:public com.nostra13.universalimageloader.core.assist.FailReason$FailType getType()
+    42:42:public java.lang.Throwable getCause()
+com.nostra13.universalimageloader.core.assist.deque.BlockingDeque:
+    public abstract void addFirst(java.lang.Object)
+    public abstract void addLast(java.lang.Object)
+    public abstract boolean offerFirst(java.lang.Object)
+    public abstract boolean offerLast(java.lang.Object)
+    public abstract void putFirst(java.lang.Object)
+    public abstract void putLast(java.lang.Object)
+    public abstract boolean offerFirst(java.lang.Object,long,java.util.concurrent.TimeUnit)
+    public abstract boolean offerLast(java.lang.Object,long,java.util.concurrent.TimeUnit)
+    public abstract java.lang.Object takeFirst()
+    public abstract java.lang.Object takeLast()
+    public abstract java.lang.Object pollFirst(long,java.util.concurrent.TimeUnit)
+    public abstract java.lang.Object pollLast(long,java.util.concurrent.TimeUnit)
+    public abstract boolean removeFirstOccurrence(java.lang.Object)
+    public abstract boolean removeLastOccurrence(java.lang.Object)
+    public abstract boolean add(java.lang.Object)
+    public abstract boolean offer(java.lang.Object)
+    public abstract void put(java.lang.Object)
+    public abstract boolean offer(java.lang.Object,long,java.util.concurrent.TimeUnit)
+    public abstract java.lang.Object remove()
+    public abstract java.lang.Object poll()
+    public abstract java.lang.Object take()
+    public abstract java.lang.Object poll(long,java.util.concurrent.TimeUnit)
+    public abstract java.lang.Object element()
+    public abstract java.lang.Object peek()
+    public abstract boolean remove(java.lang.Object)
+    public abstract boolean contains(java.lang.Object)
+    public abstract int size()
+    public abstract java.util.Iterator iterator()
+    public abstract void push(java.lang.Object)
+com.nostra13.universalimageloader.core.assist.deque.Deque:
+    public abstract void addFirst(java.lang.Object)
+    public abstract void addLast(java.lang.Object)
+    public abstract boolean offerFirst(java.lang.Object)
+    public abstract boolean offerLast(java.lang.Object)
+    public abstract java.lang.Object removeFirst()
+    public abstract java.lang.Object removeLast()
+    public abstract java.lang.Object pollFirst()
+    public abstract java.lang.Object pollLast()
+    public abstract java.lang.Object getFirst()
+    public abstract java.lang.Object getLast()
+    public abstract java.lang.Object peekFirst()
+    public abstract java.lang.Object peekLast()
+    public abstract boolean removeFirstOccurrence(java.lang.Object)
+    public abstract boolean removeLastOccurrence(java.lang.Object)
+    public abstract boolean add(java.lang.Object)
+    public abstract boolean offer(java.lang.Object)
+    public abstract java.lang.Object remove()
+    public abstract java.lang.Object poll()
+    public abstract java.lang.Object element()
+    public abstract java.lang.Object peek()
+    public abstract void push(java.lang.Object)
+    public abstract java.lang.Object pop()
+    public abstract boolean remove(java.lang.Object)
+    public abstract boolean contains(java.lang.Object)
+    public abstract int size()
+    public abstract java.util.Iterator iterator()
+    public abstract java.util.Iterator descendingIterator()
+com.nostra13.universalimageloader.core.assist.deque.LinkedBlockingDeque:
+    165:178:public LinkedBlockingDeque(java.util.Collection)
+    294:296:public void addFirst(java.lang.Object)
+    342:352:public void putFirst(java.lang.Object)
+    377:391:public boolean offerFirst(java.lang.Object,long,java.util.concurrent.TimeUnit)
+    430:432:public java.lang.Object removeLast()
+    446:452:public java.lang.Object pollLast()
+    469:478:public java.lang.Object takeLast()
+    501:514:public java.lang.Object pollLast(long,java.util.concurrent.TimeUnit)
+    530:532:public java.lang.Object getLast()
+    546:552:public java.lang.Object peekLast()
+    573:586:public boolean removeLastOccurrence(java.lang.Object)
+    738:739:public void push(java.lang.Object)
+    745:745:public java.lang.Object pop()
+    1007:1007:public java.util.Iterator descendingIterator()
+com.nostra13.universalimageloader.core.assist.deque.LinkedBlockingDeque$DescendingItr
+com.nostra13.universalimageloader.core.decode.ImageDecodingInfo:
+    107:107:public java.lang.String getOriginalImageUri()
+com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer
+com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer
+com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer$RoundedDrawable
+com.nostra13.universalimageloader.core.display.RoundedVignetteBitmapDisplayer
+com.nostra13.universalimageloader.core.display.RoundedVignetteBitmapDisplayer$RoundedVignetteDrawable
+com.nostra13.universalimageloader.core.imageaware.ImageViewAware:
+    65:66:public ImageViewAware(android.widget.ImageView,boolean)
+com.nostra13.universalimageloader.core.imageaware.NonViewAware
+com.nostra13.universalimageloader.core.listener.PauseOnScrollListener
+com.nostra13.universalimageloader.utils.DiskCacheUtils
+com.nostra13.universalimageloader.utils.ImageSizeUtils:
+    45:46:private ImageSizeUtils()
+com.nostra13.universalimageloader.utils.IoUtils:
+    38:39:private IoUtils()
+    52:52:public static boolean copyStream(java.io.InputStream,java.io.OutputStream,com.nostra13.universalimageloader.utils.IoUtils$CopyListener)
+com.nostra13.universalimageloader.utils.L:
+    33:34:private L()
+    43:44:public static void enableLogging()
+    53:54:public static void disableLogging()
+    68:69:public static void writeLogs(boolean)
+    94:95:public static varargs void e(java.lang.Throwable,java.lang.String,java.lang.Object[])
+com.nostra13.universalimageloader.utils.MemoryCacheUtils:
+    39:40:private MemoryCacheUtils()
+    68:74:public static java.util.List findCachedBitmapsForImageUri(java.lang.String,com.nostra13.universalimageloader.cache.memory.MemoryCache)
+    84:90:public static java.util.List findCacheKeysForImageUri(java.lang.String,com.nostra13.universalimageloader.cache.memory.MemoryCache)
+    100:109:public static void removeFromCache(java.lang.String,com.nostra13.universalimageloader.cache.memory.MemoryCache)
+com.nostra13.universalimageloader.utils.StorageUtils:
+    38:39:private StorageUtils()
+    129:136:public static java.io.File getOwnCacheDirectory(android.content.Context,java.lang.String)
+    148:155:public static java.io.File getOwnCacheDirectory(android.content.Context,java.lang.String,boolean)
+com.qnmlgb.activity.ArrayListViewActivity:
+    private java.util.ArrayList list
+com.qnmlgb.activity.EditMainUserIconActivity:
+    588:589:private void displayImage(android.widget.ImageView,java.lang.String)
+com.qnmlgb.activity.GuideActivity:
+    private int currentPosition
+com.qnmlgb.activity.ListViewActivity:
+    private java.util.ArrayList list
+    91:92:private android.widget.ArrayAdapter ArrayAdapetForData()
+    96:101:private java.util.ArrayList getArrayData()
+com.qnmlgb.activity.PersonalCenterActivity:
+    public android.view.View loadingView
+    private android.widget.TextView title
+com.qnmlgb.activity.QuickIndexbarActivity$MySwipeAdaptetr$ViewHolder:
+    android.widget.LinearLayout content
+com.qnmlgb.activity.RecycleViewActivity$1:
+    private int i
+    private int num
+com.qnmlgb.activity.RefreshAndLoadListViewActivity:
+    private java.util.ArrayList list
+    124:125:private android.widget.ArrayAdapter ArrayAdapetForData()
+    129:134:private java.util.ArrayList getArrayData()
+com.qnmlgb.activity.SimpleCustomListViewActivity:
+    private java.util.ArrayList list
+    254:255:private android.widget.ArrayAdapter ArrayAdapetForData()
+    259:264:private java.util.ArrayList getArrayData()
+com.qnmlgb.activity.SimpleListViewActivity:
+    private java.util.ArrayList list
+    119:120:private android.widget.ArrayAdapter ArrayAdapetForData()
+    124:129:private java.util.ArrayList getArrayData()
+com.qnmlgb.activity.SimpleListViewAndSwipViewActivity:
+    private java.util.ArrayList list
+    254:255:private android.widget.ArrayAdapter ArrayAdapetForData()
+    259:264:private java.util.ArrayList getArrayData()
+com.qnmlgb.activity.StickListViewActivity:
+    private android.graphics.drawable.AnimationDrawable loadingAnimation
+com.qnmlgb.activity.TestMainActivity:
+    private android.widget.RelativeLayout myProgress
+    private com.qnmlgb.util.MyImageLoaderUtil imageLoadUtil
+com.qnmlgb.activity.TestThread
+com.qnmlgb.activity.TestThread$1
+com.qnmlgb.activity.ToggleButtonActivity:
+    private boolean currentSelectButton
+com.qnmlgb.activity.ZhifuActivity:
+    protected java.lang.String accountname
+    protected java.lang.String accountpwd
+com.qnmlgb.adapter.CarGridViewAdapter$GViewHolder:
+    android.widget.TextView car_price
+com.qnmlgb.adapter.HSVAdapter:
+    47:48:public void addObject(int[])
+com.qnmlgb.application.SysApplication:
+    107:108:public static void displayImage(android.widget.ImageView,java.lang.String)
+com.qnmlgb.bean.QuickData:
+    14:15:public void setPinyin(java.lang.String)
+com.qnmlgb.bean.RecycleViewBean:
+    14:15:public void setImageView(int)
+    22:23:public void setTitle(java.lang.String)
+com.qnmlgb.fragment.BasicPageFragment
+com.qnmlgb.fragment.BasicPageFragment$1
+com.qnmlgb.fragment.ContentMenuFragment:
+    private com.qnmlgb.util.MyImageLoaderUtil imageLoadUtil
+com.qnmlgb.fragment.PersonCenterFragment
+com.qnmlgb.fragment.PersonCenterFragment$1
+com.qnmlgb.fragment.PersonCenterFragment$PersonalCenterAdapter
+com.qnmlgb.login.BaseRegeistOrLogin
+com.qnmlgb.net.AsyncTaskThread
+com.qnmlgb.net.AsyncTaskThread$MyAsyncTask
+com.qnmlgb.net.HttpUrlConnectionThread
+com.qnmlgb.net.HttpUrlConnectionThread$1
+com.qnmlgb.net.TestThread
+com.qnmlgb.net.TestThread$1
+com.qnmlgb.net.TestWebview
+com.qnmlgb.net.TestWebview$1
+com.qnmlgb.util.FileUtil:
+    12:12:public FileUtil()
+com.qnmlgb.util.IOUtils:
+    10:10:public IOUtils()
+com.qnmlgb.util.MyToast:
+    16:16:public MyToast()
+    87:112:public static void MakeToastSignLong(android.content.Context,java.lang.String)
+com.qnmlgb.util.NetUtils:
+    7:7:public NetUtils()
+    21:27:public static boolean hasNetwork(android.content.Context)
+com.qnmlgb.util.SPUtil:
+    42:42:public float getFloatValue(java.lang.String,float)
+    46:46:public int getIntValue(java.lang.String,int)
+    50:50:public long getLongValue(java.lang.String,long)
+    58:58:public boolean writeStringValue(java.lang.String,java.lang.String)
+    62:62:public boolean writeStringValueSimple(java.lang.String,java.lang.String)
+    66:66:public boolean writeFloatValue(java.lang.String,float)
+    70:70:public boolean writeLongValue(java.lang.String,long)
+    74:74:public boolean writeIntValue(java.lang.String,int)
+    80:80:public java.util.Map getAll()
+    84:84:public boolean contains(java.lang.String)
+    88:88:public boolean delete(java.lang.String)
+    92:92:public boolean removeAll()
+com.qnmlgb.util.SystemBarTintManager:
+    private boolean mNavBarTintEnabled
+    146:159:public void setStatusBarDarkMode(boolean,android.app.Activity)
+    171:175:public void setNavigationBarTintEnabled(boolean)
+    183:185:public void setTintColor(int)
+    193:195:public void setTintResource(int)
+    203:205:public void setTintDrawable(android.graphics.drawable.Drawable)
+    213:215:public void setTintAlpha(float)
+    223:226:public void setStatusBarTintColor(int)
+    246:249:public void setStatusBarTintDrawable(android.graphics.drawable.Drawable)
+    258:261:public void setStatusBarAlpha(float)
+    269:272:public void setNavigationBarTintColor(int)
+    280:283:public void setNavigationBarTintResource(int)
+    292:295:public void setNavigationBarTintDrawable(android.graphics.drawable.Drawable)
+    304:307:public void setNavigationBarAlpha(float)
+    315:315:public com.qnmlgb.util.SystemBarTintManager$SystemBarConfig getConfig()
+    324:324:public boolean isStatusBarTintEnabled()
+    333:333:public boolean isNavBarTintEnabled()
+com.qnmlgb.util.SystemBarTintManager$SystemBarConfig:
+    490:490:public int getActionBarHeight()
+    529:529:public int getPixelInsetTop(boolean)
+    538:541:public int getPixelInsetBottom()
+    551:554:public int getPixelInsetRight()
+com.qnmlgb.util.UIHelper
+com.qnmlgb.util.Utils:
+    53:53:public Utils()
+    95:96:public static int dip2px(android.content.Context,float)
+    103:104:public static int px2dip(android.content.Context,float)
+    111:121:public static final java.lang.String MD5(java.lang.String)
+    148:151:public static void addRippleEffectToItem(android.view.View)
+    211:221:public void drawableToBitamp(android.graphics.drawable.Drawable)
+    345:356:public static android.app.Dialog showProgressDialogNoCenterImg(android.content.Context,java.lang.String,boolean)
+    546:597:public static void remindUserRegeist(android.content.Context,com.qnmlgb.login.BaseRegeistOrLogin)
+    783:786:public static void exitActivityAnimation(android.content.Context)
+    794:797:public static void exitActivityAnimation(android.app.Activity)
+    806:809:public static void scaleInActivityAnimation(android.content.Context)
+    826:829:public static void scaleOutActivityAnimation(android.content.Context)
+com.qnmlgb.util.Utils$5
+com.qnmlgb.util.Utils$6
+com.qnmlgb.view.CalendarView:
+    private java.util.Date downDate
+    private int downIndex
+    private java.lang.Integer[] currentMonthDays
+    398:427:private void drawDownOrSelectedBg(android.graphics.Canvas)
+    431:443:private void findSelectedIndex(int,int,java.util.Calendar,int[])
+    485:489:public java.lang.String clickLeftMonth()
+    494:498:public java.lang.String clickRightMonth()
+    514:514:public boolean isSelectMore()
+    538:555:private void setSelectedDateByCoor(float,float)
+com.qnmlgb.view.CalendarView$OnItemClickListener:
+    public abstract void OnItemClick(java.util.Date,java.util.Date,java.util.Date)
+com.qnmlgb.view.DividerItemDecoration
+com.qnmlgb.view.FixedSpeedScroller:
+    18:19:public FixedSpeedScroller(android.content.Context,android.view.animation.Interpolator)
+    22:23:public FixedSpeedScroller(android.content.Context,android.view.animation.Interpolator,boolean)
+    42:42:public int getmDuration()
+com.qnmlgb.view.IOSTaoBaoDialog:
+    40:41:public IOSTaoBaoDialog(android.content.Context,android.view.View)
+com.qnmlgb.view.LoadListView:
+    21:24:public LoadListView(android.content.Context)
+com.qnmlgb.view.Love
+com.qnmlgb.view.MaterialRippleLayout:
+    612:614:public void performRipple()
+    617:619:public void performRipple(android.graphics.Point)
+com.qnmlgb.view.MaterialRippleLayout$RippleBuilder:
+    746:747:public com.qnmlgb.view.MaterialRippleLayout$RippleBuilder rippleDiameterDp(int)
+    751:752:public com.qnmlgb.view.MaterialRippleLayout$RippleBuilder rippleDuration(int)
+    761:762:public com.qnmlgb.view.MaterialRippleLayout$RippleBuilder rippleDelayClick(boolean)
+    766:767:public com.qnmlgb.view.MaterialRippleLayout$RippleBuilder rippleFadeDuration(int)
+    771:772:public com.qnmlgb.view.MaterialRippleLayout$RippleBuilder ripplePersistent(boolean)
+    776:777:public com.qnmlgb.view.MaterialRippleLayout$RippleBuilder rippleBackground(int)
+    781:782:public com.qnmlgb.view.MaterialRippleLayout$RippleBuilder rippleInAdapter(boolean)
+com.qnmlgb.view.MyGridView:
+    91:92:public void removeOnScrollBottomListener()
+com.qnmlgb.view.PagerSlidingTabStrip:
+    363:398:private void updateTabStyles(boolean)
+    633:633:public boolean isTextAllCaps()
+    663:666:public void setTypeface(android.graphics.Typeface,int)
+    747:747:public android.widget.TextView getTextView(int)
+com.qnmlgb.view.ResizeLayout:
+    54:54:public boolean isKeyboardShowing()
+com.qnmlgb.view.SwipeView:
+    private boolean swipeStatus
+    30:30:public boolean isCanSwipe()
+com.qnmlgb.view.stickylistviewheader.DistinctMultiHashMap:
+    57:57:public java.util.List get(java.lang.Object)
+    80:86:public void removeKey(java.lang.Object)
+    88:95:public void removeValue(java.lang.Object)
+    98:100:public void clear()
+    103:109:public void clearValues()
+    112:112:public java.util.Set entrySet()
+    116:116:public java.util.Set reverseEntrySet()
+    120:120:public int size()
+    123:123:public int valuesSize()
+    140:145:public java.lang.Object getValueByPosition(int)
+com.qnmlgb.view.stickylistviewheader.DistinctMultiHashMap$1:
+    37:37:public java.lang.Object keyIdToKey(java.lang.Object)
+    47:47:public java.lang.Object valueIdToValue(java.lang.Object)
+com.qnmlgb.view.stickylistviewheader.DistinctMultiHashMap$IDMapper:
+    public abstract java.lang.Object keyIdToKey(java.lang.Object)
+    public abstract java.lang.Object valueIdToValue(java.lang.Object)
+com.qnmlgb.view.stickylistviewheader.ExpandableStickyListHeadersAdapter:
+    105:105:public java.util.List getItemViewsByHeaderId(long)
+    109:109:public boolean isHeaderCollapsed(long)
+    113:116:public void expand(long)
+    119:122:public void collapse(long)
+    125:125:public android.view.View findViewByItemId(long)
+    129:129:public long findItemIdByView(android.view.View)
+com.qnmlgb.view.stickylistviewheader.ExpandableStickyListHeadersListView:
+    38:39:public ExpandableStickyListHeadersListView(android.content.Context)
+    61:61:public android.view.View findViewByItemId(long)
+    65:65:public long findItemIdByView(android.view.View)
+    69:81:public void expand(long)
+    84:96:public void collapse(long)
+    99:99:public boolean isHeaderCollapsed(long)
+    114:124:private void animateView(android.view.View,int)
+com.qnmlgb.view.stickylistviewheader.ExpandableStickyListHeadersListView$1:
+    28:33:public void executeAnim(android.view.View,int)
+com.qnmlgb.view.stickylistviewheader.ExpandableStickyListHeadersListView$IAnimationExecutor:
+    public abstract void executeAnim(android.view.View,int)
+com.qnmlgb.view.stickylistviewheader.StickyListHeadersListView:
+    633:633:public boolean isDrawingListUnderStickyHeader()
+    667:667:public android.view.View getListChildAt(int)
+    783:784:public void addHeaderView(android.view.View,java.lang.Object,boolean)
+    787:788:public void addHeaderView(android.view.View)
+    791:792:public void removeHeaderView(android.view.View)
+    799:800:public void addFooterView(android.view.View,java.lang.Object,boolean)
+    803:804:public void addFooterView(android.view.View)
+    807:808:public void removeFooterView(android.view.View)
+    863:866:public void smoothScrollBy(int,int)
+    870:873:public void smoothScrollByOffset(int)
+    878:887:public void smoothScrollToPosition(int)
+    891:894:public void smoothScrollToPosition(int,int)
+    898:903:public void smoothScrollToPositionFromTop(int,int)
+    908:913:public void smoothScrollToPositionFromTop(int,int,int)
+    920:921:public void setSelectionAfterHeaderView()
+    952:953:public void setItemChecked(int,boolean)
+    986:986:public java.lang.Object getItemAtPosition(int)
+    990:990:public long getItemIdAtPosition(int)
+    1004:1005:public void invalidateViews()
+    1033:1034:protected void recomputePadding()
+    1073:1076:public boolean isFastScrollAlwaysVisible()
+    1088:1088:public int getPositionForView(android.view.View)
+    1132:1132:public boolean isStackFromBottom()
+com.sina.sso.RemoteSSO$Stub:
+    static final int TRANSACTION_getPackageName
+    static final int TRANSACTION_getActivityName
+    34:34:public android.os.IBinder asBinder()
+com.sina.sso.RemoteSSO$Stub$Proxy:
+    77:77:public java.lang.String getInterfaceDescriptor()
+com.tencent.connect.UserInfo
+com.tencent.connect.auth.AuthAgent:
+    310:329:protected void a(com.tencent.tauth.IUiListener)
+    337:343:protected void b(com.tencent.tauth.IUiListener)
+com.tencent.connect.auth.AuthAgent$CheckLoginListener
+com.tencent.connect.auth.AuthConstants
+com.tencent.connect.auth.QQAuth:
+    151:153:public int login(android.support.v4.app.Fragment,java.lang.String,com.tencent.tauth.IUiListener,java.lang.String)
+    255:256:public void reportDAU()
+    264:265:public void checkLogin(com.tencent.tauth.IUiListener)
+    275:284:public void logout(android.content.Context)
+    358:361:public boolean onActivityResult(int,int,android.content.Intent)
+com.tencent.connect.auth.QQToken:
+    27:28:public void setAppId(java.lang.String)
+    53:53:public int getAuthSource()
+    57:58:public void setAuthSource(int)
+    61:61:public long getExpireTimeInSecond()
+com.tencent.connect.common.AssistActivity:
+    31:32:public static android.content.Intent getAssistActivityIntent(android.content.Context)
+com.tencent.connect.common.BaseApi:
+    protected android.app.ProgressDialog mProgressDialog
+    226:233:protected java.lang.String getCommonDownloadQQUrl(java.lang.String)
+    355:364:protected void handleDownloadLastestQQ(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    368:376:protected void showProgressDialog(android.content.Context,java.lang.String,java.lang.String)
+    379:379:protected android.content.Intent getAgentIntent()
+    384:401:protected android.content.Intent getAgentIntentWithTarget(java.lang.String)
+com.tencent.connect.common.BaseApi$TempRequestListener
+com.tencent.connect.common.BaseApi$TempRequestListener$1
+com.tencent.connect.common.Constants
+com.tencent.mm.sdk.constants.Build
+com.tencent.mm.sdk.constants.ConstantsAPI
+com.tencent.mm.sdk.constants.ConstantsAPI$Token
+com.tencent.mm.sdk.constants.ConstantsAPI$WXApp
+com.tencent.mm.sdk.modelbase.BaseResp:
+    public abstract int getType()
+    public void toBundle(android.os.Bundle)
+    public abstract boolean checkArgs()
+com.tencent.mm.sdk.modelbase.BaseResp$ErrCode
+com.tencent.mm.sdk.modelbiz.AddCardToWXCardPackage:
+    public AddCardToWXCardPackage()
+com.tencent.mm.sdk.modelbiz.AddCardToWXCardPackage$Req
+com.tencent.mm.sdk.modelbiz.AddCardToWXCardPackage$Resp:
+    public int getType()
+    public boolean checkArgs()
+    public void toBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelbiz.JumpToBizProfile
+com.tencent.mm.sdk.modelbiz.JumpToBizProfile$Req
+com.tencent.mm.sdk.modelbiz.JumpToBizWebview
+com.tencent.mm.sdk.modelbiz.JumpToBizWebview$Req
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX:
+    private GetMessageFromWX()
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Req:
+    public java.lang.String username
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Resp
+com.tencent.mm.sdk.modelmsg.LaunchFromWX:
+    private LaunchFromWX()
+com.tencent.mm.sdk.modelmsg.LaunchFromWX$Resp
+com.tencent.mm.sdk.modelmsg.SendAuth:
+    private SendAuth()
+com.tencent.mm.sdk.modelmsg.SendAuth$Req:
+    public SendAuth$Req(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.SendAuth$Resp:
+    public int getType()
+    public void toBundle(android.os.Bundle)
+    public boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.SendMessageToWX:
+    private SendMessageToWX()
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Req:
+    public SendMessageToWX$Req(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Resp:
+    public int getType()
+    public void toBundle(android.os.Bundle)
+    public boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.ShowMessageFromWX:
+    private ShowMessageFromWX()
+com.tencent.mm.sdk.modelmsg.ShowMessageFromWX$Resp
+com.tencent.mm.sdk.modelmsg.WXAppExtendObject
+com.tencent.mm.sdk.modelmsg.WXAppLaunchData
+com.tencent.mm.sdk.modelmsg.WXAppLaunchData$Builder
+com.tencent.mm.sdk.modelmsg.WXEmojiObject:
+    public WXEmojiObject(byte[])
+    public WXEmojiObject(java.lang.String)
+    public void setEmojiData(byte[])
+    public void setEmojiPath(java.lang.String)
+com.tencent.mm.sdk.modelmsg.WXEmojiSharedObject
+com.tencent.mm.sdk.modelmsg.WXFileObject:
+    public WXFileObject(byte[])
+    public WXFileObject(java.lang.String)
+    public void setFileData(byte[])
+    public void setFilePath(java.lang.String)
+com.tencent.mm.sdk.modelmsg.WXImageObject:
+    public WXImageObject(byte[])
+    public WXImageObject(android.graphics.Bitmap)
+    public void setImagePath(java.lang.String)
+com.tencent.mm.sdk.modelmsg.WXMediaMessage:
+    public final void setThumbImage(android.graphics.Bitmap)
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$Builder:
+    public WXMediaMessage$Builder()
+com.tencent.mm.sdk.modelmsg.WXWebpageObject:
+    public WXWebpageObject(java.lang.String)
+com.tencent.mm.sdk.modelmsg.package-info
+com.tencent.mm.sdk.modelpay.PayReq
+com.tencent.mm.sdk.modelpay.PayReq$Options
+com.tencent.mm.sdk.modelpay.PayResp:
+    public void toBundle(android.os.Bundle)
+    public int getType()
+    public boolean checkArgs()
+com.tencent.mm.sdk.openapi.IWXAPI:
+    public abstract void unregisterApp()
+    public abstract int getWXAppSupportAPI()
+    public abstract boolean openWXApp()
+    public abstract boolean sendResp(com.tencent.mm.sdk.modelbase.BaseResp)
+    public abstract void detach()
+com.tencent.mm.sdk.openapi.WXAPIFactory:
+    private WXAPIFactory()
+com.tencent.mm.sdk.openapi.WXApiImplComm:
+    private WXApiImplComm()
+com.tencent.mm.sdk.openapi.WXApiImplV10:
+    public final void unregisterApp()
+    public final boolean openWXApp()
+    public final boolean sendResp(com.tencent.mm.sdk.modelbase.BaseResp)
+    public final void detach()
+com.tencent.mm.sdk.openapi.WXApiImplV10$ActivityLifecycleCb:
+    public final void detach()
+com.tencent.open.PKDialog
+com.tencent.open.PKDialog$1
+com.tencent.open.PKDialog$FbWebViewClient
+com.tencent.open.PKDialog$JsListener
+com.tencent.open.PKDialog$OnTimeListener
+com.tencent.open.PKDialog$THandler
+com.tencent.open.SocialApi
+com.tencent.open.SocialApiIml
+com.tencent.open.SocialApiIml$a
+com.tencent.open.SocialConstants
+com.tencent.open.TDialog
+com.tencent.open.TDialog$1
+com.tencent.open.TDialog$FbWebViewClient
+com.tencent.open.TDialog$JsListener
+com.tencent.open.TDialog$OnTimeListener
+com.tencent.open.TDialog$THandler
+com.tencent.open.b
+com.tencent.open.b$1
+com.tencent.open.c.a
+com.tencent.open.c.a$a
+com.tencent.open.utils.ApkExternalInfoTool:
+    14:16:public ApkExternalInfoTool()
+com.tencent.open.utils.DataConvert
+com.tencent.open.utils.Global:
+    46:46:public Global()
+    77:80:public static final android.content.SharedPreferences getSharedPreferences(java.lang.String,int)
+    111:112:public static int getVersionCode()
+com.tencent.open.utils.HttpUtils:
+    868:988:public static org.json.JSONObject upload(com.tencent.connect.auth.QQToken,android.content.Context,java.lang.String,android.os.Bundle)
+com.tencent.open.utils.OpenConfig:
+    259:261:public long getLong(java.lang.String)
+com.tencent.open.utils.ServerSetting:
+    96:97:public void changeServer()
+    141:184:public void setEnvironment(android.content.Context,int)
+com.tencent.open.utils.SystemUtils:
+    29:29:public SystemUtils()
+    126:142:public static boolean isAppSignatureValid(android.content.Context,java.lang.String,java.lang.String)
+    203:210:public static java.lang.String getRealPathFromUri(android.app.Activity,android.net.Uri)
+    235:262:public static boolean checkMobileQQ(android.content.Context)
+    267:272:public static int getAndroidSDKVersion()
+    276:291:public static boolean isSupportMultiTouch()
+    370:391:public static boolean isLibExtracted(java.lang.String,int)
+com.tencent.open.utils.TemporaryStorage:
+    13:13:public TemporaryStorage()
+com.tencent.open.utils.ThreadManager:
+    79:79:public static void init()
+    101:108:public static android.os.Handler getFileThreadHandler()
+    112:112:public static android.os.Looper getFileThreadLooper()
+    116:119:public static java.lang.Thread getSubThread()
+    142:142:public static android.os.Looper getSubThreadLooper()
+com.tencent.open.utils.Util:
+    97:118:public static java.lang.String encodePostBody(android.os.Bundle,java.lang.String)
+    281:379:public static com.tencent.open.utils.Util$Statistic upload(android.content.Context,java.lang.String,android.os.Bundle)
+    392:410:private static java.lang.String a(org.apache.http.HttpResponse)
+    489:493:public static void showAlert(android.content.Context,java.lang.String,java.lang.String)
+    725:744:public static void reportBernoulli(android.content.Context,java.lang.String,long,java.lang.String)
+    798:806:public static java.lang.String toHexString(java.lang.String)
+    812:837:public static java.lang.String hexToString(java.lang.String)
+    847:853:public static java.lang.String getAppVersion(android.content.Context)
+    957:957:public static int parseIntValue(java.lang.String)
+    962:965:public static int parseIntValue(java.lang.String,int)
+    988:988:public static android.os.Bundle composeViaReportParams(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    1147:1152:public static boolean isNumeric(java.lang.String)
+    60:60:static synthetic java.lang.String a()
+com.tencent.open.utils.Util$1
+com.tencent.open.utils.Util$TBufferedOutputStream
+com.tencent.open.utils.ZipLong:
+    15:16:public ZipLong(byte[])
+    24:29:public ZipLong(byte[],int)
+com.tencent.open.web.security.JniInterface:
+    3:3:public JniInterface()
+    public static native java.lang.String getPWDKeyToMD5(java.lang.String)
+    public static native boolean insetTextToArray(int,java.lang.String,int)
+    public static native boolean BackSpaceChar(boolean,int)
+com.tencent.open.web.security.SecureJsInterface:
+    private java.lang.String b
+    25:59:public void curPosFromJS(java.lang.String)
+    69:84:public void isPasswordEdit(java.lang.String)
+    92:100:public void clearAllEdit()
+    108:118:public java.lang.String getMD5FromNative()
+com.tencent.stat.MtaSDkException
+com.tencent.stat.NetworkMonitor:
+    public long getMillisecondsConsume()
+    public int getStatusCode()
+    public java.lang.String getDomain()
+    public int getPort()
+    public java.lang.String getRemoteIp()
+com.tencent.stat.StatAppMonitor
+com.tencent.stat.StatConfig:
+    static boolean a(int,int,int)
+    public static boolean isDebugEnable()
+    public static void setDebugEnable(boolean)
+    public static void setSessionTimoutMillis(int)
+    public static void setMaxBatchReportCount(int)
+    public static void setMaxSendRetryCount(int)
+    public static void setMaxStoreEventCount(int)
+    public static java.lang.String getCustomProperty(java.lang.String)
+    public static java.lang.String getCustomProperty(java.lang.String,java.lang.String)
+    static void a(android.content.Context,java.lang.String)
+    static java.lang.String a(android.content.Context)
+    private static boolean a(java.lang.String)
+    public static void setAppKey(android.content.Context,java.lang.String)
+    public static void setAppKey(java.lang.String)
+    public static void setInstallChannel(java.lang.String)
+    public static java.lang.String getQQ()
+    public static void setQQ(android.content.Context,java.lang.String)
+    public static void setSendPeriodMinutes(int)
+    public static void setMaxParallelTimmingEvents(int)
+    public static void setEnableSmartReporting(boolean)
+    public static void setAutoExceptionCaught(boolean)
+    public static void setStatReportUrl(java.lang.String)
+    public static void setMaxSessionStatReportCount(int)
+    public static void setMaxDaySessionNumbers(int)
+    public static void setMaxReportEventLength(int)
+    public static void setEnableConcurrentProcess(boolean)
+    public static void setCustomUserId(android.content.Context,java.lang.String)
+    static void a(boolean)
+    public static void initNativeCrashReport(android.content.Context,java.lang.String)
+com.tencent.stat.StatGameUser
+com.tencent.stat.StatMid:
+    public StatMid()
+com.tencent.stat.StatNativeCrashReport:
+    public native java.lang.String stringFromJNI()
+    public native boolean initJNICrash(java.lang.String)
+    public native void enableNativeCrashDebug(boolean)
+    public native void enableNativeCrash(boolean)
+    public native java.lang.String makeJniCrash()
+    public static java.lang.String onNativeCrashHappened()
+    public static void doNativeCrashTest()
+    public static void setNativeCrashEnable(boolean)
+    public static boolean isNativeCrashEnable()
+    public static void setNativeCrashDebugEnable(boolean)
+    public static boolean isNativeCrashDebugEnable()
+    public static void initNativeCrash(android.content.Context,java.lang.String)
+com.tencent.stat.StatService:
+    static boolean a(java.lang.String)
+    public static void startNewSession(android.content.Context)
+    public static void stopSession()
+    public static void setEnvAttributes(android.content.Context,java.util.Map)
+    public static void reportQQ(android.content.Context,java.lang.String)
+    public static void reportGameUser(android.content.Context,com.tencent.stat.StatGameUser)
+    public static boolean startStatService(android.content.Context,java.lang.String,java.lang.String)
+    public static void reportError(android.content.Context,java.lang.String)
+    static void a(android.content.Context,java.util.Map)
+    public static void reportException(android.content.Context,java.lang.Throwable)
+    public static varargs void trackCustomEvent(android.content.Context,java.lang.String,java.lang.String[])
+    public static void trackCustomKVEvent(android.content.Context,java.lang.String,java.util.Properties)
+    public static varargs void trackCustomBeginEvent(android.content.Context,java.lang.String,java.lang.String[])
+    public static varargs void trackCustomEndEvent(android.content.Context,java.lang.String,java.lang.String[])
+    public static void trackCustomBeginKVEvent(android.content.Context,java.lang.String,java.util.Properties)
+    public static void trackCustomEndKVEvent(android.content.Context,java.lang.String,java.util.Properties)
+    public static void reportAppMonitorStat(android.content.Context,com.tencent.stat.StatAppMonitor)
+    public static void commitEvents(android.content.Context,int)
+    public static void testSpeed(android.content.Context,java.util.Map)
+com.tencent.stat.a.a
+com.tencent.stat.a.b
+com.tencent.stat.a.c
+com.tencent.stat.a.g
+com.tencent.stat.a.h
+com.tencent.stat.common.StatLogger:
+    public int getLogLevel()
+    public void setLogLevel(int)
+    public void setTag(java.lang.String)
+    public void verbose(java.lang.Object)
+    public void v(java.lang.Object)
+com.tencent.stat.common.a:
+    public static void a(android.content.Context,java.util.Map)
+com.tencent.stat.e:
+    public long getKeepAliveDuration(org.apache.http.HttpResponse,org.apache.http.protocol.HttpContext)
+com.tencent.tauth.Tencent:
+    144:144:public int login(android.support.v4.app.Fragment,java.lang.String,com.tencent.tauth.IUiListener)
+    160:160:public int loginWithOEM(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener,java.lang.String,java.lang.String,java.lang.String)
+    178:179:public void reportDAU()
+    187:188:public void checkLogin(com.tencent.tauth.IUiListener)
+    191:193:public int invite(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    197:199:public int story(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    203:205:public int gift(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    209:211:public int ask(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    216:218:public void requestAsync(java.lang.String,android.os.Bundle,java.lang.String,com.tencent.tauth.IRequestListener,java.lang.Object)
+    223:223:public org.json.JSONObject request(java.lang.String,android.os.Bundle,java.lang.String)
+    238:243:public void releaseResource()
+    246:246:public boolean onActivityResult(int,int,android.content.Intent)
+    258:258:public java.lang.String getAccessToken()
+    262:262:public long getExpiresIn()
+    276:276:public java.lang.String getOpenId()
+    291:292:public void handleLoginData(android.content.Intent,com.tencent.tauth.IUiListener)
+    304:305:public static void handleResultData(android.content.Intent,com.tencent.tauth.IUiListener)
+    350:351:public boolean isReady()
+    355:355:public com.tencent.connect.auth.QQToken getQQToken()
+    363:370:public boolean isSupportSSOLogin(android.app.Activity)
+com.tencent.wxop.stat.al:
+    public final long getKeepAliveDuration(org.apache.http.HttpResponse,org.apache.http.protocol.HttpContext)
+com.umeng.a
+com.umeng.socialize.bean.CallbackConfig:
+    71:71:public synchronized boolean registerWeakRefListener(com.umeng.socialize.bean.CallbackConfig$ICallbackListener,int)
+    81:81:public synchronized boolean registerWeakRefListener(com.umeng.socialize.bean.CallbackConfig$ICallbackListener)
+    90:90:public synchronized boolean registerListener(com.umeng.socialize.bean.CallbackConfig$ICallbackListener,int)
+    262:267:public varargs void unregisterLisreners(com.umeng.socialize.bean.CallbackConfig$ICallbackListener[])
+com.umeng.socialize.bean.CustomPlatform:
+    22:25:public CustomPlatform(java.lang.String,int)
+com.umeng.socialize.bean.Gender:
+    33:39:public static com.umeng.socialize.bean.Gender convertToEmun(java.lang.String)
+com.umeng.socialize.bean.HandlerRequestCode
+com.umeng.socialize.bean.MultiStatus:
+    61:61:public java.lang.String getRespMsg()
+    70:71:public void setRespMsg(java.lang.String)
+    82:82:public java.util.Map getPlatformCode()
+    101:110:public int getChildCode(java.lang.String)
+    115:125:public java.util.Map getAllChildren()
+com.umeng.socialize.bean.SHARE_MEDIA:
+    427:430:public static com.umeng.socialize.bean.SHARE_MEDIA[] getDefaultPlatform()
+    439:442:public static com.umeng.socialize.bean.SHARE_MEDIA[] getShareMultiPlatforms()
+com.umeng.socialize.bean.SNSPair:
+    31:38:public java.lang.String toFormat()
+com.umeng.socialize.bean.SnsAccount:
+    25:30:public SnsAccount(java.lang.String,com.umeng.socialize.bean.Gender,java.lang.String,java.lang.String)
+    33:33:public java.lang.String getProfileUrl()
+    37:38:public void setProfileUrl(java.lang.String)
+    41:41:public java.lang.String getPlatform()
+    45:46:public void setPlatform(java.lang.String)
+    49:49:public java.lang.String getUserName()
+    53:54:public void setUserName(java.lang.String)
+    57:57:public com.umeng.socialize.bean.Gender getGender()
+    61:62:public void setGender(com.umeng.socialize.bean.Gender)
+    65:65:public java.lang.String getAccountIconUrl()
+    69:70:public void setAccountIconUrl(java.lang.String)
+    73:73:public java.lang.String getUsid()
+    77:78:public void setUsid(java.lang.String)
+    81:81:public java.lang.String getExtendArgs()
+    85:86:public void setExtendArgs(java.lang.String)
+    89:89:public java.lang.String getBirthday()
+    93:94:public void setBirthday(java.lang.String)
+com.umeng.socialize.bean.SnsPlatform:
+    88:88:public java.lang.String getEntityDescriptor()
+com.umeng.socialize.bean.SocializeConfig:
+    198:199:public void setWechatUserInfoLanguage(com.umeng.socialize.bean.Language)
+    202:202:public com.umeng.socialize.bean.Language getWechatUserInfoLanguage()
+    211:211:public boolean isDefaultShareComment()
+    220:220:public java.lang.String getMailSubject()
+    230:231:public void setMailSubject(java.lang.String)
+    242:258:public void addFollow(com.umeng.socialize.bean.SHARE_MEDIA,java.lang.String)
+    270:277:public void addFollow(com.umeng.socialize.bean.SHARE_MEDIA,java.lang.String[])
+    296:297:public void setOauthDialogFollowListener(com.umeng.socialize.controller.listener.SocializeListeners$MulStatusListener)
+    320:320:public boolean isShareSms()
+    330:338:public void setShareSms(boolean)
+    346:346:public boolean isShareMail()
+    356:364:public void setShareMail(boolean)
+    373:374:public void setDefaultShareLocation(boolean)
+    383:384:public void setDefaultShareComment(boolean)
+    395:395:public boolean containsDeletePlatform(com.umeng.socialize.bean.SHARE_MEDIA)
+    410:426:public void supportAppPlatform(android.content.Context,com.umeng.socialize.bean.SHARE_MEDIA,java.lang.String,boolean)
+    434:434:public boolean isSyncUserInfo()
+    587:595:public varargs void setPlatforms(com.umeng.socialize.bean.SHARE_MEDIA[])
+    624:633:public varargs void setPlatformOrder(com.umeng.socialize.bean.SHARE_MEDIA[])
+    642:643:public varargs void setPlatformOrder(java.lang.String[])
+    651:657:public java.util.List getCustomPlatforms()
+    706:709:public void removeSsoHandler(com.umeng.socialize.bean.SHARE_MEDIA)
+    745:745:public android.util.SparseArray getSsoHandlersMap()
+    773:774:public void closeToast()
+    780:781:public void openToast()
+    802:803:public void enableSIMCheck(boolean)
+    812:812:public boolean isCheckSIM()
+    884:892:public static boolean isSupportQQZoneSSO(android.content.Context)
+    923:924:public void setCacheValidStatus(boolean)
+com.umeng.socialize.bean.SocializeEntity:
+    124:129:public com.umeng.socialize.media.BaseMediaObject getMedia(java.lang.Class)
+    166:166:public boolean isNew()
+    174:175:public void setNickName(java.lang.String)
+    240:240:public int getPv()
+    248:248:public int getCommentCount()
+    256:256:public int getLikeCount()
+    264:264:public int getShareCount()
+    272:272:public com.umeng.socialize.bean.LIKESTATUS getLikeStatus()
+    299:307:public synchronized void changeILike()
+    314:315:public synchronized void incrementCc()
+    318:319:public void setConfig(com.umeng.socialize.bean.SocializeConfig)
+    330:330:public static java.lang.String buildPoolKey(java.lang.String,com.umeng.socialize.bean.RequestType)
+    438:441:public void addShakeStatisticsData(android.content.Context)
+    523:524:public static void setAppWebSite(com.umeng.socialize.bean.SHARE_MEDIA,java.lang.String)
+    556:558:public void setAdapterSDKInfo(java.lang.String,java.lang.String)
+com.umeng.socialize.bean.SocializeUser
+com.umeng.socialize.bean.StatusCode:
+    20:20:public StatusCode()
+com.umeng.socialize.bean.UMComment:
+    58:110:public static com.umeng.socialize.bean.UMComment parseJson(org.json.JSONObject)
+com.umeng.socialize.bean.UMFriend
+com.umeng.socialize.bean.UMFriend$PinYin
+com.umeng.socialize.bean.UMLocation:
+    27:27:public double getLatitude()
+    31:32:public void setLatitude(double)
+    35:35:public double getLongitude()
+    39:40:public void setLongitude(double)
+    83:87:public static com.umeng.socialize.bean.UMLocation build(java.lang.String)
+com.umeng.socialize.bean.UMToken:
+    106:106:public java.lang.String getUmengSecret()
+    131:134:public static com.umeng.socialize.bean.UMToken buildToken(com.umeng.socialize.bean.SNSPair,java.lang.String)
+com.umeng.socialize.common.ImageFormat:
+    17:17:public ImageFormat()
+com.umeng.socialize.common.ResContainer:
+    private java.util.Map mResources
+    private android.content.Context mContext
+    101:104:public ResContainer(android.content.Context,java.util.Map)
+    114:115:public static void setPackageName(java.lang.String)
+    154:165:public synchronized java.util.Map batch()
+    188:188:public static int[] getStyleableArrts(android.content.Context,java.lang.String)
+    194:209:private static final int[] getResourceDeclareStyleableIntArray(android.content.Context,java.lang.String)
+com.umeng.socialize.common.ResContainer$SocializeResource
+com.umeng.socialize.common.SocialResHelper
+com.umeng.socialize.common.SocialResHelper$1
+com.umeng.socialize.common.SocialResHelper$BindDrawableListener
+com.umeng.socialize.common.SocialResHelper$Builder
+com.umeng.socialize.common.SocialResHelper$Builder$1
+com.umeng.socialize.common.SocialResHelper$FetchLocale
+com.umeng.socialize.common.SocialResHelper$LoadMode
+com.umeng.socialize.common.SocialSNSHelper:
+    23:85:public SocialSNSHelper()
+com.umeng.socialize.common.SocializeConstants:
+    10:10:public SocializeConstants()
+com.umeng.socialize.controller.AuthService:
+    public abstract void checkTokenExpired(android.content.Context,com.umeng.socialize.bean.SHARE_MEDIA[],com.umeng.socialize.controller.listener.SocializeListeners$UMDataListener)
+    public abstract void uploadToken(android.content.Context,com.umeng.socialize.bean.UMToken,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    public abstract void getPlatformKeys(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$UMDataListener)
+    public abstract void deleteOauth(android.content.Context,com.umeng.socialize.bean.SHARE_MEDIA,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+com.umeng.socialize.controller.CommentService:
+    public varargs abstract void postComment(android.content.Context,com.umeng.socialize.bean.UMComment,com.umeng.socialize.controller.listener.SocializeListeners$MulStatusListener,com.umeng.socialize.bean.SHARE_MEDIA[])
+    public abstract void getComments(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$FetchCommetsListener,long)
+    public abstract void openComment(android.content.Context,boolean)
+com.umeng.socialize.controller.LikeService:
+    public abstract void likeChange(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    public abstract void postLike(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    public abstract void postUnLike(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+com.umeng.socialize.controller.ShareService:
+    public abstract void shareTo(android.app.Activity,com.umeng.socialize.bean.SHARE_MEDIA,java.lang.String,byte[])
+    public abstract void shareTo(android.app.Activity,java.lang.String,byte[])
+    public abstract void openShare(android.app.Activity,com.umeng.socialize.controller.listener.SocializeListeners$SnsPostListener)
+    public abstract void shareSms(android.content.Context)
+    public abstract void shareEmail(android.content.Context)
+    public abstract void postShare(android.content.Context,java.lang.String,com.umeng.socialize.bean.SHARE_MEDIA,com.umeng.socialize.controller.listener.SocializeListeners$SnsPostListener)
+    public varargs abstract void postShareMulti(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$MulStatusListener,com.umeng.socialize.bean.SHARE_MEDIA[])
+    public abstract void postShareByID(android.content.Context,java.lang.String,java.lang.String,com.umeng.socialize.bean.SHARE_MEDIA,com.umeng.socialize.controller.listener.SocializeListeners$SnsPostListener)
+    public abstract void dismissShareBoard()
+    public abstract boolean isOpenShareBoard()
+    public abstract void setShareBoardListener(com.umeng.socialize.controller.listener.SocializeListeners$UMShareBoardListener)
+com.umeng.socialize.controller.UMSocialService:
+    public abstract void getUserInfo(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$FetchUserListener)
+    public abstract void getPlatformInfo(android.content.Context,com.umeng.socialize.bean.SHARE_MEDIA,com.umeng.socialize.controller.listener.SocializeListeners$UMDataListener)
+    public abstract void getFriends(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$FetchFriendsListener,com.umeng.socialize.bean.SHARE_MEDIA)
+    public abstract void setShareType(com.umeng.socialize.bean.ShareType)
+    public abstract void setShareImage(com.umeng.socialize.media.UMImage)
+    public abstract void setConfig(com.umeng.socialize.bean.SocializeConfig)
+    public abstract void setCustomId(java.lang.String)
+    public abstract boolean hasShareImage()
+    public abstract boolean hasShareContent()
+    public abstract void setGlobalConfig(com.umeng.socialize.bean.SocializeConfig)
+    public abstract void setEntityName(java.lang.String)
+    public abstract boolean registerListener(com.umeng.socialize.bean.CallbackConfig$ICallbackListener,int)
+    public abstract boolean registerListener(com.umeng.socialize.bean.CallbackConfig$ICallbackListener)
+    public abstract void setAppWebSite(com.umeng.socialize.bean.SHARE_MEDIA,java.lang.String)
+    public abstract void setAppWebSite(java.lang.String)
+com.umeng.socialize.controller.UserCenterService:
+    public varargs abstract void openUserCenter(android.content.Context,int[])
+    public abstract void login(android.content.Context,com.umeng.socialize.bean.SnsAccount,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    public abstract void login(android.content.Context,com.umeng.socialize.bean.SHARE_MEDIA,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    public abstract void loginout(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+com.umeng.socialize.controller.a
+com.umeng.socialize.controller.a$1
+com.umeng.socialize.controller.a$2
+com.umeng.socialize.controller.b:
+    19:28:public b()
+com.umeng.socialize.controller.b$a$2$1:
+    59:60:public varargs void postComment(android.content.Context,com.umeng.socialize.bean.UMComment,com.umeng.socialize.controller.listener.SocializeListeners$MulStatusListener,com.umeng.socialize.bean.SHARE_MEDIA[])
+    64:65:public void openComment(android.content.Context,boolean)
+    70:71:public void getComments(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$FetchCommetsListener,long)
+com.umeng.socialize.controller.b$a$4$1:
+    104:105:public void postUnLike(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    110:111:public void postLike(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    116:117:public void likeChange(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+com.umeng.socialize.controller.b$a$5$1:
+    143:144:public varargs void openUserCenter(android.content.Context,int[])
+    149:150:public void loginout(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    155:156:public void login(android.content.Context,com.umeng.socialize.bean.SHARE_MEDIA,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    161:162:public void login(android.content.Context,com.umeng.socialize.bean.SnsAccount,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+com.umeng.socialize.controller.impl.BaseController:
+    214:232:public com.umeng.socialize.net.l getFriends(android.content.Context,com.umeng.socialize.bean.SHARE_MEDIA,java.lang.String)
+    244:255:public com.umeng.socialize.net.i getUserInfo(android.content.Context)
+    281:284:public com.umeng.socialize.net.y getPlatformInfo(android.content.Context,com.umeng.socialize.bean.SNSPair)
+    350:355:public int uploadKeySecret(android.content.Context)
+com.umeng.socialize.controller.impl.InitializeController:
+    47:48:protected void likeChange(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    58:59:protected void postLike(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    69:70:protected void postUnLike(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    74:80:protected void a(android.content.Context,com.umeng.socialize.bean.SHARE_MEDIA,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    88:95:protected void a(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    116:117:public varargs void postComment(android.content.Context,com.umeng.socialize.bean.UMComment,com.umeng.socialize.controller.listener.SocializeListeners$MulStatusListener,com.umeng.socialize.bean.SHARE_MEDIA[])
+    126:127:protected void openComment(android.content.Context,boolean)
+    131:137:protected void a(android.content.Context,com.umeng.socialize.bean.SnsAccount,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    153:160:protected void deleteOauth(android.content.Context,com.umeng.socialize.bean.SHARE_MEDIA,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    165:169:public com.umeng.socialize.net.i getUserInfo(android.content.Context)
+    188:189:protected void a(android.content.Context,long,com.umeng.socialize.controller.listener.SocializeListeners$FetchCommetsListener)
+    194:197:public com.umeng.socialize.net.l getFriends(android.content.Context,com.umeng.socialize.bean.SHARE_MEDIA,java.lang.String)
+    202:206:public com.umeng.socialize.net.y getPlatformInfo(android.content.Context,com.umeng.socialize.bean.SNSPair)
+    215:221:public void getPlatformKeys(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$UMDataListener)
+    225:232:public void uploadPlatformToken(android.content.Context,com.umeng.socialize.bean.UMToken,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    277:280:public void checkTokenExpired(android.content.Context,com.umeng.socialize.bean.SHARE_MEDIA[],com.umeng.socialize.controller.listener.SocializeListeners$UMDataListener)
+    287:290:public int uploadKeySecret(android.content.Context)
+com.umeng.socialize.controller.impl.a:
+    148:194:public void deleteOauth(android.content.Context,com.umeng.socialize.bean.SHARE_MEDIA,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    944:973:public void checkTokenExpired(android.content.Context,com.umeng.socialize.bean.SHARE_MEDIA[],com.umeng.socialize.controller.listener.SocializeListeners$UMDataListener)
+    983:1003:private com.umeng.socialize.bean.SHARE_MEDIA[] a(com.umeng.socialize.bean.SHARE_MEDIA[])
+com.umeng.socialize.controller.impl.a$2
+com.umeng.socialize.controller.impl.a$9
+com.umeng.socialize.controller.impl.b:
+    139:142:public void shareTo(android.app.Activity,com.umeng.socialize.bean.SHARE_MEDIA,java.lang.String,byte[])
+    155:158:public void shareTo(android.app.Activity,java.lang.String,byte[])
+    167:175:private void a(android.app.Activity,java.lang.String,byte[])
+    441:444:public void shareSms(android.content.Context)
+    448:451:public void shareEmail(android.content.Context)
+    886:965:public varargs void postShareMulti(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$MulStatusListener,com.umeng.socialize.bean.SHARE_MEDIA[])
+    971:1006:public void postShareByID(android.content.Context,java.lang.String,java.lang.String,com.umeng.socialize.bean.SHARE_MEDIA,com.umeng.socialize.controller.listener.SocializeListeners$SnsPostListener)
+    1054:1055:public void setShareBoardListener(com.umeng.socialize.controller.listener.SocializeListeners$UMShareBoardListener)
+    1063:1067:public void dismissShareBoard()
+    1071:1072:public boolean isOpenShareBoard()
+com.umeng.socialize.controller.impl.b$2:
+    391:400:public void loginSuccessed(com.umeng.socialize.bean.SHARE_MEDIA,boolean)
+    404:408:public void loginFailed(int)
+com.umeng.socialize.controller.impl.b$6
+com.umeng.socialize.controller.impl.b$7
+com.umeng.socialize.controller.impl.c:
+    124:125:public void likeChange(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    137:138:public void postLike(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    151:152:public void uploadToken(android.content.Context,com.umeng.socialize.bean.UMToken,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    163:164:public void postUnLike(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    174:175:public void getComments(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$FetchCommetsListener,long)
+    184:185:public void getPlatformKeys(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$UMDataListener)
+    197:198:public void login(android.content.Context,com.umeng.socialize.bean.SHARE_MEDIA,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    210:211:public void login(android.content.Context,com.umeng.socialize.bean.SnsAccount,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    222:223:public void loginout(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    231:232:public varargs void postComment(android.content.Context,com.umeng.socialize.bean.UMComment,com.umeng.socialize.controller.listener.SocializeListeners$MulStatusListener,com.umeng.socialize.bean.SHARE_MEDIA[])
+    242:346:public void getUserInfo(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$FetchUserListener)
+    354:355:public void shareSms(android.content.Context)
+    363:364:public void shareEmail(android.content.Context)
+    406:407:public void postShare(android.content.Context,java.lang.String,com.umeng.socialize.bean.SHARE_MEDIA,com.umeng.socialize.controller.listener.SocializeListeners$SnsPostListener)
+    434:435:public varargs void postShareMulti(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$MulStatusListener,com.umeng.socialize.bean.SHARE_MEDIA[])
+    450:451:public void postShareByID(android.content.Context,java.lang.String,java.lang.String,com.umeng.socialize.bean.SHARE_MEDIA,com.umeng.socialize.controller.listener.SocializeListeners$SnsPostListener)
+    462:508:public void getFriends(android.content.Context,com.umeng.socialize.controller.listener.SocializeListeners$FetchFriendsListener,com.umeng.socialize.bean.SHARE_MEDIA)
+    519:520:public void deleteOauth(android.content.Context,com.umeng.socialize.bean.SHARE_MEDIA,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    532:533:public void setShareType(com.umeng.socialize.bean.ShareType)
+    552:553:public void setShareImage(com.umeng.socialize.media.UMImage)
+    581:585:public void setConfig(com.umeng.socialize.bean.SocializeConfig)
+    589:590:public void setCustomId(java.lang.String)
+    599:603:public void setGlobalConfig(com.umeng.socialize.bean.SocializeConfig)
+    619:622:public boolean hasShareImage()
+    627:630:public boolean hasShareContent()
+    648:649:public void openShare(android.app.Activity,com.umeng.socialize.controller.listener.SocializeListeners$SnsPostListener)
+    658:659:public void openComment(android.content.Context,boolean)
+    668:669:public varargs void openUserCenter(android.content.Context,int[])
+    755:756:public void setEntityName(java.lang.String)
+    767:819:public void getPlatformInfo(android.content.Context,com.umeng.socialize.bean.SHARE_MEDIA,com.umeng.socialize.controller.listener.SocializeListeners$UMDataListener)
+    824:824:public boolean registerListener(com.umeng.socialize.bean.CallbackConfig$ICallbackListener,int)
+    830:830:public boolean registerListener(com.umeng.socialize.bean.CallbackConfig$ICallbackListener)
+    852:853:public void shareTo(android.app.Activity,com.umeng.socialize.bean.SHARE_MEDIA,java.lang.String,byte[])
+    866:867:public void shareTo(android.app.Activity,java.lang.String,byte[])
+    871:872:public void setAppWebSite(com.umeng.socialize.bean.SHARE_MEDIA,java.lang.String)
+    876:877:public void setAppWebSite(java.lang.String)
+    883:884:public void checkTokenExpired(android.content.Context,com.umeng.socialize.bean.SHARE_MEDIA[],com.umeng.socialize.controller.listener.SocializeListeners$UMDataListener)
+    894:895:public void setShareBoardListener(com.umeng.socialize.controller.listener.SocializeListeners$UMShareBoardListener)
+    903:904:public void dismissShareBoard()
+    908:908:public boolean isOpenShareBoard()
+    54:54:static synthetic java.lang.String a()
+com.umeng.socialize.controller.impl.c$2
+com.umeng.socialize.controller.impl.c$3
+com.umeng.socialize.controller.impl.c$5
+com.umeng.socialize.controller.listener.SocializeListeners:
+    25:26:private SocializeListeners()
+com.umeng.socialize.controller.listener.SocializeListeners$FetchCommetsListener
+com.umeng.socialize.controller.listener.SocializeListeners$FetchFriendsListener
+com.umeng.socialize.controller.listener.SocializeListeners$FetchUserListener
+com.umeng.socialize.controller.listener.SocializeListeners$LoginListener:
+    222:222:public void loginSuccessed(com.umeng.socialize.bean.SHARE_MEDIA,boolean)
+    230:230:public void loginFailed(int)
+    236:236:public void dissmiss()
+com.umeng.socialize.exception.SocializeException:
+    19:19:public int getErrorCode()
+com.umeng.socialize.location.SocializeLocationListener:
+    40:41:public void setLocationProvider(com.umeng.socialize.location.DefaultLocationProvider)
+com.umeng.socialize.location.SocializeLocationProvider
+com.umeng.socialize.media.BaseMediaObject:
+    108:109:public void setTitle(java.lang.String)
+    128:129:public void setThumb(java.lang.String)
+    139:140:public void setTargetUrl(java.lang.String)
+com.umeng.socialize.media.BaseShareContent:
+    42:44:public BaseShareContent(java.lang.String)
+    52:54:public BaseShareContent(com.umeng.socialize.media.UMediaObject)
+    64:65:public void setShareMedia(com.umeng.socialize.media.UMediaObject)
+    128:131:public void toByte(com.umeng.socialize.media.UMediaObject$FetchMediaDataListener)
+    240:241:public void setAppWebSite(java.lang.String)
+com.umeng.socialize.media.DoubanShareContent:
+    28:29:public DoubanShareContent(java.lang.String)
+    38:39:public DoubanShareContent(com.umeng.socialize.media.UMediaObject)
+com.umeng.socialize.media.GooglePlusShareContent:
+    31:32:public GooglePlusShareContent(java.lang.String)
+    41:42:public GooglePlusShareContent(com.umeng.socialize.media.UMediaObject)
+com.umeng.socialize.media.QQShareContent:
+    41:42:public QQShareContent(java.lang.String)
+    45:46:public QQShareContent(com.umeng.socialize.media.UMImage)
+    49:50:public QQShareContent(com.umeng.socialize.media.UMusic)
+    53:54:public QQShareContent(com.umeng.socialize.media.UMVideo)
+com.umeng.socialize.media.QZoneShareContent:
+    37:38:public QZoneShareContent(java.lang.String)
+    41:42:public QZoneShareContent(com.umeng.socialize.media.UMImage)
+    45:46:public QZoneShareContent(com.umeng.socialize.media.UMusic)
+    49:50:public QZoneShareContent(com.umeng.socialize.media.UMVideo)
+com.umeng.socialize.media.RenrenShareContent:
+    29:30:public RenrenShareContent(java.lang.String)
+    39:40:public RenrenShareContent(com.umeng.socialize.media.UMediaObject)
+com.umeng.socialize.media.SimpleShareContent:
+    44:46:public SimpleShareContent(java.lang.String)
+    54:56:public SimpleShareContent(com.umeng.socialize.media.UMImage)
+    89:90:public void setShareVideo(com.umeng.socialize.media.UMVideo)
+    93:96:public com.umeng.socialize.media.UMVideo getShareVideo()
+    162:165:public void toByte(com.umeng.socialize.media.UMediaObject$FetchMediaDataListener)
+    public abstract com.umeng.socialize.bean.SHARE_MEDIA getTargetPlatform()
+com.umeng.socialize.media.SinaShareContent:
+    33:34:public SinaShareContent(java.lang.String)
+    43:44:public SinaShareContent(com.umeng.socialize.media.UMediaObject)
+com.umeng.socialize.media.TencentWbShareContent:
+    32:33:public TencentWbShareContent(java.lang.String)
+    42:43:public TencentWbShareContent(com.umeng.socialize.media.UMediaObject)
+com.umeng.socialize.media.TwitterShareContent:
+    38:39:public TwitterShareContent(java.lang.String)
+    48:49:public TwitterShareContent(com.umeng.socialize.media.UMImage)
+com.umeng.socialize.media.UMEmoji:
+    29:31:public UMEmoji(android.content.Context,java.lang.String)
+    33:35:public UMEmoji(android.content.Context,java.io.File)
+    44:44:public void toByte(com.umeng.socialize.media.UMediaObject$FetchMediaDataListener)
+    95:96:public void setThumb(com.umeng.socialize.media.UMImage)
+com.umeng.socialize.media.UMImage:
+    134:151:public UMImage(android.content.Context,int)
+    162:165:public UMImage(android.content.Context,byte[])
+    391:391:public java.io.File getCacheFileObj()
+    430:451:public void toByte(com.umeng.socialize.media.UMediaObject$FetchMediaDataListener)
+    752:752:public float getImageSizeLimit()
+    762:763:public void setImageSizeLimit(float)
+    49:49:static synthetic byte[] c(com.umeng.socialize.media.UMImage)
+com.umeng.socialize.media.UMImage$4
+com.umeng.socialize.media.UMVideo:
+    30:31:public UMVideo(java.lang.String)
+    41:41:public void toByte(com.umeng.socialize.media.UMediaObject$FetchMediaDataListener)
+    77:78:public void setThumb(com.umeng.socialize.media.UMImage)
+com.umeng.socialize.media.UMWebPage:
+    private com.umeng.socialize.media.UMImage i
+    34:36:public UMWebPage(java.lang.String)
+    45:46:protected UMWebPage(android.os.Parcel)
+    58:60:public void setTargetUrl(java.lang.String)
+    68:68:public java.lang.String getDescription()
+    78:79:public void setDescription(java.lang.String)
+    88:89:public void setThumb(com.umeng.socialize.media.UMImage)
+    97:97:public com.umeng.socialize.media.UMImage getThumbImage()
+    125:125:public void toByte(com.umeng.socialize.media.UMediaObject$FetchMediaDataListener)
+com.umeng.socialize.media.UMediaObject:
+    public abstract void toByte(com.umeng.socialize.media.UMediaObject$FetchMediaDataListener)
+com.umeng.socialize.media.UMediaObject$FetchMediaDataListener
+com.umeng.socialize.media.UMediaObject$MediaType:
+    86:92:public static com.umeng.socialize.media.UMediaObject$MediaType convertToEmun(java.lang.String)
+com.umeng.socialize.media.UMusic:
+    36:37:public UMusic(java.lang.String)
+    59:59:public void toByte(com.umeng.socialize.media.UMediaObject$FetchMediaDataListener)
+    123:126:public void setTitle(java.lang.String)
+    135:138:public void setAuthor(java.lang.String)
+    156:156:public java.lang.String getAuthor()
+    166:167:public void setThumb(com.umeng.socialize.media.UMImage)
+com.umeng.socialize.net.GetPlatformKeyResponse:
+    public java.util.Map mExtraData
+    26:27:public GetPlatformKeyResponse(org.json.JSONObject)
+    55:89:public void parseJsonObject()
+com.umeng.socialize.net.b:
+    public java.lang.String i
+    44:45:public b(org.json.JSONObject)
+    49:94:public void parseJsonObject()
+com.umeng.socialize.net.base.SocializeReseponse:
+    protected org.json.JSONObject mJsonData
+    39:42:public SocializeReseponse(org.json.JSONObject)
+    50:77:private org.json.JSONObject parseStatus(org.json.JSONObject)
+    83:83:public void parseJsonObject()
+    92:109:private void parseErrorMsg(java.lang.String)
+    118:119:private void printLog(java.lang.String,java.lang.String)
+com.umeng.socialize.net.c
+com.umeng.socialize.net.d
+com.umeng.socialize.net.g:
+    30:31:public g(org.json.JSONObject)
+    40:43:public void parseJsonObject()
+    52:66:private void a()
+    75:86:private void b()
+com.umeng.socialize.net.h
+com.umeng.socialize.net.i
+com.umeng.socialize.net.j
+com.umeng.socialize.net.k
+com.umeng.socialize.net.l
+com.umeng.socialize.net.n:
+    24:25:public n(org.json.JSONObject)
+    31:49:public void parseJsonObject()
+com.umeng.socialize.net.p:
+    33:34:public p(org.json.JSONObject)
+    41:77:public void parseJsonObject()
+com.umeng.socialize.net.s:
+    10:11:public s(org.json.JSONObject)
+com.umeng.socialize.net.u:
+    public java.util.Map a
+    public java.util.Map b
+    public java.util.Map c
+    21:22:public u(org.json.JSONObject)
+com.umeng.socialize.net.utils.AesHelper:
+    18:18:public AesHelper()
+com.umeng.socialize.net.utils.BaseNCodec:
+    132:132:boolean hasData()
+    210:217:protected static boolean isWhiteSpace(byte)
+    242:245:public java.lang.Object encode(java.lang.Object)
+    256:256:public java.lang.String encodeToString(byte[])
+    268:273:public java.lang.Object decode(java.lang.Object)
+    334:334:public java.lang.String encodeAsString(byte[])
+    362:368:public boolean isInAlphabet(byte[],boolean)
+    381:381:public boolean isInAlphabet(java.lang.String)
+com.umeng.socialize.net.utils.SocializeProtocolConstants:
+    11:11:public SocializeProtocolConstants()
+com.umeng.socialize.net.utils.UClient:
+    323:324:public com.umeng.socialize.net.utils.UClient setHeader(java.util.Map)
+com.umeng.socialize.net.utils.UResponse:
+    36:38:public UResponse(org.json.JSONObject)
+com.umeng.socialize.net.utils.UResponse$STATUS
+com.umeng.socialize.net.w:
+    public java.lang.String b
+    12:13:public w(org.json.JSONObject)
+    17:23:public void parseJsonObject()
+com.umeng.socialize.net.x
+com.umeng.socialize.net.y
+com.umeng.socialize.qqzone.BuildConfig
+com.umeng.socialize.sina.BuildConfig
+com.umeng.socialize.sso.CustomHandler
+com.umeng.socialize.sso.CustomHandler$1
+com.umeng.socialize.sso.SinaSsoHandler:
+    79:80:public SinaSsoHandler(android.content.Context)
+    368:368:protected void sendReport(boolean)
+com.umeng.socialize.sso.UMQQSsoHandler:
+    306:307:public void canOpenShareActivity(boolean)
+    453:455:public void shareToQQ(java.lang.String)
+    555:556:public void setTitle(java.lang.String)
+    656:717:public void getUserInfo(com.umeng.socialize.controller.listener.SocializeListeners$UMDataListener)
+com.umeng.socialize.sso.UMQQSsoHandler$8
+com.umeng.socialize.sso.UMSsoHandler:
+    145:145:public void deleteAuthorization(com.umeng.socialize.bean.SocializeEntity,com.umeng.socialize.bean.SHARE_MEDIA,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    protected abstract void sendReport(boolean)
+    210:210:public boolean isShareAfterAuthorize()
+    220:221:public void setShareAfterAuthorize(boolean)
+    335:335:public void getUserInfo(com.umeng.socialize.controller.listener.SocializeListeners$UMDataListener)
+    338:338:public android.content.Context getContext()
+com.umeng.socialize.sso.UMTencentSsoHandler:
+    135:140:public void setAppId(java.lang.String)
+    553:553:public void cleanQQCache()
+com.umeng.socialize.utils.DeviceConfig:
+    79:80:public static boolean isChinese(android.content.Context)
+    180:180:public static boolean isWiFiAvailable(android.content.Context)
+    275:275:public static java.lang.String getPackageName(android.content.Context)
+com.umeng.socialize.utils.ListenerUtils:
+    20:20:public ListenerUtils()
+com.umeng.socialize.utils.LoadingDialog:
+    11:11:public LoadingDialog()
+com.umeng.socialize.utils.Log:
+    8:8:public Log()
+    53:56:public static void v(java.lang.String,java.lang.String)
+    59:62:public static void v(java.lang.String,java.lang.String,java.lang.Exception)
+    81:84:public static void i(java.lang.String)
+    87:88:public static void e(java.lang.String)
+    97:100:public static void v(java.lang.String)
+    103:106:public static void w(java.lang.String)
+com.umeng.socialize.utils.LoginInfoHelp:
+    18:18:public LoginInfoHelp()
+    28:37:public static synchronized void saveLoginInfo(android.content.Context,java.lang.String)
+    44:49:public static synchronized void rmLoginInfo(android.content.Context)
+    72:79:public static void setGuest(android.content.Context,boolean)
+    87:91:public static boolean isPlatformLogin(android.content.Context)
+    95:101:public static boolean isCustomLogin(android.content.Context)
+    111:117:public static boolean isGuestLogin(android.content.Context)
+    127:130:public static boolean isLogin(android.content.Context)
+com.umeng.socialize.utils.OauthHelper:
+    90:108:public static java.util.Map getAuthenticatedPlatform(android.content.Context)
+    316:336:public static java.lang.String[] getAccessToken(android.content.Context,com.umeng.socialize.bean.SHARE_MEDIA)
+    349:354:public static void saveQQAccessToken(android.content.Context,org.json.JSONObject)
+    363:369:public static void saveQQAccessToken(android.content.Context,android.os.Bundle)
+    380:398:private static void saveQQAccessToken(android.content.Context,java.lang.String,java.lang.String,java.lang.String)
+    444:446:private static java.lang.String calExpireTime(java.lang.String)
+com.umeng.socialize.utils.ResUtil
+com.umeng.socialize.utils.ResUtil$1
+com.umeng.socialize.utils.ResUtil$BindDrawableListener
+com.umeng.socialize.utils.ResUtil$BindMode
+com.umeng.socialize.utils.ResUtil$FetchTask
+com.umeng.socialize.utils.SocializeUtils:
+    182:207:public static java.lang.String beforeData(android.content.Context,long)
+    289:319:public static java.lang.Object[] readSIMCard(android.content.Context)
+    328:332:public static boolean isGoogleMapExist()
+    382:399:public static android.net.Uri insertImage(android.content.Context,java.lang.String)
+    408:425:public static void deleteUriImage(android.content.Context,java.util.Set)
+    505:527:public static java.lang.Object getObject(java.lang.String)
+    637:650:public static varargs com.umeng.socialize.bean.SNSPair[] getOauthedPlatforms(android.content.Context,java.util.Map,com.umeng.socialize.bean.SHARE_MEDIA[])
+com.umeng.socialize.utils.StatisticsDataUtils:
+    19:19:public StatisticsDataUtils()
+    379:389:public static void saveSharkStatisticsData(android.content.Context)
+com.umeng.socialize.view.LoginAgent
+com.umeng.socialize.view.LoginAgent$1
+com.umeng.socialize.view.LoginAgent$1$1
+com.umeng.socialize.view.LoginAgent$2
+com.umeng.socialize.view.LoginAgent$3
+com.umeng.socialize.view.LoginAgent$4
+com.umeng.socialize.view.LoginAgent$4$1
+com.umeng.socialize.view.LoginAgent$5
+com.umeng.socialize.view.LoginAgent$6
+com.umeng.socialize.view.LoginAgent$7
+com.umeng.socialize.view.ShareActivity:
+    765:767:public void inputAt(android.text.SpannableString)
+com.umeng.socialize.view.abs.SocialPopupDialog
+com.umeng.socialize.view.abs.SocialPopupDialog$1
+com.umeng.socialize.view.abs.SocialPopupDialog$SwitchListener
+com.umeng.socialize.view.abs.SocialPopupDialog$a
+com.umeng.socialize.view.abs.SocialPopupDialog$b
+com.umeng.socialize.view.abs.a:
+    141:142:public void a()
+com.umeng.socialize.view.b$1:
+    213:213:public java.lang.Object a(int)
+com.umeng.socialize.view.wigets.a:
+    public abstract java.lang.Object a(int)
+com.umeng.socialize.view.wigets.b:
+    277:277:public com.umeng.socialize.view.wigets.a a()
+    325:326:public void b(int)
+    336:337:public void c(int)
+    347:348:public void d(int)
+com.umeng.socialize.weixin.BuildConfig
+com.umeng.socialize.weixin.controller.UMWXHandler:
+    141:143:public UMWXHandler(android.content.Context,java.lang.String)
+    617:618:public void setTitle(java.lang.String)
+    626:627:public void showCompressToast(boolean)
+    1039:1040:public void setRefreshTokenAvailable(boolean)
+    1048:1049:public void setSecret(java.lang.String)
+    1060:1102:public void getUserInfo(com.umeng.socialize.controller.listener.SocializeListeners$UMDataListener)
+    1112:1143:private java.util.Map parseUserInfo(java.lang.String)
+    1152:1153:public void setWXSceneFavorite(boolean)
+    1157:1163:public void deleteAuthorization(com.umeng.socialize.bean.SocializeEntity,com.umeng.socialize.bean.SHARE_MEDIA,com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener)
+    89:89:static synthetic java.util.Map access$3300(com.umeng.socialize.weixin.controller.UMWXHandler,java.lang.String)
+com.umeng.socialize.weixin.controller.UMWXHandler$5
+com.umeng.socialize.weixin.controller.UMWXHandler$LoadResourceTask:
+    481:481:private UMWXHandler$LoadResourceTask(com.umeng.socialize.weixin.controller.UMWXHandler)
+com.umeng.socialize.weixin.media.CircleShareContent:
+    37:38:public CircleShareContent(java.lang.String)
+    41:42:public CircleShareContent(com.umeng.socialize.media.UMImage)
+    45:46:public CircleShareContent(com.umeng.socialize.media.UMusic)
+    49:50:public CircleShareContent(com.umeng.socialize.media.UMVideo)
+com.umeng.socialize.weixin.media.WeiXinShareContent:
+    38:39:public WeiXinShareContent(java.lang.String)
+    42:43:public WeiXinShareContent(com.umeng.socialize.media.UMImage)
+    46:47:public WeiXinShareContent(com.umeng.socialize.media.UMusic)
+    50:51:public WeiXinShareContent(com.umeng.socialize.media.UMVideo)
+    54:55:public WeiXinShareContent(com.umeng.socialize.media.UMEmoji)
+com.umeng.socialize.weixin.net.WXAuthUtils:
+    17:17:public WXAuthUtils()
+org.apache.http.entity.mime.FormBodyPart:
+    68:68:public org.apache.http.entity.mime.content.ContentBody getBody()
+    72:72:public org.apache.http.entity.mime.Header getHeader()
+org.apache.http.entity.mime.Header:
+    68:68:public java.util.List getFields()
+    72:80:public org.apache.http.entity.mime.MinimalField getField(java.lang.String)
+    84:92:public java.util.List getFields(java.lang.String)
+    97:106:public int removeFields(java.lang.String)
+    110:133:public void setField(org.apache.http.entity.mime.MinimalField)
+org.apache.http.entity.mime.HttpMultipart:
+    61:62:private static void writeBytes(org.apache.http.util.ByteArrayBuffer,java.io.OutputStream)
+    66:68:private static void writeBytes(java.lang.String,java.nio.charset.Charset,java.io.OutputStream)
+    72:74:private static void writeBytes(java.lang.String,java.io.OutputStream)
+    78:82:private static void writeField(org.apache.http.entity.mime.MinimalField,java.io.OutputStream)
+    86:90:private static void writeField(org.apache.http.entity.mime.MinimalField,java.nio.charset.Charset,java.io.OutputStream)
+    138:139:public HttpMultipart(java.lang.String,java.nio.charset.Charset,java.lang.String)
+    142:143:public HttpMultipart(java.lang.String,java.lang.String)
+    146:146:public java.lang.String getSubType()
+    150:150:public java.nio.charset.Charset getCharset()
+    154:154:public org.apache.http.entity.mime.HttpMultipartMode getMode()
+    158:158:public java.util.List getBodyParts()
+    169:169:public java.lang.String getBoundary()
+    177:214:private void doWriteTo(org.apache.http.entity.mime.HttpMultipartMode,java.io.OutputStream,boolean)
+    224:225:public void writeTo(java.io.OutputStream)
+    241:258:public long getTotalLength()
+org.apache.http.entity.mime.HttpMultipart$1
+org.apache.http.entity.mime.MIME:
+    36:36:public MIME()
+org.apache.http.entity.mime.MinimalField:
+    51:51:public java.lang.String getBody()
+org.apache.http.entity.mime.MultipartEntity:
+    private long length
+    93:94:public MultipartEntity(org.apache.http.entity.mime.HttpMultipartMode)
+    136:142:public boolean isRepeatable()
+    146:146:public boolean isChunked()
+    150:150:public boolean isStreaming()
+    154:158:public long getContentLength()
+    162:162:public org.apache.http.Header getContentType()
+    166:166:public org.apache.http.Header getContentEncoding()
+    171:175:public void consumeContent()
+    178:178:public java.io.InputStream getContent()
+    183:184:public void writeTo(java.io.OutputStream)
+org.apache.http.entity.mime.content.AbstractContentBody:
+    61:61:public java.lang.String getMediaType()
+    65:65:public java.lang.String getSubType()
+org.apache.http.entity.mime.content.ByteArrayBody:
+    83:84:public void writeTo(java.io.OutputStream)
+    95:95:public long getContentLength()
+org.apache.http.entity.mime.content.ContentBody:
+    public abstract void writeTo(java.io.OutputStream)
+org.apache.http.entity.mime.content.ContentDescriptor:
+    public abstract java.lang.String getMediaType()
+    public abstract java.lang.String getSubType()
+    public abstract long getContentLength()
+org.apache.http.entity.mime.content.FileBody
+org.apache.http.entity.mime.content.InputStreamBody
+org.apache.http.entity.mime.content.StringBody:
+    58:60:public static org.apache.http.entity.mime.content.StringBody create(java.lang.String,java.lang.String,java.nio.charset.Charset)
+    69:69:public static org.apache.http.entity.mime.content.StringBody create(java.lang.String,java.nio.charset.Charset)
+    76:76:public static org.apache.http.entity.mime.content.StringBody create(java.lang.String)
+    126:127:public StringBody(java.lang.String)
+    130:130:public java.io.Reader getReader()
+    140:141:public void writeTo(java.io.OutputStream,int)
+    144:154:public void writeTo(java.io.OutputStream)
+    165:165:public long getContentLength()

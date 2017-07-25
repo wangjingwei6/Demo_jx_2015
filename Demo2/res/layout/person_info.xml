@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    android:paddingBottom="28dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="28dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/person_wjw" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sign_bootom_shape"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal" >
+
+            <com.qnmlgb.view.SquareImageView
+                android:id="@+id/img1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/person7" />
+
+            <com.qnmlgb.view.SquareImageView
+                android:id="@+id/img2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/person_info_img1" />
+
+            <com.qnmlgb.view.SquareImageView
+                android:id="@+id/img3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/person_info_img2" />
+
+            <com.qnmlgb.view.SquareImageView
+                android:id="@+id/img4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/person11" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="18dip"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:text="姓名 :"
+                android:textColor="@color/black_SSS"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="18dip"
+                android:layout_marginTop="6dp"
+                android:text="汪经纬"
+                android:textColor="@color/hong"
+                android:textSize="12sp" />
+
+                <com.qnmlgb.view.CircularImageView
+                    android:id="@+id/person_musicimg"
+                    android:layout_width="28dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="24dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/person_music" >
+                </com.qnmlgb.view.CircularImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="18dip"
+                android:layout_marginRight="16dip"
+                android:layout_marginTop="6dip"
+                android:drawablePadding="10dp"
+                android:text="个人	:	     男		22岁"
+                android:textColor="@color/black_SSS"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginTop="6dip"
+                android:drawablePadding="10dp"
+                android:text="3月18日"
+                android:textColor="@color/hong"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="6dip"
+                android:drawablePadding="10dp"
+                android:text="双鱼座 		O型"
+                android:textColor="@color/green"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="18dip"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:text="故乡 :"
+                android:textColor="@color/black_SSS"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="18dip"
+                android:layout_marginTop="6dp"
+                android:text="中国	湖北	黄冈"
+                android:textColor="@color/hong"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="18dip"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:text="邮箱 :"
+                android:textColor="@color/black_SSS"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="18dip"
+                android:layout_marginTop="6dp"
+                android:text="464933600@qq.com		13617219330@163.com"
+                android:textColor="@color/blue"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="18dip"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:text="职业:"
+                android:textColor="@color/black_SSS"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="18dip"
+                android:layout_marginTop="6dp"
+                android:text=" 移动开发工程师	(攻城狮)"
+                android:textColor="@color/blue"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/sign_bootom_shape_s"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="17dip"
+                android:layout_marginTop="6dp"
+                android:gravity="center_vertical"
+                android:text="说明:"
+                android:textColor="@color/black_SSS"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="6dp"
+                android:gravity="center_vertical"
+                android:text="我喜欢这样的女生,温柔,善良,文静,内涵，感觉很舒服"
+                android:textColor="@color/black_SSS"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

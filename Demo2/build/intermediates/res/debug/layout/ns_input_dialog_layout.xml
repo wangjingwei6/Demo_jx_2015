@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_white_corners_bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_standard_dialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="修改昵称"
+            android:textColor="@color/text_color_title"
+            android:textSize="16dp" />
+
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="24dp"
+            >
+             <EditText
+                android:id="@+id/eidt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/charge_input"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:gravity="center_vertical"
+                android:hint="@string/ns_hint_input_nickname"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:singleLine="true"
+                android:maxLength="4"
+                android:textSize="12sp" />
+            
+        </RelativeLayout>
+           
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0px"
+        android:background="#cccccc" />
+
+    <LinearLayout
+        android:id="@+id/rela_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_bottom_white_corners_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancel"
+            style="@style/ShowWidgetButton"
+            android:layout_width="0.0dip"
+            android:layout_height="48.0dip"
+            android:layout_weight="1.0"
+            android:text="取消" />
+
+        <View
+            android:layout_width="1.0px"
+            android:layout_height="match_parent"
+            android:background="#cccccc" />
+
+        <Button
+            android:id="@+id/confirm"
+            style="@style/ShowWidgetButton"
+            android:layout_width="0.0dip"
+            android:layout_height="48.0dip"
+            android:layout_weight="1.0"
+            android:text="确定" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/MARS/Demo2/res/layout/ns_input_dialog_layout.xml -->

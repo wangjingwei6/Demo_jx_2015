@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:toggleview="http://schemas.android.com/apk/res/com.ninexiu.wjw"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/anchor_gray"
+    >
+
+         <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5px"
+        android:background="@color/activity_view" />
+	 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:background="@color/gray_little" >
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5px"
+        android:background="@color/activity_view" />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        >
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="王丽欣 : 傻帽"
+            android:textSize="15sp"
+            android:textColor="@color/hong"
+            android:paddingLeft="16dp"
+            />
+        
+            
+    	<com.qnmlgb.view.MyToggleButton
+            android:id="@+id/mytogglebutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            toggleview:slideButtonBackground="@drawable/togglebutton_control"
+            toggleview:switchBackgroundgray="@drawable/togglebutton_gray"
+            toggleview:switchBackgroundred="@drawable/togglebutton_red"
+            toggleview:toggleType="gift"
+            />
+        
+    </LinearLayout>
+    
+    
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/activity_view" />
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:background="@color/gray_little" >
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5px"
+        android:background="@color/activity_view" />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        >
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="汪经纬 : 帅哥"
+            android:textSize="15sp"
+            android:textColor="@color/hong"
+            android:paddingLeft="16dp"
+            />
+        
+        <com.qnmlgb.view.MyToggleButton
+            android:id="@+id/mytogglebutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            toggleview:slideButtonBackground="@drawable/togglebutton_control"
+            toggleview:switchBackgroundgray="@drawable/togglebutton_gray"
+            toggleview:switchBackgroundred="@drawable/togglebutton_red"
+            toggleview:toggleType="price"
+            />
+        
+    </LinearLayout>
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5px"
+        android:background="@color/activity_view" />
+     
+    <!-- -====================================================== -->
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:background="@color/gray_little" >
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5px"
+        android:background="@color/activity_view" />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        >
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="王丽欣 : 傻冒"
+            android:textSize="15sp"
+            android:textColor="@color/blue"
+            android:paddingLeft="16dp"
+            />
+        
+        <com.qnmlgb.view.MyToggleButton
+            android:id="@+id/mytogglebutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            toggleview:slideButtonBackground="@drawable/checkswitch_btn_pressed"
+            toggleview:switchBackgroundgray="@drawable/checkswitch_frame"
+            toggleview:switchBackgroundred="@drawable/checkswitch_mask"
+            toggleview:toggleType="wlx"
+            />
+        
+    </LinearLayout>
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5px"
+        android:background="@color/activity_view" />
+     
+     <!-- ====================================== -->
+     
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:background="@color/gray_little" >
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5px"
+        android:background="@color/activity_view" />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        >
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="汪经纬 : 天才"
+            android:textSize="15sp"
+            android:textColor="@color/blue"
+            android:paddingLeft="16dp"
+            />
+        
+        <com.qnmlgb.view.MyToggleButton
+            android:id="@+id/mytogglebutton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            toggleview:slideButtonBackground="@drawable/checkswitch_btn_pressed"
+            toggleview:switchBackgroundgray="@drawable/checkswitch_frame"
+            toggleview:switchBackgroundred="@drawable/checkswitch_mask"
+            toggleview:toggleType="wjw"
+            />
+        
+    </LinearLayout>
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5px"
+        android:background="@color/activity_view" />
+     
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:layout_marginTop="32dp"
+         
+         >
+         <ImageView 
+             android:id="@+id/toggle_showimage"
+             android:layout_width="96dp"
+             android:layout_height="96dp"
+             android:background="@drawable/shamao1"
+             android:layout_gravity="center"
+             android:visibility="gone"
+             />
+         
+         <TextView 
+             android:id="@+id/toggle_showtext"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="王丽欣:开启傻帽模式"
+             android:layout_marginTop="16dp"
+             android:layout_gravity="center_horizontal"
+             android:textColor="#00ff00"
+             android:textSize="22sp"
+             android:visibility="gone"
+             />
+         
+         
+     </LinearLayout>
+     
+     
+	
+</LinearLayout><!-- From: file:/E:/MARS/Demo2/res/layout/toggle.xml -->

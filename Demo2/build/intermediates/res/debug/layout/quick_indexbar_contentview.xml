@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" 
+        android:orientation="vertical"
+        >
+        <com.qnmlgb.view.ParallaxListView
+            android:id="@+id/quick_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none" 
+            android:visibility="gone"
+            >
+        </com.qnmlgb.view.ParallaxListView>
+        
+          <ListView
+            android:id="@+id/quick_listview_noSwipe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none" >
+        </ListView>
+        
+    </LinearLayout>
+ 
+       <com.qnmlgb.view.QuickIndexbarView
+        android:id="@+id/quick_indexbar_view"
+        android:layout_width="22dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@color/transparent" />
+    <!-- #7ed2ff -->
+    
+      <TextView
+        android:id="@+id/index_word"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/index_word"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:visibility="gone"
+       />
+
+
+</RelativeLayout><!-- From: file:/E:/MARS/Demo2/res/layout/quick_indexbar_contentview.xml -->

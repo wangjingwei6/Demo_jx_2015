@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffffff"
+     >
+	<com.qnmlgb.view.SwipeView
+        android:id="@+id/simple_swipeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <include layout="@layout/list_swipe_simpletext_item" />
+        <include layout="@layout/ns_array_anchor_delete" />
+    </com.qnmlgb.view.SwipeView>
+    
+	 <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.5px"
+        android:background="@color/gray_little"
+        />
+    
+</LinearLayout>

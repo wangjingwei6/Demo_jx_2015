@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <solid android:color="#FFDF31"/>
+    <corners android:radius="40dp"/>
+    <stroke android:color="#00ff00" android:width="1dp"/>
+</shape>
+<!-- From: file:/E:/MARS/Demo2/res/drawable/button_shape.xml -->

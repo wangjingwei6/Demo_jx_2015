@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">汪经纬的App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ns_hint_input_nickname">请输入您的昵称</string>
+    <string name="charge_money">充值金额:%1$s九币(￥%2$s)</string>
+
+    <item name="tag_live_more" type="id">1</item>
+
+    <string-array name="sex_select">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="address_select">
+        <item>北京</item>
+        <item>上海</item>
+        <item>广州</item>
+        <item>山东</item>
+        <item>湖北</item>
+        <item>香港</item>
+    </string-array>
+    <string-array name="photoType_select">
+        <item>拍照</item>
+        <item>本地上传</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+<!--192.168.0.183  -->
+    <string name="update_url">http://192.168.1.108:8080/wjwApk/update.json</string>
+    
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="hong">#ff2f58</color>
+    <color name="hong_super">#DD0000</color>
+     <color name="hong_girl">#f202f4</color>
+    <color name="white">#ffffffff</color>
+    <color name="gray">#55000000</color>
+    <color name="anchor_gray">#F6F6F6</color>
+    <color name="gray_little">#eeeeee</color>
+     <color name="gray_little_ss">#33000000</color>
+    <color name="gray_little_s">#44000000</color>
+     <color name="transparent_little">#66000000</color>
+    <color name="blue">#00B2FD</color>
+    <color name="blue_little">#6600B2FD</color>
+    <color name="yellow">#FFDF31</color>
+    <color name="black">#ff000001</color>
+    <color name="black_S">#383838</color>
+    <color name="black_SS">#222222</color>
+    <color name="black_SSS">#2B2B2B</color>
+    <color name="touming">#0000</color>
+    <color name="green">#00ff00</color>
+    <color name="green_accent">#8800ff00</color>
+    <color name="dashed_color">#929C9E</color>
+    <color name="charge_dashed">#C4C4C4</color>
+    <color name="family_memeber_bg">#F1F1F1</color>
+    <color name="bottom_bar_red">#f22200</color>
+    <color name="activity_view">#EDEDED</color>
+    <color name="login_account_3.0">#969696</color>
+    <color name="split_line">#ffe0e0e0</color>
+    
+
+    <!-- 签到 -->
+    <color name="transparent">#00000000</color>
+    <color name="livehall_pop_item_unpressed">#ffffff</color>
+    <color name="text_color_detail">#808080</color>
+
+    <!-- 个人中心 -->
+    <color name="center_text">#626262</color>
+    <color name="livehall_tab_text_unselected">#474747</color>
+    <color name="center_text_light">#a7a7a7</color>
+    <color name="main_bg">#f1f1f1</color>
+    <color name="ns_main_bg">#f6f6f6</color>
+    <color name="line">#EFEFEF</color>
+    <color name="ns_live_audience_splite_line">#d5d5d5</color>
+    <color name="white_bg">#ffffff</color>
+    
+     <color name="activity_time">#E0E0E0</color>
+    <color name="ns_edit_user_info_setting_line">#d0d0d0</color>
+    <color name="ns_edit_user_avatar_stroke_color">#ccf6f6f6</color>
+   	<color name="text_color_title">#595959</color>
+   	<color name="text_color_detail_s">#343434</color>
+   	<color name="livehall_mainpage_ad_bg">#dfdfdf</color>
+   	<color name="charge_channel_title">#343434</color>
+   	<color name="loading_progress_text">#7d7d7d</color>
+   	<color name="holo_blue">#FF33E5B5</color>
+   	
+   	
+</resources>

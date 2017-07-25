@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <item name="tag_item" type="id"></item>
+    <item name="tag_longitem" type="id"></item>
+    
+    <item name="selected_view" type="id"/>
+
+</resources>

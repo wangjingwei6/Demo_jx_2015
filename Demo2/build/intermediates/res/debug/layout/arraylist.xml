@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.qnmlgb.view.ParallaxListView
+        android:id="@+id/parallaxListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:listSelector="@color/touming"
+        >
+    </com.qnmlgb.view.ParallaxListView>
+
+</LinearLayout><!-- From: file:/E:/MARS/Demo2/res/layout/arraylist.xml -->
