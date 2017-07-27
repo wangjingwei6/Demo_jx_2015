@@ -24,6 +24,7 @@ public class ResetHeightAnimation extends Animation{
 		
 		setDuration(400);
 		setInterpolator(new OvershootInterpolator());
+		//Test
 	}
 	
 	/**
